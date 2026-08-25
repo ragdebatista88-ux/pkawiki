@@ -19,4 +19,3 @@ Los datos fueron organizados a partir de `Pokedex Pública PokeAlliance (By Mts 
 ## Aviso
 
 Proyecto no oficial, no afiliado ni respaldado por PokeAlliance. Los valores pueden cambiar con actualizaciones del juego.
-a

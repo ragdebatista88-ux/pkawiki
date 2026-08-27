@@ -1,0 +1,322 @@
+[
+  {
+    "fecha": "25 de agosto de 2026",
+    "secciones": [
+      {
+        "titulo": "Cambios generales",
+        "cambios": [
+          "Se agregó renderizado Multithread en los gráficos del Client; se recomienda solo cuando sea necesario.",
+          "Ahora se puede derrotar cualquier Tentacruel en la Willy Quest.",
+          "El jugador baja de Fly o Ride al entrar en un área sumergida.",
+          "Se agregaron los outfits de Hiro y Zero Two."
+        ]
+      },
+      {
+        "titulo": "Correcciones de bugs",
+        "cambios": [
+          "Se corrigió el elemento de Ember de Shiny Camerupt.",
+          "Se corrigió un error por el que algunas magias no aparecían en áreas de canales."
+        ]
+      }
+    ]
+  },
+  {
+    "fecha": "24 de agosto de 2026",
+    "secciones": [
+      {
+        "titulo": "Cambios generales",
+        "cambios": [
+          "Ahora aparecen notificaciones al iniciar, ganar o perder una batalla contra NPC; al desbloquear una ciudad para Teleport; al ocurrir un error al entrar en un canal; al abrir una Starter Box y en diversas funciones de Guild."
+        ]
+      },
+      {
+        "titulo": "Correcciones de bugs",
+        "cambios": [
+          "Se corrigió Salamence Stash.",
+          "Se corrigió un error al entrar o salir de una Guild que cambió de nombre.",
+          "Se corrigió la zona de la instancia de Dragonair.",
+          "Se corrigió un lure de la hunt de Gyarados que tenía solo 7 Pokémon.",
+          "Se corrigió 1 sqm con zona incorrecta en la hunt de Milotic."
+        ]
+      }
+    ]
+  },
+  {
+    "fecha": "23 de agosto de 2026",
+    "secciones": [
+      {
+        "titulo": "Cambios generales",
+        "cambios": [
+          "Se mejoró la descripción de Falling Rocks en la Pokédex."
+        ]
+      },
+      {
+        "titulo": "Correcciones de bugs",
+        "cambios": [
+          "Se corrigió la expulsión de jugadores Offline de la Guild.",
+          "Se corrigió un error visual en el Back de Ultra Ball.",
+          "Se corrigió el mensaje de transferencia de mundo que siempre indicaba Moon.",
+          "Se corrigió un error visual de Shiny Ditto copiado en Hitmonchan.",
+          "Se corrigieron bañeras bloqueadas después del Shutdown.",
+          "Ditto vuelve a poder copiar Pokémon en canales.",
+          "Se corrigió Magnet Flux para funcionar como Never Miss."
+        ]
+      }
+    ]
+  },
+  {
+    "fecha": "22 de agosto de 2026",
+    "secciones": [
+      {
+        "titulo": "Cambios generales",
+        "cambios": [
+          "Titan Rewarder permanece no disponible mientras se corrige un bug.",
+          "Se redujo el drop de Metal Stone de diversos Pokémon.",
+          "Se agregó Cooldown de 2 minutos al salir de canales.",
+          "Shiny Raichu ya no utiliza Volt Tackle."
+        ]
+      },
+      {
+        "titulo": "Correcciones de bugs",
+        "cambios": [
+          "Se corrigió la transferencia de mundo entre Titans.",
+          "Se corrigió la probabilidad de Shinies T2 en Wildscape.",
+          "Se corrigió compartir experiencia entre canales diferentes.",
+          "Se corrigieron Linked Tasks que no contaban dentro de canales."
+        ]
+      }
+    ]
+  },
+  {
+    "fecha": "21 de agosto de 2026",
+    "secciones": [
+      {
+        "titulo": "Cambios generales",
+        "cambios": [
+          "Se modificó el Outfit base del Trainer.",
+          "Se modificaron los efectos de todas las Poké Balls.",
+          "Se agregó un popup al completar una Daily Guild.",
+          "Las Tasks de Hoenn ahora entregan 100 Mighty Tokens en lugar de 450.",
+          "community-achievements ahora muestra solo Pokémon Tier 1 o superior."
+        ]
+      },
+      {
+        "titulo": "Balanceo",
+        "cambios": [
+          "Machamp: Tier 2; daño reducido.",
+          "Shiny Clefairy, Shiny Persian y Shiny Starmie: daño reducido.",
+          "Shiny Victreebel: daño reducido, mayor área de Sleep Powder y Tier 2.",
+          "Shiny Wigglytuff: daño aumentado.",
+          "Togetic: Tier 3 y daño aumentado.",
+          "Tyranitar: Rock Blast siempre golpea 2 veces; daño reducido.",
+          "Shiny Bellossom y Shiny Ledian: daño reducido.",
+          "Shiny Piloswine: daño reducido y skills reajustadas a daño instantáneo.",
+          "Shiny Qwilfish: daño reducido y Tier 2.",
+          "Shiny Togetic: daño aumentado y Tier 2.",
+          "Shiny Xatu: daño aumentado.",
+          "Delcatty y Shiny Delcatty: ahora causan daño Fairy Type y fueron rebalanceados.",
+          "Tropius, Shiny Sharpedo, Abomasnow, Lucario, Scolipede y Mimikyu: daño reducido.",
+          "Shiny Cacturne: moveset reformulado para Dark-Type.",
+          "Leafeon: se eliminó Bullet Seed.",
+          "Eruption, Power Whip y Smelling Salts: área reducida."
+        ]
+      },
+      {
+        "titulo": "Correcciones de bugs",
+        "cambios": [
+          "Se corrigió el respawn de criaturas llevadas lejos de su spawn en canales.",
+          "Se corrigió el HP de monstruos en determinados canales.",
+          "Se liberó el bonus de pre-registro para jugadores de Titan 3."
+        ]
+      }
+    ]
+  },
+  {
+    "fecha": "19 de agosto de 2026",
+    "secciones": [
+      {
+        "titulo": "Actualizaciones del Client",
+        "cambios": [
+          "Se corrigieron iconos de canales de determinados Pokémon.",
+          "Se corrigió Exit de Enter Game.",
+          "Se corrigió el arrastre de objetos en Market.",
+          "Se agregó confirmación al cancelar órdenes de compra/venta.",
+          "Se corrigieron botones de Pix y Credit Card en Diamond Shop."
+        ]
+      },
+      {
+        "titulo": "Correcciones y ajustes",
+        "cambios": [
+          "Se corrigió la fuerza de criaturas débiles de Hoenn.",
+          "Se corrigieron instancias sin criaturas y canales vacíos.",
+          "Se corrigió la fuerza de la hunt de Rampardos.",
+          "Se corrigió el acceso al canal de Lapras.",
+          "El aviso de Shutdown usa el nuevo sistema de notificación.",
+          "Se corrigió el HP de Castform y Metang.",
+          "Se corrigió Fly en ciertas regiones de Hoenn."
+        ]
+      },
+      {
+        "titulo": "Cambios de mapa",
+        "cambios": [
+          "Rapidash recibió una instancia.",
+          "Se corrigieron los destinos de Gyarados y Charizard: Charizard al área de fuego y Gyarados a la playa.",
+          "Se corrigió una entrada del Centro Pokémon de Olivine.",
+          "Se corrigió una escalera de Seviper.",
+          "Se corrigió la escalera hacia Primal Medicham."
+        ]
+      }
+    ]
+  },
+  {
+    "fecha": "18 de agosto de 2026",
+    "secciones": [
+      {
+        "titulo": "Cambios generales",
+        "cambios": [
+          "Mejoras internas de optimización para soportar el aumento de jugadores.",
+          "Al entrar se notifican los días restantes de VIP y el día del alquiler de la casa.",
+          "Disponible recompensa adicional por 3,000 jugadores simultáneos.",
+          "Disponible el sistema de canales en Wildscape.",
+          "Hoenn disponible para nivel 250+.",
+          "Se mejoró el movimiento en Pokéview."
+        ]
+      },
+      {
+        "titulo": "Actualización del Client",
+        "cambios": [
+          "Nuevas notificaciones en pantalla.",
+          "Confirmación después de introducir el valor de Pix.",
+          "Nueva selección de instancia con cantidad de jugadores.",
+          "Hunt Analyzer se puede pausar y reanudar.",
+          "Nueva hotkey para cambiar al siguiente Pokémon de la Pokébar.",
+          "Pokédex puede abrirse directamente desde Brokes, Pokelog y Drops.",
+          "Opción para ocultar medallas bloqueadas.",
+          "Saldo visible dentro de Market.",
+          "Action Bar puede usar varios objetos de una vez."
+        ]
+      },
+      {
+        "titulo": "Idiomas e interfaz",
+        "cambios": [
+          "Más de 500 textos fueron traducidos al portugués y español.",
+          "Se corrigieron acentos, caracteres y textos cortados.",
+          "Los nombres de moves, objetos y tiers permanecen en inglés intencionalmente.",
+          "Hunt Analyzer fue traducido por completo.",
+          "Market ahora tiene paginación.",
+          "Las tiendas muestran 4 objetos por fila.",
+          "Nuevo selector numérico de cantidad.",
+          "Escape cierra más ventanas.",
+          "Se agregaron confirmaciones antes de acciones irreversibles.",
+          "Daily Tasks, Achievements, Talentos y tiendas fueron rediseñados.",
+          "Ranking y Hunt Analyzer muestran números grandes de forma más legible.",
+          "Calendario deshabilita Recoger cuando no hay recompensa."
+        ]
+      },
+      {
+        "titulo": "Correcciones",
+        "cambios": [
+          "Se corrigieron buffs de larga duración.",
+          "Se corrigió un bloqueo al volver a selección de personaje.",
+          "Se corrigieron minimapa y containers.",
+          "Se corrigieron Depot, Stash, tienda y recompensas de Achievements.",
+          "Se corrigieron slots vacíos del Craft y números mayores a 100 trillones.",
+          "Las instancias comienzan en Wildscapes y después se expandirán a Primales y early game.",
+          "Se corrigieron canales Water Type, experiencia de criaturas pequeñas de Hoenn y Smart Use.",
+          "Se corrigieron puertas de salida de instancias de fuego, Hazard, acciones de Guild y uso de Revives en escaleras Primales."
+        ]
+      }
+    ]
+  },
+  {
+    "fecha": "14 de agosto de 2026",
+    "secciones": [
+      {
+        "titulo": "Founder Package Titan",
+        "cambios": [
+          "Hasta el 31/08, precio promocional de 150 a 120 Diamonds.",
+          "Disponible durante 30 días después del lanzamiento de Titan.",
+          "Incluye Level Up Effect, Locker, TV Camera, Backpack y Founder Outfit."
+        ]
+      },
+      {
+        "titulo": "Cambios generales",
+        "cambios": [
+          "Las rewards de Achievement se agrupan automáticamente.",
+          "Al editar TV Cam se selecciona el nombre anterior.",
+          "Store y Depot Stash cierran con Esc.",
+          "Rewards stackeables de Game Pass se agrupan automáticamente."
+        ]
+      },
+      {
+        "titulo": "Correcciones de bugs",
+        "cambios": [
+          "Se corrigió Market.",
+          "Se corrigió Achievement encima de rewards.",
+          "Se corrigió experiencia incorrecta de Hunt Analyzer al reloguear.",
+          "Se corrigió la búsqueda en Depot Stash."
+        ]
+      }
+    ]
+  },
+  {
+    "fecha": "13 de agosto de 2026",
+    "secciones": [
+      {
+        "titulo": "Cambios generales",
+        "cambios": [
+          "Se corrigió el crash de Sun de las 11:47; compensación: 3 Alliance Vouchers.",
+          "Capturar un Pokémon nuevo para la Pokédex ahora lo desbloquea y entrega su experiencia.",
+          "Yellow Flowers fueron retiradas de Achievements y se agregó Log Pose.",
+          "Se cambió la visualización del crédito de tarjetas en Look.",
+          "Fade In/Fade Out de ventanas ahora puede personalizarse o desactivarse."
+        ]
+      },
+      {
+        "titulo": "Balanceo",
+        "cambios": [
+          "Qwilfish y Shiny Qwilfish salvajes ya no usan Minimize.",
+          "Earthquake de daño continuo largo pasó a instantáneo con nerf total de 50%; la versión corta pasó a instantáneo sin nerf total.",
+          "Afecta a Dugtrio, Onix, Sandslash, Shiny Dugtrio, Shiny Sandslash, Donphan, Piloswine, Pupitar, Quagsire, Shiny Larvitar, Shiny Piloswine, Shiny Wooper, Claydol, Shiny Claydol, Shiny Vibrava y Vibrava."
+        ]
+      },
+      {
+        "titulo": "Correcciones de bugs",
+        "cambios": [
+          "Se corrigieron Pokémon atorados en arenas de duelo.",
+          "Se corrigió el valor promedio de Market con diferentes Dens.",
+          "Berry Evasion se corrigió de 25% a 25 puntos de entrenamiento (2.5%).",
+          "Se corrigió Use con Market abierto.",
+          "Se corrigió Moonblast en Pokédex.",
+          "Se corrigieron posiciones donde no se podía volar.",
+          "Ignore List ahora persiste al reabrir Client.",
+          "TV Cam cierra con Esc."
+        ]
+      }
+    ]
+  },
+  {
+    "fecha": "11 de agosto de 2026",
+    "secciones": [
+      {
+        "titulo": "Cambios de mapa · Kanto y Johto",
+        "cambios": [
+          "Electrode: 3 nuevas hunts al norte de Saffron.",
+          "Rattata: 2 nuevas hunts en el alcantarillado de Saffron.",
+          "Espeon y Umbreon: 2 nuevas hunts cada uno, cerca de las actuales (Wildscape).",
+          "Las hunts de Espeon y Umbreon no dependen del día/noche. Más adelante requerirán una quest; por ahora no."
+        ]
+      },
+      {
+        "titulo": "Cambios de mapa · Islas Naranja",
+        "cambios": [
+          "Blastoise: 2 nuevas hunts.",
+          "Hitmontop, Exeggutor, Tangrowth y Machamp: 1 nueva hunt cada uno.",
+          "Arcanine: 2 nuevas hunts.",
+          "Rapidash: 2 nuevas hunts cerca de la isla de fuego.",
+          "Qwilfish y Venusaur: nuevas hunts cerca de Shamouti Island."
+        ]
+      }
+    ]
+  }
+]

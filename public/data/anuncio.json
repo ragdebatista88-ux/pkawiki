@@ -1,0 +1,25 @@
+{
+  "activo": true,
+  "titulo": "¡4,000 y 5,000 jugadores conectados al mismo tiempo!",
+  "texto": "Dos metas alcanzadas una detrás de otra. Para celebrarlo, se activan tres buffs en todos los servidores.",
+  "fechaFin": "20 de septiembre de 2026 · 8:59 PM",
+  "beneficios": [
+    [
+      "✨",
+      "+20% Shiny Charm",
+      "Comienza con el próximo Server Save."
+    ],
+    [
+      "⚔️",
+      "+10% de Captura Crítica",
+      "En Premier Ball y Alliance Ball. Comienza con el próximo Server Save."
+    ],
+    [
+      "🟣",
+      "+50% Twitch Points",
+      "Ya está activo."
+    ]
+  ],
+  "nota": "Cuando se activa una captura crítica, la probabilidad de captura de esa Ball se duplica.",
+  "cierre": "Gracias a todos los que hacen que cada una de estas metas se sienta cada vez más cercana. La siguiente ya viene en camino."
+}

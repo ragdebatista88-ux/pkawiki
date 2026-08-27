@@ -1,13 +1,20 @@
 
 const D=window.PKA_DATA||{};
+const INTERNAL_LINKS={"https://wiki.pokealliance.com/sistemas/star-machine":"sistema-star.html","https://wiki.pokealliance.com/guias/boost_stone":"boost.html","https://wiki.pokealliance.com/quests/quests-principais":"quest-principales.html","https://wiki.pokealliance.com/sistemas/prey":"prey.html","https://wiki.pokealliance.com/sistemas/arcane-shards-dungeons":"dungeons.html","https://wiki.pokealliance.com/sistemas/treinamento":"sistema-entrenamiento.html","https://wiki.pokealliance.com/sistemas/medal-system":"medallas.html","https://wiki.pokealliance.com/sistemas/linked-tasks":"linked-tasks.html","https://wiki.pokealliance.com/sistemas/hazard-mega-dens":"hazard.html","https://wiki.pokealliance.com/sistemas/talentos":"talentos.html","https://wiki.pokealliance.com/pokemon":"pokedex.html","https://wiki.pokealliance.com/sistemas/helds":"sistema-helds.html","https://wiki.pokealliance.com/sistemas/rockets-semanais":"rocket.html","https://wiki.pokealliance.com/sistemas/gyms-kanto-hoenn":"gyms.html","https://wiki.pokealliance.com/quests/porygon-dr-vektor":"quest-porygon-vektor.html","https://wiki.pokealliance.com/sistemas/twitch-shop":"online-shop.html","https://wiki.pokealliance.com/quests/lucky_amulet":"quest-lucky-amulet.html","https://wiki.pokealliance.com/sistemas/global-buff":"global-buff.html","https://wiki.pokealliance.com/sistemas/clones":"quest-mewtwo-clones.html","https://wiki.pokealliance.com/sistemas/polices-semanais":"police.html","https://wiki.pokealliance.com/sistemas/tasks-do-mundo":"tasks.html","https://wiki.pokealliance.com/guias/comandos-disponiveis":"comandos.html"};
+function internalHref(raw){
+  const u=String(raw||'');
+  const base=u.split('#')[0].replace(/\/$/,'');
+  return INTERNAL_LINKS[base]||INTERNAL_LINKS[u]||null;
+}
+
 const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 const clean=s=>String(s??'').trim();
-const urlify=s=>{let x=esc(s);return x.replace(/(https?:\/\/[^\s<]+)/g,u=>`<a href="${u}" target="_blank" rel="noopener">${u.length>42?u.slice(0,39)+'…':u}</a>`)};
+const urlify=s=>{let x=esc(s);return x.replace(/(https?:\/\/[^\s<]+)/g,u=>{const local=internalHref(u);if(local)return `<a href="${local}">Ver en nuestra wiki →</a>`;return `<a href="${u}" target="_blank" rel="noopener">${u.length>42?u.slice(0,39)+'…':u}</a>`})};
 const slug=s=>clean(s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 function nav(){const p=location.pathname.split('/').pop()||'index.html';document.querySelectorAll('.navlinks a').forEach(a=>{if(a.getAttribute('href')===p)a.classList.add('active')});const b=document.querySelector('.menuBtn');if(b)b.onclick=()=>document.querySelector('.navlinks').classList.toggle('open')}
 function allPokemon(){let s=new Set();(D.drops||[]).forEach(x=>s.add(x.Pokémon));(D.localizaciones||[]).forEach(x=>s.add(x.Pokémon));(D.tasks||[]).forEach(x=>s.add(x.Pokémon));(D.tierList||[]).forEach(x=>{let n=x['Pokémon'];if(n)s.add(n)});return [...s].filter(Boolean).sort((a,b)=>a.localeCompare(b))}
 function globalSearch(){const input=document.querySelector('#globalSearch');const box=document.querySelector('#searchResults');if(!input||!box)return;const pokes=allPokemon();const cats=[['Drops','drops.html'],['Localizaciones','localizaciones.html'],['Tasks','tasks.html'],['Dungeons','dungeons.html'],['Gyms','gyms.html'],['Tier List','tier-list.html'],['PokeTalents','talentos.html'],['Sistemas','sistemas.html'],['Rocket','rocket.html'],['Policía','police.html'],['FAQ','faq.html'],['Guías','guias.html'],['Quests','quests.html'],['Lucky Amulet','quest-lucky-amulet.html'],['Dr. Vektor / Porygon','quest-porygon-vektor.html'],['Moomoo Milk','quest-moomoo-milk.html'],['Vernaccio','quest-vernaccio.html'],['Mewtwo Clones','quest-mewtwo-clones.html'],['Acceso a Hoenn','quest-hoenn.html'],['Rotaciones por elemento','rotaciones.html'],['Guild','sistema-guild.html'],['VIP / Premium','sistema-vip.html'],['PokéExpedition','sistema-pokeexpedition.html'],['Entrenamiento','sistema-entrenamiento.html'],['Helds','sistema-helds.html'],['Experiencia y Level','sistema-experiencia.html'],['Star Ascension','sistema-star.html'],['Comandos disponibles','comandos.html'],['Ultra Rare Legendary Mythic','tiers-especiales.html'],['Prey','prey.html'],['Calendario','calendario.html'],['GamePass Battle Pass','gamepass.html'],['Hunt Analyzer','hunt-analyzer.html'],['Hunt Stash','hunt-stash.html'],['Achievements','achievements.html'],['Global Buff','global-buff.html'],['NPC Jully TV Cam','npc-jully.html'],['Online Shop','online-shop.html'],['Hazard Mega Dens','hazard.html'],['Rockets Semanales','rocket.html'],['Policías Semanales','police.html'],['GYMs Kanto CDR','gyms.html']];const render=()=>{let q=input.value.trim().toLowerCase();if(!q){box.classList.remove('show');return}let r=pokes.filter(x=>x.toLowerCase().includes(q)).slice(0,8).map(x=>`<a class="searchItem" href="pokemon.html?name=${encodeURIComponent(x)}"><span>${esc(x)}</span><small>Pokémon</small></a>`);r.push(...cats.filter(x=>x[0].toLowerCase().includes(q)).slice(0,4).map(x=>`<a class="searchItem" href="${x[1]}"><span>${x[0]}</span><small>Sección</small></a>`));box.innerHTML=r.length?r.join(''):'<div class="empty">Sin resultados</div>';box.classList.add('show')};input.addEventListener('input',render);input.addEventListener('keydown',e=>{if(e.key==='Enter'){let q=input.value.trim();let hit=pokes.find(x=>x.toLowerCase()===q.toLowerCase())||pokes.find(x=>x.toLowerCase().includes(q.toLowerCase()));if(hit)location.href='pokemon.html?name='+encodeURIComponent(hit)}});document.addEventListener('click',e=>{if(!box.contains(e.target)&&e.target!==input)box.classList.remove('show')})}
-function fmt(v){v=clean(v);if(!v)return '—';if(/^https?:\/\//.test(v))return `<a class="linkBtn" href="${esc(v)}" target="_blank" rel="noopener">Abrir enlace ↗</a>`;if(v.includes('http'))return urlify(v);return esc(v).replace(/\n/g,'<br>')}
+function fmt(v){v=clean(v);if(!v)return '—';if(/^https?:\/\//.test(v)){const local=internalHref(v);if(local)return `<a class="linkBtn" href="${esc(local)}">Abrir en nuestra wiki →</a>`;return `<a class="linkBtn" href="${esc(v)}" target="_blank" rel="noopener">Abrir enlace ↗</a>`}if(v.includes('http'))return urlify(v);return esc(v).replace(/\n/g,'<br>')}
 function table(container,rows,cols,opt={}){const el=document.querySelector(container);if(!el)return;let page=1,per=opt.per||50,query='';const filtered=()=>rows.filter(r=>!query||cols.some(c=>clean(r[c]).toLowerCase().includes(query)));function draw(){let data=filtered(),pages=Math.max(1,Math.ceil(data.length/per));if(page>pages)page=pages;let start=(page-1)*per;let view=data.slice(start,start+per);let h=`<div class="toolbar"><input class="tableSearch" placeholder="Buscar en esta sección…"><span class="badge">${data.length.toLocaleString('es-MX')} registros</span></div><div class="tableWrap"><table><thead><tr>${cols.map(c=>`<th>${esc(c)}</th>`).join('')}</tr></thead><tbody>`;h+=view.map(r=>'<tr>'+cols.map(c=>`<td>${fmt(r[c])}</td>`).join('')+'</tr>').join('');h+=`</tbody></table><div class="pagination"><button data-prev ${page<=1?'disabled':''}>← Anterior</button><span>${page} / ${pages}</span><button data-next ${page>=pages?'disabled':''}>Siguiente →</button></div></div>`;el.innerHTML=h;el.querySelector('.tableSearch').value=query;el.querySelector('.tableSearch').oninput=e=>{query=e.target.value.toLowerCase();page=1;draw()};el.querySelector('[data-prev]').onclick=()=>{page--;draw();scrollTo({top:190,behavior:'smooth'})};el.querySelector('[data-next]').onclick=()=>{page++;draw();scrollTo({top:190,behavior:'smooth'})}}draw()}
 function arrayTable(container,rows){if(!rows||!rows.length)return;let max=Math.max(...rows.map(r=>r.length));let heads=rows[0].map((x,i)=>clean(x)||`Col. ${i+1}`);while(heads.length<max)heads.push(`Col. ${heads.length+1}`);let objects=rows.slice(1).map(r=>Object.fromEntries(heads.map((h,i)=>[h,r[i]??''])));table(container,objects,heads,{per:100})}
 function home(){let p=allPokemon();document.querySelector('#pokeCount').textContent=p.length.toLocaleString('es-MX');document.querySelector('#dropCount').textContent=(D.drops||[]).length.toLocaleString('es-MX');document.querySelector('#taskCount').textContent=(D.tasks||[]).length.toLocaleString('es-MX');document.querySelector('#dungeonCount').textContent=(D.dungeons||[]).length.toLocaleString('es-MX')}
@@ -41,4 +48,65 @@ function enhancePokemonHeader(){if(document.body.dataset.page!=='pokemon')return
 function parseRotationText(text){let t=clean(text),role=(t.match(/\(([^)]+)\)/)||[])[1]||'',stars=(t.match(/(★+)/)||[])[1]||'',tier=(t.match(/—\s*([^—]+)$/)||[])[1]||'';let name=t.replace(/\s*—\s*[^—]+$/,'').replace(/\s*\([^)]+\)/g,'').replace(/\s*★+/g,'').trim();return{name,role,stars,tier}}
 function rotationCardHTML(info,upgrade=false){return `<img class="rotationSprite" loading="lazy" src="${pokemonSprite(info.name)}" alt="${esc(info.name)}" onerror="this.style.visibility='hidden'"><span>${upgrade?'<small class="upgradeLabel">Mejora</small>':''}<strong class="rotationPokeName">${esc(info.name)}</strong><span class="rotationMeta">${info.role?`<span class="rotationRole">${esc(info.role)}</span>`:''}${info.stars?`<span class="rotationStars">${esc(info.stars)}</span>`:''}${info.tier?`<span class="rotationTier">${esc(info.tier)}</span>`:''}</span></span>`}
 function enhanceRotations(){document.querySelectorAll('.rotSection').forEach(section=>{const id=section.id||'normal';section.dataset.type=id;const label=id==='dark-ghost'?'Dark / Ghost':TYPE_ES[id]||id;const h2=section.querySelector(':scope > h2');if(h2&&!h2.querySelector('.rotTypePill'))h2.insertAdjacentHTML('beforeend',`<span class="rotTypePill">${typeBadge(id==='dark-ghost'?'ghost':id,label)}</span>`);section.querySelectorAll('.roster > div').forEach(card=>{if(card.dataset.visualReady)return;card.dataset.visualReady='1';const info=parseRotationText(card.textContent);card.innerHTML=rotationCardHTML(info)});section.querySelectorAll('.tierTag').forEach(card=>{if(card.dataset.visualReady)return;card.dataset.visualReady='1';const info=parseRotationText(card.textContent);card.innerHTML=rotationCardHTML(info,true)})})}
-window.addEventListener('DOMContentLoaded',()=>{enhanceSearchSprites();renderDex();setTimeout(enhancePokemonHeader,0);enhanceRotations()});
+
+function enhancePokemonMentions(root=document.querySelector('main')){
+  if(!root)return;
+  const names=allPokemon().filter(n=>n&&n.length>2).sort((a,b)=>b.length-a.length);
+  if(!names.length)return;
+  const escaped=names.map(n=>n.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'));
+  const rx=new RegExp('(^|[^A-Za-zÀ-ÿ0-9])('+escaped.join('|')+')(?=$|[^A-Za-zÀ-ÿ0-9])','gi');
+  const skip='SCRIPT,STYLE,NOSCRIPT,TEXTAREA,INPUT,SELECT,OPTION,CODE,PRE,.pokeMention,.pokeCell,.visualPokemon,.sourcePokemon,.dexCard,.rotationPokeName,.pokemonHeadingMeta';
+  const canonical=new Map(names.map(n=>[n.toLowerCase(),n]));
+  function processNode(node){
+    if(node.nodeType===3){
+      const parent=node.parentElement;
+      if(!parent||parent.closest(skip)||!node.nodeValue||node.nodeValue.trim().length<3)return;
+      rx.lastIndex=0;
+      if(!rx.test(node.nodeValue))return;
+      rx.lastIndex=0;
+      const frag=document.createDocumentFragment();
+      let last=0,m;
+      while((m=rx.exec(node.nodeValue))){
+        const prefix=m[1]||'', raw=m[2], start=m.index;
+        if(start>last)frag.append(document.createTextNode(node.nodeValue.slice(last,start)));
+        if(prefix)frag.append(document.createTextNode(prefix));
+        const name=canonical.get(raw.toLowerCase())||raw;
+        const span=document.createElement('span');
+        span.className='pokeMention';
+        span.title=name;
+        const img=document.createElement('img');
+        img.className='pokeMentionSprite';
+        img.loading='lazy';
+        img.alt='';
+        img.src=pokemonSprite(name);
+        img.addEventListener('error',()=>img.remove(),{once:true});
+        const label=document.createElement('span');
+        label.textContent=raw;
+        span.append(img,label);
+        frag.append(span);
+        last=rx.lastIndex;
+      }
+      if(last<node.nodeValue.length)frag.append(document.createTextNode(node.nodeValue.slice(last)));
+      node.replaceWith(frag);
+      return;
+    }
+    if(node.nodeType!==1||node.matches(skip))return;
+    [...node.childNodes].forEach(processNode);
+  }
+  processNode(root);
+}
+function watchPokemonMentions(){
+  const root=document.querySelector('main');
+  if(!root||root.dataset.pokeMentionWatch)return;
+  root.dataset.pokeMentionWatch='1';
+  enhancePokemonMentions(root);
+  const obs=new MutationObserver(muts=>{
+    muts.forEach(m=>m.addedNodes.forEach(n=>{
+      if(n.nodeType===1)enhancePokemonMentions(n);
+      else if(n.nodeType===3&&n.parentElement)enhancePokemonMentions(n.parentElement);
+    }));
+  });
+  obs.observe(root,{childList:true,subtree:true});
+}
+
+window.addEventListener('DOMContentLoaded',()=>{enhanceSearchSprites();renderDex();setTimeout(enhancePokemonHeader,0);enhanceRotations();setTimeout(watchPokemonMentions,0)});

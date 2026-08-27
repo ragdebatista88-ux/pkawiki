@@ -24,3 +24,11 @@
 
 
 .faqSpotVisual{margin-top:14px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}.faqSpotVisual img{width:96px;height:96px;object-fit:cover;image-rendering:pixelated;border:1px solid var(--line);border-radius:12px;background:#0b1725}.faqSpotVisual small{color:var(--muted);font-size:.9rem}
+
+
+/* === Pokémon mencionados dentro del contenido === */
+.pokeMention{display:inline-flex;align-items:center;gap:4px;vertical-align:-0.16em;white-space:nowrap}
+.pokeMentionSprite{width:24px;height:24px;object-fit:contain;flex:0 0 24px}
+h1 .pokeMentionSprite,h2 .pokeMentionSprite,h3 .pokeMentionSprite{width:30px;height:30px;flex-basis:30px}
+td .pokeMentionSprite,li .pokeMentionSprite,.faqItem .pokeMentionSprite{width:22px;height:22px;flex-basis:22px}
+

@@ -1,0 +1,1378 @@
+[
+  {
+    "nombre": "Aaron",
+    "queHace": "Entrega una Task: 20 Magnemite y 40 Voltorb. Recompensa: 30K EXP. · NPC de Tasks asociado a Magnemite, Voltorb.",
+    "ubicacion": "Bosque entre Saffron y Cerulean (cerca del Shiny Magnemite Den)",
+    "imagen": "https://i.postimg.cc/28MXR9RF/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Adriano",
+    "queHace": "NPC de Tasks asociado a Electrike, Manectric.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/gZXKevQ",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Aldric",
+    "queHace": "NPC de Tasks asociado a Relicanth.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/FWC14O8",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Alessandra",
+    "queHace": "NPC de Tasks asociado a Anorith, Armaldo.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/3TH2eLX",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Atlas",
+    "queHace": "NPC de Tasks asociado a Heracross.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/JrzuMGt",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Aurora",
+    "queHace": "Entrega una Task: 300 Cloyster y 1 Shiny Cloyster. Recompensa: 500K EXP y 2 Bubble Gum. · NPC de Tasks asociado a Cloyster.",
+    "ubicacion": "Isla de Hielo de Kanto, cerca del Shiny Seel Den",
+    "imagen": "https://i.postimg.cc/44rzXDyd/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Autumn",
+    "queHace": "Entrega una Task: 300 Skarmory y 1 Shiny Skarmory. Recompensa: 500K EXP y 2 Bubble Gum. · NPC de Tasks asociado a Skarmory.",
+    "ubicacion": "Vermilion, cerca del barco",
+    "imagen": "https://i.postimg.cc/MK6zfTvr/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Beatriz",
+    "queHace": "NPC de Tasks asociado a Blaziken, Combusken, Torchic.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/13SqnNQ",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Benjamin",
+    "queHace": "Entrega una Task: 300 Piloswine y 1 Shiny Piloswine. Recompensa: 500K EXP y 2 Bubble Gum. · NPC de Tasks asociado a Piloswine.",
+    "ubicacion": "Isla de Hielo de Kanto, a la derecha del Shiny Lapras Den",
+    "imagen": "https://i.postimg.cc/vmNtY9RF/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Bert",
+    "queHace": "Entrega una Task: 300 Charizard, 300 Venusaur y 300 Blastoise. Recompensa: 500K EXP y 2 Bubble Gum. · NPC de Tasks asociado a Blastoise, Charizard, Venusaur.",
+    "ubicacion": "Bosque de Viridian",
+    "imagen": "https://i.postimg.cc/wjW3vjCX/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Bianca",
+    "queHace": "NPC de Tasks asociado a Minun, Plusle.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/NP74ZdI",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Blade",
+    "queHace": "Entrega una Task: 1500 Scyther y 25 Shiny Scyther. Recompensa: 1KK EXP y desbloquea el intercambio del item Shiny. · NPC de Tasks asociado a Scyther.",
+    "ubicacion": "A la izquierda de Fuchsia, en el -1 de la Hunt de Pinsir",
+    "imagen": "https://i.postimg.cc/D0fPLLVz/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Blake",
+    "queHace": "NPC de Tasks asociado a Bulbasaur, Ivysaur.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/bZOLHYr",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Blaze",
+    "queHace": "Entrega una Task: 1500 Skarmory y 25 Shiny Skarmory. Recompensa: 1KK EXP y desbloquea el intercambio del item Shiny. · NPC de Tasks asociado a Skarmory.",
+    "ubicacion": "A la derecha de Blackthorn City, en la Hunt de Skarmory",
+    "imagen": "https://i.postimg.cc/3xfVRrvp/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Calder",
+    "queHace": "Entrega una Task de Hazard: 15 Sh Camerupt, 15 Sh Torkoal.",
+    "ubicacion": "Hoenn — NPC de progresión de Hazard / Mega Dens.",
+    "imagen": "https://imgur.com/a/vqSpNqd",
+    "categoria": "Hazard",
+    "pagina": "hazard.html"
+  },
+  {
+    "nombre": "Caleb",
+    "queHace": "Entrega una Task: 300 Nidoking y 1 Shiny Nidoking. Recompensa: 500K EXP y 2 Bubble Gum. · NPC de Tasks asociado a Nidoking.",
+    "ubicacion": "Viridian, junto al Centro Pokémon",
+    "imagen": "https://i.postimg.cc/9QBZB2v0/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Camila",
+    "queHace": "Entrega una Task: 1500 Farfetch'd y 25 Shiny Farfetch'd. Recompensa: 1KK EXP y desbloquea el intercambio del item Shiny. · NPC de Tasks asociado a Farfetch'd.",
+    "ubicacion": "A la derecha de Fuchsia, en la Hunt de Farfetch'd",
+    "imagen": "https://i.postimg.cc/PqZyjdzd/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Captain Chitin",
+    "queHace": "Combate semanal de Policía; cada victoria suma al progreso para Officer Jenny.",
+    "ubicacion": "Ruta semanal de Policías; la referencia visual conjunta muestra la localización.",
+    "imagen": "https://imgur.com/a/Fbmmqeh",
+    "categoria": "Combate",
+    "pagina": "police.html#oficiales"
+  },
+  {
+    "nombre": "Captain Frederic",
+    "queHace": "Recibe la Boarding Key y habilita el viaje entre Orange Islands y Johto.",
+    "ubicacion": "Zona de viaje entre Cianwood / Orange Islands (la ubicación exacta del NPC no está documentada en texto).",
+    "imagen": "",
+    "categoria": "Quests",
+    "pagina": "quest-principales.html"
+  },
+  {
+    "nombre": "Captain Verdant",
+    "queHace": "Combate semanal de Policía; cada victoria suma al progreso para Officer Jenny.",
+    "ubicacion": "Ruta semanal de Policías; la referencia visual conjunta muestra la localización.",
+    "imagen": "https://imgur.com/a/Fbmmqeh",
+    "categoria": "Combate",
+    "pagina": "police.html#oficiales"
+  },
+  {
+    "nombre": "Captain Willy",
+    "queHace": "Inicia y continúa la cadena de la reliquia/Lucky Amulet; recibe el Valentine Gold Token.",
+    "ubicacion": "Muelles al sur de Olivine.",
+    "imagen": "",
+    "categoria": "Quests",
+    "pagina": "quest-lucky-amulet.html"
+  },
+  {
+    "nombre": "Carl",
+    "queHace": "Entrega la Moomoo Milk Quest, recibe las derrotas requeridas, inicia la pelea de Mega Houndoom y recibe la Miltank final.",
+    "ubicacion": "Granja de Miltank, coordenadas 1379, 2142, 5; lado izquierdo de la granja.",
+    "imagen": "",
+    "categoria": "Quests",
+    "pagina": "quest-moomoo-milk.html"
+  },
+  {
+    "nombre": "Cedric",
+    "queHace": "NPC de Tasks asociado a Marshtomp, Mudkip, Swampert.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/CilI2Qu",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Chief Toxin",
+    "queHace": "Combate semanal de Policía; cada victoria suma al progreso para Officer Jenny.",
+    "ubicacion": "Ruta semanal de Policías; la referencia visual conjunta muestra la localización.",
+    "imagen": "https://imgur.com/a/Fbmmqeh",
+    "categoria": "Combate",
+    "pagina": "police.html#oficiales"
+  },
+  {
+    "nombre": "Chloe",
+    "queHace": "Entrega una Task: 300 Arcanine y 1 Shiny Arcanine. Recompensa: 500K EXP y 2 Bubble Gum. · NPC de Tasks asociado a Arcanine.",
+    "ubicacion": "Cinnabar, a la izquierda del Centro Pokémon",
+    "imagen": "https://i.postimg.cc/FKRfypz8/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Commander Mind",
+    "queHace": "Combate semanal de Policía; cada victoria suma al progreso para Officer Jenny.",
+    "ubicacion": "Ruta semanal de Policías; la referencia visual conjunta muestra la localización.",
+    "imagen": "https://imgur.com/a/Fbmmqeh",
+    "categoria": "Combate",
+    "pagina": "police.html#oficiales"
+  },
+  {
+    "nombre": "Connor",
+    "queHace": "Entrega una Task: 100 Muk. Recompensa: 50K y 1 Bubble Gum. · NPC de Tasks asociado a Muk.",
+    "ubicacion": "Subterráneo del pantano venenoso, a la izquierda de Cerulean City",
+    "imagen": "https://i.postimg.cc/YSZVfTG4/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Coral",
+    "queHace": "Entrega una Task: 1500 Lapras y 25 Shiny Lapras. Recompensa: 1KK EXP y desbloquea el intercambio del item Shiny. · NPC de Tasks asociado a Lapras.",
+    "ubicacion": "Al sur de Fuchsia, cerca de la Dungeon de Lapras",
+    "imagen": "https://i.postimg.cc/TYYtDMGc/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Daisy",
+    "queHace": "Entrega una Task: 1500 Miltank y 25 Shiny Miltank. Recompensa: 1KK EXP y desbloquea el intercambio del item Shiny. · NPC de Tasks asociado a Miltank.",
+    "ubicacion": "Al norte de Olivine, en MooMoo Farm",
+    "imagen": "https://i.postimg.cc/g2SZ8ZYM/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Darian",
+    "queHace": "NPC de Tasks asociado a Huntail.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/yf8McW8",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Detective Terra",
+    "queHace": "Combate semanal de Policía; cada victoria suma al progreso para Officer Jenny.",
+    "ubicacion": "Ruta semanal de Policías; la referencia visual conjunta muestra la localización.",
+    "imagen": "https://imgur.com/a/Fbmmqeh",
+    "categoria": "Combate",
+    "pagina": "police.html#oficiales"
+  },
+  {
+    "nombre": "Dexter",
+    "queHace": "Entrega una Task: 1500 Pinsir y 25 Shiny Pinsir. Recompensa: 1KK EXP y desbloquea el intercambio del item Shiny. · NPC de Tasks asociado a Pinsir.",
+    "ubicacion": "A la izquierda de Fuchsia, en la Hunt de Pinsir",
+    "imagen": "https://i.postimg.cc/7PXVDs7J/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Diana",
+    "queHace": "NPC de Tasks asociado a Mightyena, Poochyena.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/quY35DH",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Doris",
+    "queHace": "Entrega una Task: 1500 Snorlax y 25 Shiny Snorlax. Recompensa: 1KK EXP y desbloquea el intercambio del item Shiny. · NPC de Tasks asociado a Snorlax.",
+    "ubicacion": "A la izquierda de Cerulean, en el bosque",
+    "imagen": "https://i.postimg.cc/Nj276QnR/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Dr. Oliveira",
+    "queHace": "NPC de Tasks asociado a Ditto.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/bVsObWr",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Dr. Vektor",
+    "queHace": "Inicia la Porygon Quest, permite entrar al Mundo Digital y entrega las recompensas al terminar.",
+    "ubicacion": "Junto a la computadora de acceso al Mundo Digital; la ciudad exacta no está documentada en la guía.",
+    "imagen": "",
+    "categoria": "Quests",
+    "pagina": "quest-porygon-vektor.html"
+  },
+  {
+    "nombre": "Draven",
+    "queHace": "Entrega una Task de Hazard: 15 Sh Flygon, 15 Sh Salamalence.",
+    "ubicacion": "Hoenn — NPC de progresión de Hazard / Mega Dens.",
+    "imagen": "https://imgur.com/a/UvZJqKw",
+    "categoria": "Hazard",
+    "pagina": "hazard.html"
+  },
+  {
+    "nombre": "Edmund",
+    "queHace": "NPC de Tasks asociado a Pachirisu.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/AHqoyTH",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Eduardo",
+    "queHace": "NPC de Tasks asociado a Linoone, Zigzagoon.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/srQujl5",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Elena",
+    "queHace": "Entrega una Task: 10 Weedle y 10 Caterpie. Recompensa: 10K EXP. · NPC de Tasks asociado a Caterpie, Weedle.",
+    "ubicacion": "Saffron",
+    "imagen": "https://i.postimg.cc/9QFTbZf3/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Elijah",
+    "queHace": "Entrega una Task: 300 Nidoqueen y 1 Shiny Nidoqueen. Recompensa: 500K EXP y 2 Bubble Gum. · NPC de Tasks asociado a Nidoqueen.",
+    "ubicacion": "Viridian, arriba del Market",
+    "imagen": "https://i.postimg.cc/SNfJBrVt/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Elisa",
+    "queHace": "NPC de Tasks asociado a Feebas, Milotic.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/KXcgrGa",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Ester",
+    "queHace": "NPC de Tasks asociado a Beldum, Metagross, Metang.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/63Z6NBG",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Eva",
+    "queHace": "Entrega una Task: 300 Blastoise y 1 Shiny Blastoise. Recompensa: 500K EXP y 2 Bubble Gum. · NPC de Tasks asociado a Blastoise.",
+    "ubicacion": "Shiny Totodile Den",
+    "imagen": "https://i.postimg.cc/DZGNC5Lx/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Fabiana",
+    "queHace": "NPC de Tasks asociado a Gulpin, Swalot.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/W1n420E",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Fernanda",
+    "queHace": "NPC de Tasks asociado a Beautifly, Silcoon.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/DzCTHuU",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Fernando",
+    "queHace": "NPC de Tasks asociado a Kecleon.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/tIZh4hQ",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Ferris",
+    "queHace": "Entrega una Task de Hazard: 10 Sh Aggron, 10 Sh Mawile, 10 Sh Metagross.",
+    "ubicacion": "Hoenn — NPC de progresión de Hazard / Mega Dens.",
+    "imagen": "https://imgur.com/a/PKI4Fgs",
+    "categoria": "Hazard",
+    "pagina": "hazard.html"
+  },
+  {
+    "nombre": "Gavin",
+    "queHace": "NPC de Tasks asociado a Machoke, Machop.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/1yRsaFj",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Gilberto",
+    "queHace": "NPC de Tasks asociado a Carvanha, Sharpedo.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/cG8jdq3",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Giovanni",
+    "queHace": "Boss final de la progresión semanal Rocket tras acumular 130 victorias.",
+    "ubicacion": "Se desbloquea mediante la ruta de Rockets Semanales; consultar la sección de Giovanni.",
+    "imagen": "",
+    "categoria": "Combate",
+    "pagina": "rocket.html#giovanni"
+  },
+  {
+    "nombre": "Glacis",
+    "queHace": "Entrega una Task de Hazard: 15 Sh Glalie, 15 Sh Walrein.",
+    "ubicacion": "Hoenn — NPC de progresión de Hazard / Mega Dens.",
+    "imagen": "https://imgur.com/a/0e03YqH",
+    "categoria": "Hazard",
+    "pagina": "hazard.html"
+  },
+  {
+    "nombre": "Grace",
+    "queHace": "NPC de Tasks asociado a Gastly, Haunter.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/7owKwog",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Grayson",
+    "queHace": "Entrega una Task: 300 Houndoom y 1 Shiny Houndoom. Recompensa: 500K EXP y 2 Bubble Gum. · NPC de Tasks asociado a Houndoom.",
+    "ubicacion": "Cinnabar, cerca del Centro Pokémon",
+    "imagen": "https://i.postimg.cc/05mz0b5k/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Gustavo",
+    "queHace": "NPC de Tasks asociado a Cascoon, Dustox.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/qWFHjSa",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Hadriel",
+    "queHace": "Entrega una Task de Hazard: 10 Sh Hariyama, 10 Sh Medicham, 10 Sh Slaking.",
+    "ubicacion": "Hoenn — NPC de progresión de Hazard / Mega Dens.",
+    "imagen": "https://imgur.com/a/ocIvomr",
+    "categoria": "Hazard",
+    "pagina": "hazard.html"
+  },
+  {
+    "nombre": "Hank",
+    "queHace": "Continúa la ruta de acceso a Hoenn.",
+    "ubicacion": "Goldenrod City: salida sur, junto al tráiler de la derecha.",
+    "imagen": "assets/guides/hoenn-hank.png",
+    "categoria": "Quests",
+    "pagina": "quest-hoenn.html"
+  },
+  {
+    "nombre": "Harper",
+    "queHace": "NPC de Tasks asociado a Jynx.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/dy3sR9T",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Hayden",
+    "queHace": "NPC de Tasks asociado a Pidgeot, Pidgeotto, Pidgey.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/pcKcLKB",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Helena",
+    "queHace": "NPC de Tasks asociado a Lombre, Lotad, Ludicolo.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/bVXSMgI",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Helio",
+    "queHace": "NPC de Tasks asociado a Solrock.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/W937hgf",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Heloisa",
+    "queHace": "NPC de Tasks asociado a Wailmer, Wailord.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/f1vbCNC",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Henrique",
+    "queHace": "NPC de Tasks asociado a Tropius.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/4tWBIfg",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Henry",
+    "queHace": "Entrega una Task: 300 Miltank y 1 Shiny Miltank. Recompensa: 500K EXP y 2 Bubble Gum. · NPC de Tasks asociado a Miltank.",
+    "ubicacion": "Al norte de Olivine, en el bosque",
+    "imagen": "https://i.postimg.cc/xTKrXvP2/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Igor",
+    "queHace": "NPC de Tasks asociado a Nuzleaf, Seedot, Shiftry.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/5qzdvFp",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Inspector Frost",
+    "queHace": "Combate semanal de Policía; cada victoria suma al progreso para Officer Jenny.",
+    "ubicacion": "Ruta semanal de Policías; la referencia visual conjunta muestra la localización.",
+    "imagen": "https://imgur.com/a/Fbmmqeh",
+    "categoria": "Combate",
+    "pagina": "police.html#oficiales"
+  },
+  {
+    "nombre": "Isaac",
+    "queHace": "Entrega una Task: 300 Alakazam y 1 Shiny Alakazam. Recompensa: 500K EXP y 2 Bubble Gum. · NPC de Tasks asociado a Alakazam.",
+    "ubicacion": "Isla de Hielo de Kanto, cerca del Shiny Dratini Den",
+    "imagen": "https://i.postimg.cc/VNGCpT2z/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Isadora",
+    "queHace": "NPC de Tasks asociado a Chimecho.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/makffiD",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Iuri",
+    "queHace": "NPC de Tasks asociado a Camerupt, Numel.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/LltpRYe",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Jackson",
+    "queHace": "Entrega una Task: 300 Gengar y 1 Shiny Gengar. Recompensa: 500K EXP y 2 Bubble Gum. · NPC de Tasks asociado a Gengar.",
+    "ubicacion": "Lavender, a la derecha del Centro Pokémon",
+    "imagen": "https://i.postimg.cc/XvMhFHs7/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Jaqueline",
+    "queHace": "NPC de Tasks asociado a Torkoal.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/e9oSags",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Jorge",
+    "queHace": "NPC de Tasks asociado a Absol.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/JvDgg2S",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Jully",
+    "queHace": "Vende muebles y utilidades relacionadas con Houses / TV Cam.",
+    "ubicacion": "Ubicación indicada en la guía de Jully; el texto actual no especifica la ciudad.",
+    "imagen": "",
+    "categoria": "Sistemas",
+    "pagina": "npc-jully.html"
+  },
+  {
+    "nombre": "Kaela",
+    "queHace": "NPC de Tasks asociado a Blaziken, Sceptile, Swampert. · Entrega una Task de Hazard: 10 Sh Sceptile, 10 Sh Blaziken, 10 Sh Swampert.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/7Tok0hP",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Kaue",
+    "queHace": "NPC de Tasks asociado a Grumpig, Spoink.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/iViOJtA",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Kevin",
+    "queHace": "NPC de Tasks asociado a Pelipper, Wingull.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/3uzfVdr",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Kyra",
+    "queHace": "NPC de Tasks asociado a Mimikyu.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/UvNX1DL",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Lara",
+    "queHace": "Entrega una Task: Derrotar 1 Shiny Pidgey y 1 Shiny Spearow. Recompensa: 30K EXP y 1 Bubble Gum. · NPC de Tasks asociado a Pidgey, Spearow.",
+    "ubicacion": "Saffron (salida norte/sur)",
+    "imagen": "https://i.postimg.cc/KYhbFr3w/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Larissa",
+    "queHace": "NPC de Tasks asociado a Gardevoir, Kirlia, Ralts.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/4qZv6j4",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Leah",
+    "queHace": "Entrega una Task: Derrotar 80 Raticate. Recompensa: 50K EXP. · NPC de Tasks asociado a Raticate.",
+    "ubicacion": "Saffron",
+    "imagen": "https://imgur.com/a/OAk89kY",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Leonardo",
+    "queHace": "NPC de Tasks asociado a Clamperl.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/7plXUBy",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Liam",
+    "queHace": "Entrega una Task: Derrotar 1 Shiny Rattata y 30 Rattata. Recompensa: 15K EXP y 1 Bubble Gum. · NPC de Tasks asociado a Rattata.",
+    "ubicacion": "Saffron, a la izquierda del Centro Pokémon",
+    "imagen": "https://i.postimg.cc/tRB9Px8n/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Lieutenant Alloy",
+    "queHace": "Combate semanal de Policía; cada victoria suma al progreso para Officer Jenny.",
+    "ubicacion": "Ruta semanal de Policías; la referencia visual conjunta muestra la localización.",
+    "imagen": "https://imgur.com/a/Fbmmqeh",
+    "categoria": "Combate",
+    "pagina": "police.html#oficiales"
+  },
+  {
+    "nombre": "Lily",
+    "queHace": "NPC de Tasks asociado a Cubone, Marowak.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/GEmLpCs",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Lucas",
+    "queHace": "Entrega una Task: 300 Dewgong y 1 Shiny Dewgong. Recompensa: 500K EXP y 2 Bubble Gum. · NPC de Tasks asociado a Dewgong.",
+    "ubicacion": "Isla de Hielo de Kanto, en el Shiny Dewgong Den",
+    "imagen": "https://i.postimg.cc/FKDR1Lxp/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Lucine",
+    "queHace": "Entrega una Task de Hazard: 8 Sh Linoone, 8 Sh Delcatty, 7 Sh Swellow, 7 Sh Kecleon.",
+    "ubicacion": "Hoenn — NPC de progresión de Hazard / Mega Dens.",
+    "imagen": "https://imgur.com/a/aLVehVK",
+    "categoria": "Hazard",
+    "pagina": "hazard.html"
+  },
+  {
+    "nombre": "Lyra",
+    "queHace": "NPC de Tasks asociado a Lunatone.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/ZNfrPlF",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Maera",
+    "queHace": "Entrega una Task de Hazard: 8 Sh Milotic, 8 Sh Huntail, 7 Sh Gorebyss, 7 Sh Relicanth.",
+    "ubicacion": "Hoenn — NPC de progresión de Hazard / Mega Dens.",
+    "imagen": "https://imgur.com/a/wVfbJ3e",
+    "categoria": "Hazard",
+    "pagina": "hazard.html"
+  },
+  {
+    "nombre": "Marcel",
+    "queHace": "Entrega una Task: 1500 Mr. Mime y 25 Shiny Mr. Mime. Recompensa: 1KK EXP y desbloquea el intercambio del item Shiny. · NPC de Tasks asociado a Mr. Mime.",
+    "ubicacion": "A la izquierda de Fuchsia, en el Safari",
+    "imagen": "https://i.postimg.cc/FsRxKygW/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Marcelo",
+    "queHace": "NPC de Tasks asociado a Masquerain, Surskit.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/7RyMS2g",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Mario",
+    "queHace": "NPC de Tasks asociado a Flygon, Trapinch, Vibrava.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/J2yH0M6",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Marissa",
+    "queHace": "Entrega una Task: 1500 Mantine y 25 Shiny Mantine. Recompensa: 1KK EXP y desbloquea el intercambio del item Shiny. · NPC de Tasks asociado a Mantine.",
+    "ubicacion": "Cerca de la Wildscape de Mantine, en Olivine City",
+    "imagen": "https://i.postimg.cc/FFGhs3BT/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Marshal Boulder",
+    "queHace": "Combate semanal de Policía; cada victoria suma al progreso para Officer Jenny.",
+    "ubicacion": "Ruta semanal de Policías; la referencia visual conjunta muestra la localización.",
+    "imagen": "https://imgur.com/a/Fbmmqeh",
+    "categoria": "Combate",
+    "pagina": "police.html#oficiales"
+  },
+  {
+    "nombre": "Mason",
+    "queHace": "NPC de Tasks asociado a Venusaur.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/2a1rF5l",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Matilda",
+    "queHace": "Entrega una Task: 1500 Kangaskhan y 25 Shiny Kangaskhan. Recompensa: 1KK EXP y desbloquea el intercambio del item Shiny. · NPC de Tasks asociado a Kangaskhan.",
+    "ubicacion": "A la izquierda de Fuchsia, en la Hunt de Kangaskhan",
+    "imagen": "https://i.postimg.cc/ydyTDnb5/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Maya",
+    "queHace": "Entrega una Task: 10 Kakuna y 10 Metapod. Recompensa: 20K EXP. · NPC de Tasks asociado a Kakuna, Metapod.",
+    "ubicacion": "Saffron (en el puente, cerca de la salida norte)",
+    "imagen": "https://i.postimg.cc/vZqnNT14/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Mia",
+    "queHace": "Entrega una Task: 300 Misdreavus y 1 Shiny Misdreavus. Recompensa: 500K EXP y 2 Bubble Gum. · NPC de Tasks asociado a Misdreavus.",
+    "ubicacion": "Lavender, al sur del Centro Pokémon",
+    "imagen": "https://i.postimg.cc/qRx9psXB/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Natalia",
+    "queHace": "NPC de Tasks asociado a Cacnea, Cacturne.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/CHRjs14",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Nelio",
+    "queHace": "NPC de Tasks asociado a Sealeo, Spheal, Walrein.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/1SDaMvq",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Nerida",
+    "queHace": "Entrega una Task de Hazard: 6 Sh Wailord, 6 Sh Whiscash, 6 Sh Crawdaunt, 6 Sh Luvdisk, 6 Sh Clamperl.",
+    "ubicacion": "Hoenn — NPC de progresión de Hazard / Mega Dens.",
+    "imagen": "https://imgur.com/a/xg5rMPJ",
+    "categoria": "Hazard",
+    "pagina": "hazard.html"
+  },
+  {
+    "nombre": "Nicole",
+    "queHace": "NPC de Tasks asociado a Breloom, Shroomish.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/s6WzxSe",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Nina",
+    "queHace": "Entrega una Task: 30 Weepinbell y 20 Gloom. Recompensa: 30K EXP. · NPC de Tasks asociado a Weepinbell.",
+    "ubicacion": "Cerulean, junto al Market",
+    "imagen": "https://i.postimg.cc/ncCwWb5h/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Nolan",
+    "queHace": "NPC de Tasks asociado a Tangela.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/nlNYZER",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Nyxen",
+    "queHace": "Entrega una Task de Hazard: 10 Sh Sableye, 10 Sh Banette, 10 Sh Dusclops.",
+    "ubicacion": "Hoenn — NPC de progresión de Hazard / Mega Dens.",
+    "imagen": "https://imgur.com/a/xSn4850",
+    "categoria": "Hazard",
+    "pagina": "hazard.html"
+  },
+  {
+    "nombre": "Octavio",
+    "queHace": "NPC de Tasks asociado a Slaking, Slakoth, Vigoroth.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/Rv0FwSX",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Officer Blaze",
+    "queHace": "Combate semanal de Policía; cada victoria suma al progreso para Officer Jenny.",
+    "ubicacion": "Ruta semanal de Policías; la referencia visual conjunta muestra la localización.",
+    "imagen": "https://imgur.com/a/Fbmmqeh",
+    "categoria": "Combate",
+    "pagina": "police.html#oficiales"
+  },
+  {
+    "nombre": "Officer Jenny",
+    "queHace": "NPC de progreso de Policías Semanales; requiere 130 victorias para su combate/recompensa.",
+    "ubicacion": "Ruta de Policías Semanales; consultar la sección de Officer Jenny.",
+    "imagen": "",
+    "categoria": "Combate",
+    "pagina": "police.html#jenny"
+  },
+  {
+    "nombre": "Officer Marina",
+    "queHace": "Combate semanal de Policía; cada victoria suma al progreso para Officer Jenny.",
+    "ubicacion": "Ruta semanal de Policías; la referencia visual conjunta muestra la localización.",
+    "imagen": "https://imgur.com/a/Fbmmqeh",
+    "categoria": "Combate",
+    "pagina": "police.html#oficiales"
+  },
+  {
+    "nombre": "Oliver",
+    "queHace": "Entrega una Task: 300 Charizard y 1 Shiny Charizard. Recompensa: 500K EXP y 2 Bubble Gum. · NPC de Tasks asociado a Charizard.",
+    "ubicacion": "Cinnabar, cerca del Centro Pokémon",
+    "imagen": "https://i.postimg.cc/HnGVCCz1/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Olivia",
+    "queHace": "NPC de Tasks asociado a Huntail.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/GvUNfvI",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Orlan",
+    "queHace": "Entrega una Task de Hazard: 15 Sh Pelipper, 15 Sh Altaria.",
+    "ubicacion": "Hoenn — NPC de progresión de Hazard / Mega Dens.",
+    "imagen": "https://imgur.com/a/Vb1w5mD",
+    "categoria": "Hazard",
+    "pagina": "hazard.html"
+  },
+  {
+    "nombre": "Osvaldo",
+    "queHace": "NPC de Tasks asociado a Altaria, Swablu.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/4BU3DIw",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Owen",
+    "queHace": "Entrega una Task: 1 Shiny Sandshrew, 1 Shiny Diglett, 50 Diglett y 50 Sandshrew. Recompensa: 50K y 1 Bubble Gum. · NPC de Tasks asociado a Diglett, Dugtrio, Sandshrew, Sandslash.",
+    "ubicacion": "Cerulean, salida sur de la ciudad",
+    "imagen": "https://i.postimg.cc/pLMp7SDj/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Patricia",
+    "queHace": "NPC de Tasks asociado a Nincada, Ninjask, Shedinja.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/E8qjeH8",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Penelope",
+    "queHace": "NPC de Tasks asociado a Meganium, Venusaur.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/uUDQMYp",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Penélope",
+    "queHace": "Entrega una Task: 150 Meganium, 1 Shiny Meganium, 150 Venusaur y 1 Shiny Venusaur. Recompensa: 500K EXP y 2 Bubble Gum.",
+    "ubicacion": "Saffron",
+    "imagen": "https://i.postimg.cc/jj2k4PyC/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Priscila",
+    "queHace": "NPC de Tasks asociado a Zangoose.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/UZYLkq1",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Professor Birch",
+    "queHace": "Forma parte de la continuación de la cadena de acceso a Hoenn.",
+    "ubicacion": "Hoenn; la ubicación exacta no está documentada en la guía actual.",
+    "imagen": "",
+    "categoria": "Quests",
+    "pagina": "quest-hoenn.html"
+  },
+  {
+    "nombre": "Professor Elm",
+    "queHace": "Continúa la cadena de acceso a Hoenn y entrega el segundo paquete.",
+    "ubicacion": "Laboratorio de New Bark Town.",
+    "imagen": "assets/guides/hoenn-elm.png",
+    "categoria": "Quests",
+    "pagina": "quest-hoenn.html"
+  },
+  {
+    "nombre": "Professor Oak",
+    "queHace": "Inicia la cadena de acceso a Hoenn y entrega un paquete para Professor Elm.",
+    "ubicacion": "Pallet Town.",
+    "imagen": "assets/guides/hoenn-oak.png",
+    "categoria": "Quests",
+    "pagina": "quest-hoenn.html"
+  },
+  {
+    "nombre": "Quezia",
+    "queHace": "NPC de Tasks asociado a Gorebyss.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/rPNCYPx",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Quill",
+    "queHace": "NPC de Tasks asociado a Qwilfish.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/fmnPze7",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Quirino",
+    "queHace": "NPC de Tasks asociado a Exploud, Loudred, Whismur.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/rGxGeVU",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Rafaela",
+    "queHace": "NPC de Tasks asociado a Hariyama, Makuhita.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/subt538",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Ranger Strike",
+    "queHace": "Combate semanal de Policía; cada victoria suma al progreso para Officer Jenny.",
+    "ubicacion": "Ruta semanal de Policías; la referencia visual conjunta muestra la localización.",
+    "imagen": "https://imgur.com/a/Fbmmqeh",
+    "categoria": "Combate",
+    "pagina": "police.html#oficiales"
+  },
+  {
+    "nombre": "Renato",
+    "queHace": "NPC de Tasks asociado a Seviper.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/8blMAEF",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Riley",
+    "queHace": "Entrega una Task: 1500 Tauros y 25 Shiny Tauros. Recompensa: 1KK EXP y desbloquea el intercambio del item Shiny. · NPC de Tasks asociado a Tauros.",
+    "ubicacion": "Safari, cerca de la Dungeon de Tauros",
+    "imagen": "https://i.postimg.cc/wTGQR1w6/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Roberto",
+    "queHace": "NPC de Tasks asociado a Relicanth.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/6rbv74w",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Rocket Blaze",
+    "queHace": "Combate semanal Rocket; cada victoria válida entrega tokens y suma al contador permanente para Giovanni.",
+    "ubicacion": "Ruta semanal de Rockets; la referencia visual conjunta muestra la localización.",
+    "imagen": "https://imgur.com/a/p3eK6yV",
+    "categoria": "Combate",
+    "pagina": "rocket.html#rockets"
+  },
+  {
+    "nombre": "Rocket Cipher",
+    "queHace": "Combate semanal Rocket; cada victoria válida entrega tokens y suma al contador permanente para Giovanni.",
+    "ubicacion": "Ruta semanal de Rockets; la referencia visual conjunta muestra la localización.",
+    "imagen": "https://imgur.com/a/p3eK6yV",
+    "categoria": "Combate",
+    "pagina": "rocket.html#rockets"
+  },
+  {
+    "nombre": "Rocket Eclipse",
+    "queHace": "Combate semanal Rocket; cada victoria válida entrega tokens y suma al contador permanente para Giovanni.",
+    "ubicacion": "Ruta semanal de Rockets; la referencia visual conjunta muestra la localización.",
+    "imagen": "https://imgur.com/a/p3eK6yV",
+    "categoria": "Combate",
+    "pagina": "rocket.html#rockets"
+  },
+  {
+    "nombre": "Rocket Frost",
+    "queHace": "Combate semanal Rocket; cada victoria válida entrega tokens y suma al contador permanente para Giovanni.",
+    "ubicacion": "Ruta semanal de Rockets; la referencia visual conjunta muestra la localización.",
+    "imagen": "https://imgur.com/a/p3eK6yV",
+    "categoria": "Combate",
+    "pagina": "rocket.html#rockets"
+  },
+  {
+    "nombre": "Rocket Mirage",
+    "queHace": "Combate semanal Rocket; cada victoria válida entrega tokens y suma al contador permanente para Giovanni.",
+    "ubicacion": "Ruta semanal de Rockets; la referencia visual conjunta muestra la localización.",
+    "imagen": "https://imgur.com/a/p3eK6yV",
+    "categoria": "Combate",
+    "pagina": "rocket.html#rockets"
+  },
+  {
+    "nombre": "Rocket Obsidian",
+    "queHace": "Combate semanal Rocket; cada victoria válida entrega tokens y suma al contador permanente para Giovanni.",
+    "ubicacion": "Ruta semanal de Rockets; la referencia visual conjunta muestra la localización.",
+    "imagen": "https://imgur.com/a/p3eK6yV",
+    "categoria": "Combate",
+    "pagina": "rocket.html#rockets"
+  },
+  {
+    "nombre": "Rocket Phoenix",
+    "queHace": "Combate semanal Rocket; cada victoria válida entrega tokens y suma al contador permanente para Giovanni.",
+    "ubicacion": "Ruta semanal de Rockets; la referencia visual conjunta muestra la localización.",
+    "imagen": "https://imgur.com/a/p3eK6yV",
+    "categoria": "Combate",
+    "pagina": "rocket.html#rockets"
+  },
+  {
+    "nombre": "Rocket Scythe",
+    "queHace": "Combate semanal Rocket; cada victoria válida entrega tokens y suma al contador permanente para Giovanni.",
+    "ubicacion": "Ruta semanal de Rockets; la referencia visual conjunta muestra la localización.",
+    "imagen": "https://imgur.com/a/p3eK6yV",
+    "categoria": "Combate",
+    "pagina": "rocket.html#rockets"
+  },
+  {
+    "nombre": "Rocket Shadow",
+    "queHace": "Combate semanal Rocket; cada victoria válida entrega tokens y suma al contador permanente para Giovanni.",
+    "ubicacion": "Ruta semanal de Rockets; la referencia visual conjunta muestra la localización.",
+    "imagen": "https://imgur.com/a/p3eK6yV",
+    "categoria": "Combate",
+    "pagina": "rocket.html#rockets"
+  },
+  {
+    "nombre": "Rocket Tempest",
+    "queHace": "Combate semanal Rocket; cada victoria válida entrega tokens y suma al contador permanente para Giovanni.",
+    "ubicacion": "Ruta semanal de Rockets; la referencia visual conjunta muestra la localización.",
+    "imagen": "https://imgur.com/a/p3eK6yV",
+    "categoria": "Combate",
+    "pagina": "rocket.html#rockets"
+  },
+  {
+    "nombre": "Rocket Thorn",
+    "queHace": "Combate semanal Rocket; cada victoria válida entrega tokens y suma al contador permanente para Giovanni.",
+    "ubicacion": "Ruta semanal de Rockets; la referencia visual conjunta muestra la localización.",
+    "imagen": "https://imgur.com/a/p3eK6yV",
+    "categoria": "Combate",
+    "pagina": "rocket.html#rockets"
+  },
+  {
+    "nombre": "Rocket Vortex",
+    "queHace": "Combate semanal Rocket; cada victoria válida entrega tokens y suma al contador permanente para Giovanni.",
+    "ubicacion": "Ruta semanal de Rockets; la referencia visual conjunta muestra la localización.",
+    "imagen": "https://imgur.com/a/p3eK6yV",
+    "categoria": "Combate",
+    "pagina": "rocket.html#rockets"
+  },
+  {
+    "nombre": "Rocket Zephyr",
+    "queHace": "Combate semanal Rocket; cada victoria válida entrega tokens y suma al contador permanente para Giovanni.",
+    "ubicacion": "Ruta semanal de Rockets; la referencia visual conjunta muestra la localización.",
+    "imagen": "https://imgur.com/a/p3eK6yV",
+    "categoria": "Combate",
+    "pagina": "rocket.html#rockets"
+  },
+  {
+    "nombre": "Rohgar",
+    "queHace": "Entrega una Task de Hazard: 6 Sh Mightyena, 6 Sh Zangooze, 6 Sh Seviper, 6 Sh Absol, 6 Sh Sharpedo.",
+    "ubicacion": "Hoenn — NPC de progresión de Hazard / Mega Dens.",
+    "imagen": "https://imgur.com/a/SJ6dfJN",
+    "categoria": "Hazard",
+    "pagina": "hazard.html"
+  },
+  {
+    "nombre": "Rowena",
+    "queHace": "NPC de Tasks asociado a Absol.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/3CUDkD2",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Scarlet",
+    "queHace": "Entrega una Task: 300 Dragonair y 1 Shiny Dragonair. Recompensa: 500K EXP y 2 Bubble Gum. · NPC de Tasks asociado a Dragonair.",
+    "ubicacion": "A la derecha de Mahogany City, en la entrada de la montaña",
+    "imagen": "https://i.postimg.cc/VNcMXnnc/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Sebastian",
+    "queHace": "Entrega una Task: 300 Clefable y 1 Shiny Clefable. Recompensa: 500K EXP y 2 Bubble Gum. · NPC de Tasks asociado a Clefable.",
+    "ubicacion": "Vermilion, cerca del barco",
+    "imagen": "https://i.postimg.cc/hvSRmyP7/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Selene",
+    "queHace": "Entrega una Task de Hazard: 5 Sh Gardevoir, 5 Sh Grumpig, 5 Sh Chimecho, 5 Sh Claydol, 5 Sh Lunatone, 5 Sh Solrock.",
+    "ubicacion": "Hoenn — NPC de progresión de Hazard / Mega Dens.",
+    "imagen": "https://imgur.com/a/IWLKYmI",
+    "categoria": "Hazard",
+    "pagina": "hazard.html"
+  },
+  {
+    "nombre": "Sergeant Volt",
+    "queHace": "Combate semanal de Policía; cada victoria suma al progreso para Officer Jenny.",
+    "ubicacion": "Ruta semanal de Policías; la referencia visual conjunta muestra la localización.",
+    "imagen": "https://imgur.com/a/Fbmmqeh",
+    "categoria": "Combate",
+    "pagina": "police.html#oficiales"
+  },
+  {
+    "nombre": "Sergio",
+    "queHace": "NPC de Tasks asociado a Seviper.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/xp2NokO",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Sonia",
+    "queHace": "NPC de Tasks asociado a Bagon, Salamence, Shelgon.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/aH6C5Aa",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Stella",
+    "queHace": "Entrega una Task: 30 Charmander, 50 Charmeleon y 1 Shiny Charmander. Recompensa: 50K y 1 Bubble Gum. · NPC de Tasks asociado a Charmander, Charmeleon.",
+    "ubicacion": "Cinnabar, frente al Market",
+    "imagen": "https://i.postimg.cc/kgQpYB3Q/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Talia",
+    "queHace": "Entrega una Task de Hazard: 8 Sh Breloom, 8 Sh Shiftry, 7 Sh Cacturne, 7 Sh Tropius.",
+    "ubicacion": "Hoenn — NPC de progresión de Hazard / Mega Dens.",
+    "imagen": "https://imgur.com/a/G9d2mFX",
+    "categoria": "Hazard",
+    "pagina": "hazard.html"
+  },
+  {
+    "nombre": "Thiago",
+    "queHace": "NPC de Tasks asociado a Lunatone, Solrock.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/tHVsIsX",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Tiago",
+    "queHace": "NPC de Tasks asociado a Luvdisc.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/TD4brVl",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Verdra",
+    "queHace": "Entrega una Task de Hazard: 15 Sh Roselia, 15 Sh Cradily.",
+    "ubicacion": "Hoenn — NPC de progresión de Hazard / Mega Dens.",
+    "imagen": "https://imgur.com/a/zvLFSgR",
+    "categoria": "Hazard",
+    "pagina": "hazard.html"
+  },
+  {
+    "nombre": "Vernaccio",
+    "queHace": "Entrega la quest de los cuatro baldes de pintura y recibe los baldes recuperados.",
+    "ubicacion": "Cianwood.",
+    "imagen": "assets/guides/vernaccio-inicio.png",
+    "categoria": "Quests",
+    "pagina": "quest-vernaccio.html"
+  },
+  {
+    "nombre": "Veska",
+    "queHace": "Entrega una Task de Hazard: 5 Sh Beautifly, 5 Sh Dustox, 4 Sh Masquerain, 4 Sh Ninjask, 4 Sh Volbeat, 4 Sh Ilumise, 4 Sh Shedinja.",
+    "ubicacion": "Hoenn — NPC de progresión de Hazard / Mega Dens.",
+    "imagen": "https://imgur.com/a/IEHYSjh",
+    "categoria": "Hazard",
+    "pagina": "hazard.html"
+  },
+  {
+    "nombre": "Vicente",
+    "queHace": "NPC de Tasks asociado a Barboach, Whiscash.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/3VwW2qZ",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Vikings",
+    "queHace": "NPC relacionado con la quest de Mewtwo Clones.",
+    "ubicacion": "Mandarin Island.",
+    "imagen": "assets/guides/mewtwo-vikings.png",
+    "categoria": "Quests",
+    "pagina": "quest-mewtwo-clones.html"
+  },
+  {
+    "nombre": "Vincent",
+    "queHace": "NPC de Tasks asociado a Tangela.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/DqsE5Ex",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Violet",
+    "queHace": "Entrega una Task: 300 Wigglytuff y 1 Shiny Wigglytuff. Recompensa: 500K EXP y 2 Bubble Gum. · NPC de Tasks asociado a Wigglytuff.",
+    "ubicacion": "Vermilion, al sur del Centro Pokémon",
+    "imagen": "https://i.postimg.cc/FKM9YVLj/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Voltrix",
+    "queHace": "Entrega una Task de Hazard: 30 Sh Manectric.",
+    "ubicacion": "Hoenn — NPC de progresión de Hazard / Mega Dens.",
+    "imagen": "https://imgur.com/a/UanfcaO",
+    "categoria": "Hazard",
+    "pagina": "hazard.html"
+  },
+  {
+    "nombre": "Wagner",
+    "queHace": "NPC de Tasks asociado a Sableye.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/pPbHeWc",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Wanda",
+    "queHace": "Entrega una Task: 1500 Wobbuffet y 25 Shiny Wobbuffet. Recompensa: 1KK EXP y desbloquea el intercambio del item Shiny. · NPC de Tasks asociado a Wobbuffet.",
+    "ubicacion": "Al sur de Goldenrod City, en el -1 de la Hunt de Girafarig",
+    "imagen": "https://i.postimg.cc/hjL29Kf2/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Warden Shade",
+    "queHace": "Combate semanal de Policía; cada victoria suma al progreso para Officer Jenny.",
+    "ubicacion": "Ruta semanal de Policías; la referencia visual conjunta muestra la localización.",
+    "imagen": "https://imgur.com/a/Fbmmqeh",
+    "categoria": "Combate",
+    "pagina": "police.html#oficiales"
+  },
+  {
+    "nombre": "Wendy",
+    "queHace": "Entrega una Task: 1500 Misdreavus y 25 Shiny Misdreavus. Recompensa: 1KK EXP y desbloquea el intercambio del item Shiny. · NPC de Tasks asociado a Misdreavus.",
+    "ubicacion": "Al norte de Violet City, al sur de la Hunt de Murkrow",
+    "imagen": "https://i.postimg.cc/nV1drc8z/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Xenia",
+    "queHace": "NPC de Tasks asociado a Mawile.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/SJjIR88",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Xisto",
+    "queHace": "NPC de Tasks asociado a Corphish, Crawdaunt.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/8N0wTGr",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Yasmin",
+    "queHace": "NPC de Tasks asociado a Baltoy, Claydol.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/91iZYub",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Ygor",
+    "queHace": "NPC de Tasks asociado a Aggron, Aron, Lairon.",
+    "ubicacion": "Ubicación exacta no documentada en texto.",
+    "imagen": "",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Zeca",
+    "queHace": "NPC de Tasks asociado a Cradily.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/dhBNsP3",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Zoe",
+    "queHace": "Entrega una Task: 50 Arbok y 1 Shiny Arbok. Recompensa: 50K y 1 Bubble Gum. · NPC de Tasks asociado a Arbok.",
+    "ubicacion": "Pantano venenoso, a la izquierda de Cerulean City",
+    "imagen": "https://i.postimg.cc/sxFkyb3F/image.png",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Zuleica",
+    "queHace": "NPC de Tasks asociado a Medicham, Meditite.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/0irrv1r",
+    "categoria": "Tasks",
+    "pagina": "tasks.html"
+  }
+]

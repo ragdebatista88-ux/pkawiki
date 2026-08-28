@@ -1,17 +1,4 @@
 [
-    {
-    "fecha": "27 de agosto de 2026",
-    "secciones": [
-      {
-        "titulo": "Cambios generales",
-        "cambios": [
-          "Se agregaron notificaciones al comprar o vender objetos en el Market.",
-          "Se agregaron notificaciones al iniciar, perder o terminar una batalla contra un NPC.",
-          "Se agregaron notificaciones al entrar en Dungeons."
-        ]
-      }
-    ]
-  },
   {
     "fecha": "25 de agosto de 2026",
     "secciones": [

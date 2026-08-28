@@ -1,1 +1,78 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Wiki comunitaria no oficial en español de PokeAlliance: Pokédex, hunts, drops, tasks, dungeons, sistemas y guías."><title>Tasks | PKA No Oficial Wiki</title><link rel="stylesheet" href="assets/styles.css"></head><body data-page="tasks" data-matrix=""><header class="topbar"><div class="shell nav"><a class="brand" href="index.html"><span class="brandmark">PKA</span><span>PKA No Oficial Wiki</span></a><nav class="navlinks"><a href="index.html">Inicio</a><a href="pokedex.html">Pokédex</a><a href="localizaciones.html">Localizaciones</a><a href="tasks.html">Tasks</a><a href="dungeons.html">Dungeons</a><a href="guias.html">Guías</a><a href="sistemas.html">Sistemas</a><a href="changelogs.html">Changelogs</a><a href="faq.html">FAQ</a></nav><button class="menuBtn" aria-label="Abrir menú">☰</button></div></header><main><section class="pageHead"><div class="shell"><span class="eyebrow">Base de datos</span><h1>Tasks</h1><p>NPC y localizaciones asociadas a las tasks de cada Pokémon. También puedes consultar las Linked Tasks.</p></div></section><section class="section"><div class="shell"><div id="content"></div></div></section></main><footer class="footer"><div class="shell footerRow"><div><b>PKA No Oficial Wiki</b><br>Proyecto comunitario no afiliado ni respaldado oficialmente por PokeAlliance.</div><div>Datos base: Pokedex Pública PokeAlliance (By Mts Vitor).<br>Adaptación y organización en español.</div></div></footer><script src="data/wiki-data.js"></script><script src="assets/app.js"></script></body></html>
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Tasks del mundo de PokeAlliance con filtros por dificultad, ubicación y Pokémon.">
+<title>Tasks | PKA No Oficial Wiki</title>
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="stylesheet" href="assets/tasks.css">
+</head>
+<body data-page="tasks-world" data-matrix="">
+<header class="topbar"><div class="shell nav"><a class="brand" href="index.html"><span class="brandmark">PKA</span><span>PKA No Oficial Wiki</span></a><nav class="navlinks"><a href="index.html">Inicio</a><a href="pokedex.html">Pokédex</a><a href="localizaciones.html">Localizaciones</a><a href="tasks.html">Tasks</a><a href="dungeons.html">Dungeons</a><a href="guias.html">Guías</a><a href="sistemas.html">Sistemas</a><a href="changelogs.html">Changelogs</a><a href="faq.html">FAQ</a></nav><button class="menuBtn" aria-label="Abrir menú">☰</button></div></header>
+<main>
+<section class="pageHead"><div class="shell"><span class="eyebrow">Tasks del mundo</span><h1>Tasks</h1><p>Consulta los NPC, su ubicación, los Pokémon que debes derrotar, la dificultad y las recompensas.</p><div class="tasksHeroMeta"><span class="taskMetaPill">43 tasks registradas</span><span class="taskMetaPill">Los filtros funcionan en conjunto</span><a class="taskMetaPill" href="linked-tasks.html">Ver Linked Tasks →</a></div></div></section>
+<section class="section"><div class="shell">
+<div class="taskFilters">
+  <div class="taskFilter taskFilterSearch"><label for="taskSearch">Buscar</label><input id="taskSearch" type="search" placeholder="NPC, ciudad, Pokémon o recompensa…" autocomplete="off"></div>
+  <div class="taskFilter"><label for="difficultyFilter">Dificultad</label><select id="difficultyFilter"><option value="">Todas</option></select></div>
+  <div class="taskFilter"><label for="locationFilter">Ubicación</label><select id="locationFilter"><option value="">Todas</option></select></div>
+  <div class="taskFilter"><label for="pokemonFilter">Pokémon</label><select id="pokemonFilter"><option value="">Todos</option></select></div>
+  <button id="clearTaskFilters" class="taskClearBtn" type="button">Limpiar filtros</button>
+</div>
+<div class="taskResultBar"><strong id="taskCount">0 Tasks</strong><span>Los sprites Shiny se muestran con su variante correspondiente.</span></div>
+<div class="taskTableWrap">
+<table class="taskTable">
+<thead><tr><th>NPC</th><th>Ubicación</th><th>Qué pide matar</th><th>Dificultad</th><th>Recompensa</th><th>Ubicación visual</th></tr></thead>
+<tbody id="taskRows"></tbody>
+</table>
+<div id="taskEmpty" class="taskEmpty" hidden>No hay Tasks que coincidan con los filtros seleccionados.</div>
+</div>
+<div class="taskSourceNote">La task de Leah aparece como una incorporación posterior en la fuente y no viene asociada a una de las cuatro categorías originales, por eso se muestra como “Adicional”.</div>
+</div></section>
+</main>
+<footer class="footer"><div class="shell footerRow"><div><b>PKA No Oficial Wiki</b><br>Proyecto comunitario no afiliado ni respaldado oficialmente por PokeAlliance.</div><div>Contenido reorganizado y adaptado al español.</div></div></footer>
+<script src="data/wiki-data.js"></script>
+<script src="assets/app.js"></script>
+<script>
+(async()=>{
+  const D=await(await fetch('data/tasks-table.json',{cache:'no-store'})).json();
+  const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const N=s=>String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+  const U=a=>[...new Set(a.filter(Boolean))].sort((a,b)=>String(a).localeCompare(String(b),'es'));
+  const q=document.querySelector('#taskSearch'),df=document.querySelector('#difficultyFilter'),lf=document.querySelector('#locationFilter'),pf=document.querySelector('#pokemonFilter'),tb=document.querySelector('#taskRows');
+
+  function targets(text){
+    const out=[];
+    const re=/(\d+)\s+(Shiny\s+)?([A-ZÁÉÍÓÚÑ][A-Za-zÁÉÍÓÚÑáéíóúñ.'’♀♂-]*)/g;
+    let m;
+    while((m=re.exec(String(text)))) out.push({qty:m[1],shiny:!!m[2],name:m[3]});
+    return out;
+  }
+  function targetHtml(text){
+    const arr=targets(text);
+    if(!arr.length) return `<span>${E(text)}</span>`;
+    return `<div class="taskPokemonList">${arr.map(p=>{
+      const full=(p.shiny?'Shiny ':'')+p.name;
+      const src=typeof pokemonSprite==='function'?pokemonSprite(full):'';
+      return `<span class="taskPokemonChip ${p.shiny?'isShiny':''}" title="${E(p.qty+' '+full)}">${src?`<img class="taskPokemonSprite" src="${E(src)}" alt="${E(full)}" loading="lazy" onerror="this.style.display='none'">`:''}<span class="taskPokemonQty">${E(p.qty)}×</span><span class="taskPokemonName">${p.shiny?'<b>Shiny</b> ':''}${E(p.name)}</span></span>`;
+    }).join('')}</div>`;
+  }
+
+  U(D.map(x=>x.dificultad)).forEach(x=>df.add(new Option(x,x)));
+  U(D.map(x=>x.ubicacion)).forEach(x=>lf.add(new Option(x,x)));
+  const pokemonNames=U(D.flatMap(x=>targets(x.task).map(p=>p.name)));
+  pokemonNames.forEach(x=>pf.add(new Option(x,x)));
+
+  function render(){
+    const a=D.filter(x=>(!q.value||N([x.npc,x.ubicacion,x.task,x.recompensa,x.dificultad].join(' ')).includes(N(q.value)))&&(!df.value||x.dificultad===df.value)&&(!lf.value||x.ubicacion===lf.value)&&(!pf.value||targets(x.task).some(p=>N(p.name)===N(pf.value))));
+    document.querySelector('#taskCount').textContent=a.length+' '+(a.length===1?'Task':'Tasks');
+    document.querySelector('#taskEmpty').hidden=!!a.length;
+    tb.innerHTML=a.map(x=>`<tr><td data-label="NPC"><strong>${E(x.npc)}</strong></td><td data-label="Ubicación">${E(x.ubicacion)}</td><td data-label="Qué pide matar" class="taskTarget">${targetHtml(x.task)}</td><td data-label="Dificultad"><span class="taskDifficulty">${E(x.dificultad)}</span></td><td data-label="Recompensa"><strong>${E(x.recompensa)}</strong></td><td data-label="Ubicación visual">${x.imagen?`<a class="taskMapBtn" href="${E(x.imagen)}" target="_blank" rel="noopener">Ver imagen ↗</a>`:'—'}</td></tr>`).join('');
+  }
+  [q,df,lf,pf].forEach(e=>e.addEventListener(e===q?'input':'change',render));
+  document.querySelector('#clearTaskFilters').onclick=()=>{q.value=df.value=lf.value=pf.value='';render()};
+  render();
+})().catch(err=>{console.error(err);const e=document.querySelector('#taskEmpty');if(e){e.hidden=false;e.textContent='No se pudieron cargar las Tasks.'}});
+</script>
+</body></html>

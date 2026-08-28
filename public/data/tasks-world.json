@@ -1,0 +1,338 @@
+[
+  {
+    "categoria": "Fáciles",
+    "id": "easy",
+    "resumen": "6 tasks",
+    "tasks": [
+      {
+        "npc": "Elena",
+        "ubicacion": "Saffron",
+        "task": "10 Weedle y 10 Caterpie",
+        "recompensa": "10K EXP",
+        "imagen": "https://i.postimg.cc/9QFTbZf3/image.png"
+      },
+      {
+        "npc": "Maya",
+        "ubicacion": "Saffron (en el puente, cerca de la salida norte)",
+        "task": "10 Kakuna y 10 Metapod",
+        "recompensa": "20K EXP",
+        "imagen": "https://i.postimg.cc/vZqnNT14/image.png"
+      },
+      {
+        "npc": "Aaron",
+        "ubicacion": "Bosque entre Saffron y Cerulean (cerca del Shiny Magnemite Den)",
+        "task": "20 Magnemite y 40 Voltorb",
+        "recompensa": "30K EXP",
+        "imagen": "https://i.postimg.cc/28MXR9RF/image.png"
+      },
+      {
+        "npc": "Nina",
+        "ubicacion": "Cerulean, junto al Market",
+        "task": "30 Weepinbell y 20 Gloom",
+        "recompensa": "30K EXP",
+        "imagen": "https://i.postimg.cc/ncCwWb5h/image.png"
+      },
+      {
+        "npc": "Liam",
+        "ubicacion": "Saffron, a la izquierda del Centro Pokémon",
+        "task": "Derrotar 1 Shiny Rattata y 30 Rattata",
+        "recompensa": "15K EXP y 1 Bubble Gum",
+        "imagen": "https://i.postimg.cc/tRB9Px8n/image.png"
+      },
+      {
+        "npc": "Lara",
+        "ubicacion": "Saffron (salida norte/sur)",
+        "task": "Derrotar 1 Shiny Pidgey y 1 Shiny Spearow",
+        "recompensa": "30K EXP y 1 Bubble Gum",
+        "imagen": "https://i.postimg.cc/KYhbFr3w/image.png"
+      }
+    ]
+  },
+  {
+    "categoria": "Intermedias",
+    "id": "medium",
+    "resumen": "4 tasks",
+    "tasks": [
+      {
+        "npc": "Owen",
+        "ubicacion": "Cerulean, salida sur de la ciudad",
+        "task": "1 Shiny Sandshrew, 1 Shiny Diglett, 50 Diglett y 50 Sandshrew",
+        "recompensa": "50K y 1 Bubble Gum",
+        "imagen": "https://i.postimg.cc/pLMp7SDj/image.png"
+      },
+      {
+        "npc": "Stella",
+        "ubicacion": "Cinnabar, frente al Market",
+        "task": "30 Charmander, 50 Charmeleon y 1 Shiny Charmander",
+        "recompensa": "50K y 1 Bubble Gum",
+        "imagen": "https://i.postimg.cc/kgQpYB3Q/image.png"
+      },
+      {
+        "npc": "Connor",
+        "ubicacion": "Subterráneo del pantano venenoso, a la izquierda de Cerulean City",
+        "task": "100 Muk",
+        "recompensa": "50K y 1 Bubble Gum",
+        "imagen": "https://i.postimg.cc/YSZVfTG4/image.png"
+      },
+      {
+        "npc": "Zoe",
+        "ubicacion": "Pantano venenoso, a la izquierda de Cerulean City",
+        "task": "50 Arbok y 1 Shiny Arbok",
+        "recompensa": "50K y 1 Bubble Gum",
+        "imagen": "https://i.postimg.cc/sxFkyb3F/image.png"
+      }
+    ]
+  },
+  {
+    "categoria": "Avanzadas",
+    "id": "advanced",
+    "resumen": "19 tasks",
+    "tasks": [
+      {
+        "npc": "Henry",
+        "ubicacion": "Al norte de Olivine, en el bosque",
+        "task": "300 Miltank y 1 Shiny Miltank",
+        "recompensa": "500K EXP y 2 Bubble Gum",
+        "imagen": "https://i.postimg.cc/xTKrXvP2/image.png"
+      },
+      {
+        "npc": "Penélope",
+        "ubicacion": "Saffron",
+        "task": "150 Meganium, 1 Shiny Meganium, 150 Venusaur y 1 Shiny Venusaur",
+        "recompensa": "500K EXP y 2 Bubble Gum",
+        "imagen": "https://i.postimg.cc/jj2k4PyC/image.png"
+      },
+      {
+        "npc": "Jackson",
+        "ubicacion": "Lavender, a la derecha del Centro Pokémon",
+        "task": "300 Gengar y 1 Shiny Gengar",
+        "recompensa": "500K EXP y 2 Bubble Gum",
+        "imagen": "https://i.postimg.cc/XvMhFHs7/image.png"
+      },
+      {
+        "npc": "Mia",
+        "ubicacion": "Lavender, al sur del Centro Pokémon",
+        "task": "300 Misdreavus y 1 Shiny Misdreavus",
+        "recompensa": "500K EXP y 2 Bubble Gum",
+        "imagen": "https://i.postimg.cc/qRx9psXB/image.png"
+      },
+      {
+        "npc": "Sebastian",
+        "ubicacion": "Vermilion, cerca del barco",
+        "task": "300 Clefable y 1 Shiny Clefable",
+        "recompensa": "500K EXP y 2 Bubble Gum",
+        "imagen": "https://i.postimg.cc/hvSRmyP7/image.png"
+      },
+      {
+        "npc": "Autumn",
+        "ubicacion": "Vermilion, cerca del barco",
+        "task": "300 Skarmory y 1 Shiny Skarmory",
+        "recompensa": "500K EXP y 2 Bubble Gum",
+        "imagen": "https://i.postimg.cc/MK6zfTvr/image.png"
+      },
+      {
+        "npc": "Violet",
+        "ubicacion": "Vermilion, al sur del Centro Pokémon",
+        "task": "300 Wigglytuff y 1 Shiny Wigglytuff",
+        "recompensa": "500K EXP y 2 Bubble Gum",
+        "imagen": "https://i.postimg.cc/FKM9YVLj/image.png"
+      },
+      {
+        "npc": "Caleb",
+        "ubicacion": "Viridian, junto al Centro Pokémon",
+        "task": "300 Nidoking y 1 Shiny Nidoking",
+        "recompensa": "500K EXP y 2 Bubble Gum",
+        "imagen": "https://i.postimg.cc/9QBZB2v0/image.png"
+      },
+      {
+        "npc": "Elijah",
+        "ubicacion": "Viridian, arriba del Market",
+        "task": "300 Nidoqueen y 1 Shiny Nidoqueen",
+        "recompensa": "500K EXP y 2 Bubble Gum",
+        "imagen": "https://i.postimg.cc/SNfJBrVt/image.png"
+      },
+      {
+        "npc": "Bert",
+        "ubicacion": "Bosque de Viridian",
+        "task": "300 Charizard, 300 Venusaur y 300 Blastoise",
+        "recompensa": "500K EXP y 2 Bubble Gum",
+        "imagen": "https://i.postimg.cc/wjW3vjCX/image.png"
+      },
+      {
+        "npc": "Eva",
+        "ubicacion": "Shiny Totodile Den",
+        "task": "300 Blastoise y 1 Shiny Blastoise",
+        "recompensa": "500K EXP y 2 Bubble Gum",
+        "imagen": "https://i.postimg.cc/DZGNC5Lx/image.png"
+      },
+      {
+        "npc": "Grayson",
+        "ubicacion": "Cinnabar, cerca del Centro Pokémon",
+        "task": "300 Houndoom y 1 Shiny Houndoom",
+        "recompensa": "500K EXP y 2 Bubble Gum",
+        "imagen": "https://i.postimg.cc/05mz0b5k/image.png"
+      },
+      {
+        "npc": "Oliver",
+        "ubicacion": "Cinnabar, cerca del Centro Pokémon",
+        "task": "300 Charizard y 1 Shiny Charizard",
+        "recompensa": "500K EXP y 2 Bubble Gum",
+        "imagen": "https://i.postimg.cc/HnGVCCz1/image.png"
+      },
+      {
+        "npc": "Chloe",
+        "ubicacion": "Cinnabar, a la izquierda del Centro Pokémon",
+        "task": "300 Arcanine y 1 Shiny Arcanine",
+        "recompensa": "500K EXP y 2 Bubble Gum",
+        "imagen": "https://i.postimg.cc/FKRfypz8/image.png"
+      },
+      {
+        "npc": "Aurora",
+        "ubicacion": "Isla de Hielo de Kanto, cerca del Shiny Seel Den",
+        "task": "300 Cloyster y 1 Shiny Cloyster",
+        "recompensa": "500K EXP y 2 Bubble Gum",
+        "imagen": "https://i.postimg.cc/44rzXDyd/image.png"
+      },
+      {
+        "npc": "Benjamin",
+        "ubicacion": "Isla de Hielo de Kanto, a la derecha del Shiny Lapras Den",
+        "task": "300 Piloswine y 1 Shiny Piloswine",
+        "recompensa": "500K EXP y 2 Bubble Gum",
+        "imagen": "https://i.postimg.cc/vmNtY9RF/image.png"
+      },
+      {
+        "npc": "Lucas",
+        "ubicacion": "Isla de Hielo de Kanto, en el Shiny Dewgong Den",
+        "task": "300 Dewgong y 1 Shiny Dewgong",
+        "recompensa": "500K EXP y 2 Bubble Gum",
+        "imagen": "https://i.postimg.cc/FKDR1Lxp/image.png"
+      },
+      {
+        "npc": "Scarlet",
+        "ubicacion": "A la derecha de Mahogany City, en la entrada de la montaña",
+        "task": "300 Dragonair y 1 Shiny Dragonair",
+        "recompensa": "500K EXP y 2 Bubble Gum",
+        "imagen": "https://i.postimg.cc/VNcMXnnc/image.png"
+      },
+      {
+        "npc": "Isaac",
+        "ubicacion": "Isla de Hielo de Kanto, cerca del Shiny Dratini Den",
+        "task": "300 Alakazam y 1 Shiny Alakazam",
+        "recompensa": "500K EXP y 2 Bubble Gum",
+        "imagen": "https://i.postimg.cc/VNGCpT2z/image.png"
+      }
+    ]
+  },
+  {
+    "categoria": "Épicas",
+    "id": "epic",
+    "resumen": "13 tasks",
+    "tasks": [
+      {
+        "npc": "Doris",
+        "ubicacion": "A la izquierda de Cerulean, en el bosque",
+        "task": "1500 Snorlax y 25 Shiny Snorlax",
+        "recompensa": "1KK EXP y desbloquea el intercambio del item Shiny",
+        "imagen": "https://i.postimg.cc/Nj276QnR/image.png"
+      },
+      {
+        "npc": "Riley",
+        "ubicacion": "Safari, cerca de la Dungeon de Tauros",
+        "task": "1500 Tauros y 25 Shiny Tauros",
+        "recompensa": "1KK EXP y desbloquea el intercambio del item Shiny",
+        "imagen": "https://i.postimg.cc/wTGQR1w6/image.png"
+      },
+      {
+        "npc": "Marcel",
+        "ubicacion": "A la izquierda de Fuchsia, en el Safari",
+        "task": "1500 Mr. Mime y 25 Shiny Mr. Mime",
+        "recompensa": "1KK EXP y desbloquea el intercambio del item Shiny",
+        "imagen": "https://i.postimg.cc/FsRxKygW/image.png"
+      },
+      {
+        "npc": "Dexter",
+        "ubicacion": "A la izquierda de Fuchsia, en la Hunt de Pinsir",
+        "task": "1500 Pinsir y 25 Shiny Pinsir",
+        "recompensa": "1KK EXP y desbloquea el intercambio del item Shiny",
+        "imagen": "https://i.postimg.cc/7PXVDs7J/image.png"
+      },
+      {
+        "npc": "Blade",
+        "ubicacion": "A la izquierda de Fuchsia, en el -1 de la Hunt de Pinsir",
+        "task": "1500 Scyther y 25 Shiny Scyther",
+        "recompensa": "1KK EXP y desbloquea el intercambio del item Shiny",
+        "imagen": "https://i.postimg.cc/D0fPLLVz/image.png"
+      },
+      {
+        "npc": "Matilda",
+        "ubicacion": "A la izquierda de Fuchsia, en la Hunt de Kangaskhan",
+        "task": "1500 Kangaskhan y 25 Shiny Kangaskhan",
+        "recompensa": "1KK EXP y desbloquea el intercambio del item Shiny",
+        "imagen": "https://i.postimg.cc/ydyTDnb5/image.png"
+      },
+      {
+        "npc": "Camila",
+        "ubicacion": "A la derecha de Fuchsia, en la Hunt de Farfetch'd",
+        "task": "1500 Farfetch'd y 25 Shiny Farfetch'd",
+        "recompensa": "1KK EXP y desbloquea el intercambio del item Shiny",
+        "imagen": "https://i.postimg.cc/PqZyjdzd/image.png"
+      },
+      {
+        "npc": "Coral",
+        "ubicacion": "Al sur de Fuchsia, cerca de la Dungeon de Lapras",
+        "task": "1500 Lapras y 25 Shiny Lapras",
+        "recompensa": "1KK EXP y desbloquea el intercambio del item Shiny",
+        "imagen": "https://i.postimg.cc/TYYtDMGc/image.png"
+      },
+      {
+        "npc": "Wendy",
+        "ubicacion": "Al norte de Violet City, al sur de la Hunt de Murkrow",
+        "task": "1500 Misdreavus y 25 Shiny Misdreavus",
+        "recompensa": "1KK EXP y desbloquea el intercambio del item Shiny",
+        "imagen": "https://i.postimg.cc/nV1drc8z/image.png"
+      },
+      {
+        "npc": "Wanda",
+        "ubicacion": "Al sur de Goldenrod City, en el -1 de la Hunt de Girafarig",
+        "task": "1500 Wobbuffet y 25 Shiny Wobbuffet",
+        "recompensa": "1KK EXP y desbloquea el intercambio del item Shiny",
+        "imagen": "https://i.postimg.cc/hjL29Kf2/image.png"
+      },
+      {
+        "npc": "Blaze",
+        "ubicacion": "A la derecha de Blackthorn City, en la Hunt de Skarmory",
+        "task": "1500 Skarmory y 25 Shiny Skarmory",
+        "recompensa": "1KK EXP y desbloquea el intercambio del item Shiny",
+        "imagen": "https://i.postimg.cc/3xfVRrvp/image.png"
+      },
+      {
+        "npc": "Daisy",
+        "ubicacion": "Al norte de Olivine, en MooMoo Farm",
+        "task": "1500 Miltank y 25 Shiny Miltank",
+        "recompensa": "1KK EXP y desbloquea el intercambio del item Shiny",
+        "imagen": "https://i.postimg.cc/g2SZ8ZYM/image.png"
+      },
+      {
+        "npc": "Marissa",
+        "ubicacion": "Cerca de la Wildscape de Mantine, en Olivine City",
+        "task": "1500 Mantine y 25 Shiny Mantine",
+        "recompensa": "1KK EXP y desbloquea el intercambio del item Shiny",
+        "imagen": "https://i.postimg.cc/FFGhs3BT/image.png"
+      }
+    ]
+  },
+  {
+    "categoria": "Adicional",
+    "id": "extra",
+    "resumen": "1 task",
+    "tasks": [
+      {
+        "npc": "Leah",
+        "ubicacion": "Saffron",
+        "task": "Derrotar 80 Raticate",
+        "recompensa": "50K EXP",
+        "imagen": null
+      }
+    ]
+  }
+]

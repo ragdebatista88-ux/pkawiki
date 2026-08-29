@@ -78,7 +78,7 @@ function enhancePokemonMentions(root=document.querySelector('main')){
   if(!names.length)return;
   const escaped=names.map(n=>n.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'));
   const rx=new RegExp('(^|[^A-Za-zÀ-ÿ0-9])('+escaped.join('|')+')(?=$|[^A-Za-zÀ-ÿ0-9])','gi');
-  const skip='SCRIPT,STYLE,NOSCRIPT,TEXTAREA,INPUT,SELECT,OPTION,CODE,PRE,.pokeMention,.pokeCell,.visualPokemon,.sourcePokemon,.dexCard,.rotationPokeName,.pokemonHeadingMeta,.tierPokeCell,.taskPokemonChip,.pokemonTitle,.pokeAvatar';
+  const skip='SCRIPT,STYLE,NOSCRIPT,TEXTAREA,INPUT,SELECT,OPTION,CODE,PRE,.pokeMention,.pokeCell,.visualPokemon,.sourcePokemon,.dexCard,.rotationPokeName,.pokemonHeadingMeta,.tierPokeCell,.taskPokemonChip,.weeklyPoke,.pokemonTitle,.pokeAvatar';
   const canonical=new Map(names.map(n=>[n.toLowerCase(),n]));
   function processNode(node){
     if(node.nodeType===3){

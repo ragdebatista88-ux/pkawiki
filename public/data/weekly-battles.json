@@ -1,0 +1,761 @@
+{
+  "rocket": [
+    {
+      "nombre": "Shadow",
+      "equipo": [
+        {
+          "pokemon": "Feraligatr",
+          "recomendacion": "Shiny Raichu"
+        },
+        {
+          "pokemon": "Shiny Gengar",
+          "recomendacion": "Shiny Sandslash"
+        },
+        {
+          "pokemon": "Alakazam",
+          "recomendacion": "Scizor"
+        },
+        {
+          "pokemon": "Shiny Crobat",
+          "recomendacion": "Shiny Golem"
+        },
+        {
+          "pokemon": "Muk",
+          "recomendacion": "Shiny Marowak"
+        },
+        {
+          "pokemon": "Houndoom",
+          "recomendacion": "Shiny Starmie"
+        }
+      ]
+    },
+    {
+      "nombre": "Frost",
+      "equipo": [
+        {
+          "pokemon": "Misdreavus",
+          "recomendacion": "Shiny Persian"
+        },
+        {
+          "pokemon": "Magcargo",
+          "recomendacion": "Shiny Starmie"
+        },
+        {
+          "pokemon": "Hypno",
+          "recomendacion": "Scizor"
+        },
+        {
+          "pokemon": "Gligar",
+          "recomendacion": "Shiny Jynx"
+        },
+        {
+          "pokemon": "Houndour",
+          "recomendacion": "Shiny Hitmontop"
+        },
+        {
+          "pokemon": "Murkrow",
+          "recomendacion": "Shiny Golem"
+        }
+      ]
+    },
+    {
+      "nombre": "Thorn",
+      "equipo": [
+        {
+          "pokemon": "Shiny Arbok",
+          "recomendacion": "Shiny Sandslash"
+        },
+        {
+          "pokemon": "Shiny Golbat",
+          "recomendacion": "Shiny Golem"
+        },
+        {
+          "pokemon": "Shiny Hypno",
+          "recomendacion": "Scizor"
+        },
+        {
+          "pokemon": "Shiny Haunter",
+          "recomendacion": "Shiny Persian"
+        },
+        {
+          "pokemon": "Shiny Murkrow",
+          "recomendacion": "Shiny Jynx"
+        },
+        {
+          "pokemon": "Houndoom",
+          "recomendacion": "Shiny Starmie"
+        }
+      ]
+    },
+    {
+      "nombre": "Cipher",
+      "equipo": [
+        {
+          "pokemon": "Feraligatr",
+          "recomendacion": "Shiny Raichu"
+        },
+        {
+          "pokemon": "Shiny Persian",
+          "recomendacion": "Shiny Hitmontop"
+        },
+        {
+          "pokemon": "Venusaur",
+          "recomendacion": "Shiny Pidgeot"
+        },
+        {
+          "pokemon": "Electabuzz",
+          "recomendacion": "Shiny Sandslash"
+        },
+        {
+          "pokemon": "Typhlosion",
+          "recomendacion": "Shiny Starmie"
+        },
+        {
+          "pokemon": "Meganium",
+          "recomendacion": "Shiny Arcanine"
+        }
+      ]
+    },
+    {
+      "nombre": "Phoenix",
+      "equipo": [
+        {
+          "pokemon": "Charizard",
+          "recomendacion": "Shiny Golem"
+        },
+        {
+          "pokemon": "Shiny Blastoise",
+          "recomendacion": "Shiny Venusaur"
+        },
+        {
+          "pokemon": "Venusaur",
+          "recomendacion": "Shiny Pidgeot"
+        },
+        {
+          "pokemon": "Shiny Electrode",
+          "recomendacion": "Shiny Sandslash"
+        },
+        {
+          "pokemon": "Shiny Magneton",
+          "recomendacion": "Shiny Arcanine"
+        },
+        {
+          "pokemon": "Blastoise",
+          "recomendacion": "Shiny Raichu"
+        }
+      ]
+    },
+    {
+      "nombre": "Scythe",
+      "equipo": [
+        {
+          "pokemon": "Scyther",
+          "recomendacion": "Shiny Arcanine"
+        },
+        {
+          "pokemon": "Shiny Ampharos",
+          "recomendacion": "Shiny Golem"
+        },
+        {
+          "pokemon": "Shiny Raichu",
+          "recomendacion": "Shiny Sandslash"
+        },
+        {
+          "pokemon": "Nidoqueen",
+          "recomendacion": "Shiny Jynx"
+        },
+        {
+          "pokemon": "Arcanine",
+          "recomendacion": "Shiny Starmie"
+        },
+        {
+          "pokemon": "Shiny Houndoom",
+          "recomendacion": "Shiny Hitmontop"
+        }
+      ]
+    },
+    {
+      "nombre": "Mirage",
+      "equipo": [
+        {
+          "pokemon": "Charizard",
+          "recomendacion": "Shiny Golem"
+        },
+        {
+          "pokemon": "Shiny Charizard",
+          "recomendacion": "Shiny Starmie"
+        },
+        {
+          "pokemon": "Venusaur",
+          "recomendacion": "Shiny Pidgeot"
+        },
+        {
+          "pokemon": "Shiny Venusaur",
+          "recomendacion": "Shiny Arcanine"
+        },
+        {
+          "pokemon": "Blastoise",
+          "recomendacion": "Shiny Venusaur"
+        },
+        {
+          "pokemon": "Shiny Blastoise",
+          "recomendacion": "Shiny Raichu"
+        }
+      ]
+    },
+    {
+      "nombre": "Zephyr",
+      "equipo": [
+        {
+          "pokemon": "Typhlosion",
+          "recomendacion": "Shiny Golem"
+        },
+        {
+          "pokemon": "Shiny Typhlosion",
+          "recomendacion": "Shiny Starmie"
+        },
+        {
+          "pokemon": "Meganium",
+          "recomendacion": "Shiny Pidgeot"
+        },
+        {
+          "pokemon": "Shiny Meganium",
+          "recomendacion": "Shiny Arcanine"
+        },
+        {
+          "pokemon": "Feraligatr",
+          "recomendacion": "Shiny Venusaur"
+        },
+        {
+          "pokemon": "Shiny Feraligatr",
+          "recomendacion": "Shiny Raichu"
+        }
+      ]
+    },
+    {
+      "nombre": "Obsidian",
+      "equipo": [
+        {
+          "pokemon": "Shiny Gyarados",
+          "recomendacion": "Shiny Raichu"
+        },
+        {
+          "pokemon": "Shiny Persian",
+          "recomendacion": "Shiny Hitmontop"
+        },
+        {
+          "pokemon": "Shiny Machamp",
+          "recomendacion": "Shiny Pidgeot"
+        },
+        {
+          "pokemon": "Shiny Kingdra",
+          "recomendacion": "Shiny Clefable"
+        },
+        {
+          "pokemon": "Shiny Pidgeot",
+          "recomendacion": "Shiny Golem"
+        },
+        {
+          "pokemon": "Shiny Scizor",
+          "recomendacion": "Shiny Arcanine"
+        }
+      ]
+    },
+    {
+      "nombre": "Vortex",
+      "equipo": [
+        {
+          "pokemon": "Shiny Ninetales",
+          "recomendacion": "Shiny Starmie"
+        },
+        {
+          "pokemon": "Shiny Magneton",
+          "recomendacion": "Shiny Arcanine"
+        },
+        {
+          "pokemon": "Shiny Kabutops",
+          "recomendacion": "Shiny Venusaur"
+        },
+        {
+          "pokemon": "Shiny Omastar",
+          "recomendacion": "Shiny Raichu"
+        },
+        {
+          "pokemon": "Shiny Pidgeot",
+          "recomendacion": "Shiny Golem"
+        },
+        {
+          "pokemon": "Shiny Ampharos",
+          "recomendacion": "Shiny Sandslash"
+        }
+      ]
+    },
+    {
+      "nombre": "Tempest",
+      "equipo": [
+        {
+          "pokemon": "Shiny Magmar",
+          "recomendacion": "Shiny Starmie"
+        },
+        {
+          "pokemon": "Shiny Snorlax",
+          "recomendacion": "Shiny Hitmontop"
+        },
+        {
+          "pokemon": "Shiny Mime",
+          "recomendacion": "Scizor"
+        },
+        {
+          "pokemon": "Shiny Pupitar",
+          "recomendacion": "Shiny Venusaur"
+        },
+        {
+          "pokemon": "Shiny Umbreon",
+          "recomendacion": "Shiny Clefable"
+        },
+        {
+          "pokemon": "Shiny Misdreavus",
+          "recomendacion": "Shiny Persian"
+        }
+      ]
+    },
+    {
+      "nombre": "Eclipse",
+      "equipo": [
+        {
+          "pokemon": "Shiny Dragonair",
+          "recomendacion": "Shiny Clefable"
+        },
+        {
+          "pokemon": "Shiny Arcanine",
+          "recomendacion": "Shiny Starmie"
+        },
+        {
+          "pokemon": "Shiny Espeon",
+          "recomendacion": "Shiny Persian"
+        },
+        {
+          "pokemon": "Shiny Pinsir",
+          "recomendacion": "Shiny Pidgeot"
+        },
+        {
+          "pokemon": "Shiny Tauros",
+          "recomendacion": "Shiny Hitmontop"
+        },
+        {
+          "pokemon": "Shiny Skarmory",
+          "recomendacion": "Shiny Arcanine"
+        }
+      ]
+    },
+    {
+      "nombre": "Giovanni",
+      "equipo": [
+        {
+          "pokemon": "Shiny Nidoqueen",
+          "recomendacion": "Shiny Sandslash"
+        },
+        {
+          "pokemon": "Shiny Persian",
+          "recomendacion": "Machamp"
+        },
+        {
+          "pokemon": "Shiny Rhydon",
+          "recomendacion": "Shiny Venusaur"
+        },
+        {
+          "pokemon": "Shiny Nidoking",
+          "recomendacion": "Shiny Jynx"
+        },
+        {
+          "pokemon": "Shiny Kangaskhan",
+          "recomendacion": "Shiny Hitmontop"
+        },
+        {
+          "pokemon": "Shiny Dugtrio",
+          "recomendacion": "Gyarados"
+        }
+      ],
+      "boss": true
+    }
+  ],
+  "police": [
+    {
+      "nombre": "Officer Blaze",
+      "equipo": [
+        {
+          "pokemon": "Shiny Charizard",
+          "recomendacion": "Rock"
+        },
+        {
+          "pokemon": "Shiny Magmar",
+          "recomendacion": "Water/Ground"
+        },
+        {
+          "pokemon": "Shiny Flareon",
+          "recomendacion": "Water/Ground"
+        },
+        {
+          "pokemon": "Shiny Typhlosion",
+          "recomendacion": "Water/Ground"
+        },
+        {
+          "pokemon": "Shiny Ninetales",
+          "recomendacion": "Water/Ground"
+        },
+        {
+          "pokemon": "Shiny Arcanine",
+          "recomendacion": "Water/Ground"
+        }
+      ]
+    },
+    {
+      "nombre": "Officer Marina",
+      "equipo": [
+        {
+          "pokemon": "Shiny Feraligatr",
+          "recomendacion": "Grass/Electric"
+        },
+        {
+          "pokemon": "Shiny Lapras",
+          "recomendacion": "Grass/Electric"
+        },
+        {
+          "pokemon": "Shiny Gyarados",
+          "recomendacion": "Grass/Electric"
+        },
+        {
+          "pokemon": "Shiny Vaporeon",
+          "recomendacion": "Grass/Electric"
+        },
+        {
+          "pokemon": "Shiny Starmie",
+          "recomendacion": "Grass/Electric"
+        },
+        {
+          "pokemon": "Shiny Blastoise",
+          "recomendacion": "Grass/Electric"
+        }
+      ]
+    },
+    {
+      "nombre": "Sergeant Volt",
+      "equipo": [
+        {
+          "pokemon": "Shiny Magneton",
+          "recomendacion": "Fire/Fight"
+        },
+        {
+          "pokemon": "Shiny Ampharos",
+          "recomendacion": "Ground"
+        },
+        {
+          "pokemon": "Shiny Lanturn",
+          "recomendacion": "Grass"
+        },
+        {
+          "pokemon": "Shiny Electabuzz",
+          "recomendacion": "Ground"
+        },
+        {
+          "pokemon": "Shiny Raichu",
+          "recomendacion": "Ground"
+        },
+        {
+          "pokemon": "Shiny Jolteon",
+          "recomendacion": "Ground"
+        }
+      ]
+    },
+    {
+      "nombre": "Captain Verdant",
+      "equipo": [
+        {
+          "pokemon": "Shiny Meganium",
+          "recomendacion": "Fire/Fly/Ice"
+        },
+        {
+          "pokemon": "Shiny Vileplume",
+          "recomendacion": "Fire/Fly/Ice"
+        },
+        {
+          "pokemon": "Shiny Venusaur",
+          "recomendacion": "Fire/Fly/Ice"
+        },
+        {
+          "pokemon": "Shiny Exeggutor",
+          "recomendacion": "Bug/Fire/Fly"
+        },
+        {
+          "pokemon": "Shiny Victreebel",
+          "recomendacion": "Fire/Fly/Ice"
+        },
+        {
+          "pokemon": "Shiny Jumpluff",
+          "recomendacion": "Ice/Fire/Rock"
+        }
+      ]
+    },
+    {
+      "nombre": "Inspector Frost",
+      "equipo": [
+        {
+          "pokemon": "Shiny Piloswine",
+          "recomendacion": "Fire/Fight"
+        },
+        {
+          "pokemon": "Shiny Cloyster",
+          "recomendacion": "Electric/Fight"
+        },
+        {
+          "pokemon": "Shiny Jynx",
+          "recomendacion": "Fire/Steel"
+        },
+        {
+          "pokemon": "Shiny Lapras",
+          "recomendacion": "Electric/Fight"
+        },
+        {
+          "pokemon": "Shiny Dewgong",
+          "recomendacion": "Electric/Fight"
+        },
+        {
+          "pokemon": "Shiny Sneasel",
+          "recomendacion": "Fight"
+        }
+      ]
+    },
+    {
+      "nombre": "Commander Mind",
+      "equipo": [
+        {
+          "pokemon": "Shiny Starmie",
+          "recomendacion": "Grass/Electric"
+        },
+        {
+          "pokemon": "Shiny Alakazam",
+          "recomendacion": "Bug/Ghost/Dark"
+        },
+        {
+          "pokemon": "Shiny Espeon",
+          "recomendacion": "Bug/Ghost/Dark"
+        },
+        {
+          "pokemon": "Shiny Exeggutor",
+          "recomendacion": "Bug/Fire/Fly"
+        },
+        {
+          "pokemon": "Shiny Mr. Mime",
+          "recomendacion": "Ghost/Steel"
+        },
+        {
+          "pokemon": "Shiny Xatu",
+          "recomendacion": "Electric/Ghost"
+        }
+      ]
+    },
+    {
+      "nombre": "Warden Shade",
+      "equipo": [
+        {
+          "pokemon": "Houndoom",
+          "recomendacion": "Fight/Water/Grd/Rock"
+        },
+        {
+          "pokemon": "Shiny Sneasel",
+          "recomendacion": "Fight"
+        },
+        {
+          "pokemon": "Tyranitar",
+          "recomendacion": "Fight"
+        },
+        {
+          "pokemon": "Shiny Houndoom",
+          "recomendacion": "Fight/Water/Grd/Rock"
+        },
+        {
+          "pokemon": "Shiny Tyranitar",
+          "recomendacion": "Fight"
+        },
+        {
+          "pokemon": "Shiny Umbreon",
+          "recomendacion": "Fight/Bug/Fairy"
+        }
+      ]
+    },
+    {
+      "nombre": "Lieutenant Alloy",
+      "equipo": [
+        {
+          "pokemon": "Shiny Scizor",
+          "recomendacion": "Fire"
+        },
+        {
+          "pokemon": "Shiny Magneton",
+          "recomendacion": "Fire/Fight"
+        },
+        {
+          "pokemon": "Shiny Skarmory",
+          "recomendacion": "Fire/Electric"
+        },
+        {
+          "pokemon": "Shiny Steelix",
+          "recomendacion": "Fire/Fight/Water"
+        },
+        {
+          "pokemon": "Shiny Forretress",
+          "recomendacion": "Fire"
+        },
+        {
+          "pokemon": "Scizor",
+          "recomendacion": "Fire"
+        }
+      ]
+    },
+    {
+      "nombre": "Marshal Boulder",
+      "equipo": [
+        {
+          "pokemon": "Shiny Omastar",
+          "recomendacion": "Grass"
+        },
+        {
+          "pokemon": "Shiny Golem",
+          "recomendacion": "Water/Grass"
+        },
+        {
+          "pokemon": "Shiny Tyranitar",
+          "recomendacion": "Fight"
+        },
+        {
+          "pokemon": "Shiny Sudowoodo",
+          "recomendacion": "Fight/Water"
+        },
+        {
+          "pokemon": "Shiny Kabutops",
+          "recomendacion": "Grass"
+        },
+        {
+          "pokemon": "Shiny Rhydon",
+          "recomendacion": "Grass/Fight/Water"
+        }
+      ]
+    },
+    {
+      "nombre": "Detective Terra",
+      "equipo": [
+        {
+          "pokemon": "Shiny Nidoqueen",
+          "recomendacion": "Water/Grd/Ice"
+        },
+        {
+          "pokemon": "Shiny Nidoking",
+          "recomendacion": "Water/Grd/Ice"
+        },
+        {
+          "pokemon": "Shiny Marowak",
+          "recomendacion": "Water/Grass/Ice"
+        },
+        {
+          "pokemon": "Shiny Sandslash",
+          "recomendacion": "Water/Grass/Ice"
+        },
+        {
+          "pokemon": "Shiny Donphan",
+          "recomendacion": "Water/Grass/Ice"
+        },
+        {
+          "pokemon": "Shiny Dugtrio",
+          "recomendacion": "Water/Grass/Ice"
+        }
+      ]
+    },
+    {
+      "nombre": "Chief Toxin",
+      "equipo": [
+        {
+          "pokemon": "Shiny Weezing",
+          "recomendacion": "Ground/Psychic"
+        },
+        {
+          "pokemon": "Shiny Muk",
+          "recomendacion": "Ground/Psychic"
+        },
+        {
+          "pokemon": "Shiny Nidoking",
+          "recomendacion": "Water/Grd/Ice"
+        },
+        {
+          "pokemon": "Shiny Crobat",
+          "recomendacion": "Electric/Psy/Rock/Ice"
+        },
+        {
+          "pokemon": "Shiny Toxicroak",
+          "recomendacion": "Psychic/Fly/Grd"
+        },
+        {
+          "pokemon": "Shiny Vileplume",
+          "recomendacion": "Fire/Fight/Psy/Ice"
+        }
+      ]
+    },
+    {
+      "nombre": "Ranger Strike",
+      "equipo": [
+        {
+          "pokemon": "Shiny Primeape",
+          "recomendacion": "Fly/Psy"
+        },
+        {
+          "pokemon": "Shiny Machamp",
+          "recomendacion": "Fly/Psy"
+        },
+        {
+          "pokemon": "Shiny Heracross",
+          "recomendacion": "Fly/Psy/Fire"
+        },
+        {
+          "pokemon": "Shiny Hitmonchan",
+          "recomendacion": "Fly/Psy"
+        },
+        {
+          "pokemon": "Shiny Poliwrath",
+          "recomendacion": "Fly/Psy/Electric"
+        },
+        {
+          "pokemon": "Shiny Hitmonlee",
+          "recomendacion": "Fly/Psy"
+        }
+      ]
+    },
+    {
+      "nombre": "Captain Chitin",
+      "equipo": [
+        {
+          "pokemon": "Shiny Forretress",
+          "recomendacion": "Fire"
+        },
+        {
+          "pokemon": "Shiny Ariados",
+          "recomendacion": "Fire/Fly/Psy/Rock"
+        },
+        {
+          "pokemon": "Shiny Scyther",
+          "recomendacion": "Rock"
+        },
+        {
+          "pokemon": "Shiny Scizor",
+          "recomendacion": "Fire"
+        },
+        {
+          "pokemon": "Shiny Pinsir",
+          "recomendacion": "Fire/Fly/Rock"
+        },
+        {
+          "pokemon": "Shiny Heracross",
+          "recomendacion": "Fly/Psy/Fire"
+        }
+      ]
+    }
+  ]
+}

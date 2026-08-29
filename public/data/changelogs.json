@@ -1,5 +1,22 @@
 [
   {
+    "fecha": "28 de agosto de 2026",
+    "secciones": [
+      {
+        "titulo": "Cambios generales",
+        "cambios": [
+          "Se redujo de 250 a 120 la cantidad de Poké Balls necesarias para alcanzar el mérito de Pokémon Shiny Tier 5."
+        ]
+      },
+      {
+        "titulo": "Correcciones de bugs",
+        "cambios": [
+          "Se corrigió un error en los nombres de las CAMs de diversos respawns Primales."
+        ]
+      }
+    ]
+  },
+  {
     "fecha": "25 de agosto de 2026",
     "secciones": [
       {

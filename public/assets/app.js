@@ -65,24 +65,39 @@ function renderDex(){
   const grid=document.querySelector('#pokedexGrid');if(!grid)return;
   const count=document.querySelector('#dexVisualCount'),filter=document.querySelector('#dexFilter');
   const tierFilter=document.querySelector('#dexTierFilter'),typeFilter=document.querySelector('#dexTypeFilter'),shinyFilter=document.querySelector('#dexShinyFilter'),clearBtn=document.querySelector('#dexClearFilters');
-  const pokes=allPokemon();
-  const rows=new Map((D.tierList||[]).map(x=>[clean(x['Pokémon']).toLowerCase(),x]));
+  const PER_PAGE=60;
+  let page=1,searchTimer=null;
   const tierOrder=['T1','T2','T3','T4','T5','T6','T7','Super Rare','Ultra Rare','Legendary','Mythic'];
-  const knownTiers=[...new Set((D.tierList||[]).map(x=>clean(x['Tier'])).filter(x=>x&&x!=='?'))];
+  const tierRows=new Map((D.tierList||[]).map(x=>[clean(x['Pokémon']).toLowerCase(),x]));
+  // Precalcular metadatos una sola vez evita búsquedas repetidas por cada tarjeta/filtro.
+  const pokes=allPokemon().map(name=>{
+    const row=tierRows.get(name.toLowerCase());
+    return {name,tier:clean(row&&row['Tier']),type:normalizeType(row&&row['Moveset']),shiny:/^Shiny\s+/i.test(name)};
+  });
+  const knownTiers=[...new Set(pokes.map(x=>x.tier).filter(x=>x&&x!=='?'))];
   knownTiers.sort((a,b)=>{let ai=tierOrder.indexOf(a),bi=tierOrder.indexOf(b);ai=ai<0?999:ai;bi=bi<0?999:bi;return ai-bi||a.localeCompare(b)});
   if(tierFilter&&tierFilter.options.length===1)knownTiers.forEach(v=>tierFilter.insertAdjacentHTML('beforeend',`<option value="${esc(v)}">${esc(v)}</option>`));
   if(typeFilter&&typeFilter.options.length===1)PKA_TYPES.forEach(v=>typeFilter.insertAdjacentHTML('beforeend',`<option value="${v}">${esc(TYPE_ES[v]||v)}</option>`));
-  const draw=()=>{
+  let pager=document.querySelector('#dexPager');
+  if(!pager){pager=document.createElement('div');pager.id='dexPager';pager.className='pagination dexPagination';grid.after(pager)}
+  const filtered=()=>{
     const q=clean(filter?.value).toLowerCase(),wantedTier=tierFilter?.value||'all',wantedType=typeFilter?.value||'all',wantedShiny=shinyFilter?.value||'all';
-    const list=pokes.filter(n=>{
-      const row=rows.get(n.toLowerCase()),tier=clean(row&&row['Tier']),type=pokemonType(n),isShiny=/^Shiny\s+/i.test(n);
-      return (!q||n.toLowerCase().includes(q))&&(wantedTier==='all'||tier===wantedTier)&&(wantedType==='all'||type===wantedType)&&(wantedShiny==='all'||(wantedShiny==='shiny'?isShiny:!isShiny));
-    });
-    if(count)count.textContent=`${list.length.toLocaleString('es-MX')} Pokémon`;
-    grid.innerHTML=list.length?list.map(n=>{const row=rows.get(n.toLowerCase());const tier=clean(row&&row['Tier']);const type=pokemonType(n);return `<a class="dexCard type-${type}" href="pokemon.html?name=${encodeURIComponent(n)}"><span class="dexSpriteWrap"><img class="dexSprite" loading="lazy" src="${pokemonSprite(n)}" alt="${esc(n)}" onerror="imageFallback(this,'${esc(n).replace(/'/g,"\\'")}')"></span><span class="dexInfo"><span class="dexName">${esc(n)}</span><span class="dexMeta">${typeBadge(type)}${tier&&tier!=='?'?`<span class="dexTier">${esc(tier)}</span>`:''}</span></span></a>`}).join(''):'<div class="dexEmpty">No hay Pokémon que coincidan con los filtros seleccionados.</div>';
+    return pokes.filter(x=>(!q||x.name.toLowerCase().includes(q))&&(wantedTier==='all'||x.tier===wantedTier)&&(wantedType==='all'||x.type===wantedType)&&(wantedShiny==='all'||(wantedShiny==='shiny'?x.shiny:!x.shiny)));
   };
-  [filter,tierFilter,typeFilter,shinyFilter].forEach(el=>el?.addEventListener(el===filter?'input':'change',draw));
-  clearBtn?.addEventListener('click',()=>{if(filter)filter.value='';if(tierFilter)tierFilter.value='all';if(typeFilter)typeFilter.value='all';if(shinyFilter)shinyFilter.value='all';draw()});
+  const draw=(resetPage=false)=>{
+    if(resetPage)page=1;
+    const list=filtered(),pages=Math.max(1,Math.ceil(list.length/PER_PAGE));if(page>pages)page=pages;
+    const view=list.slice((page-1)*PER_PAGE,page*PER_PAGE);
+    if(count)count.textContent=`${list.length.toLocaleString('es-MX')} Pokémon`;
+    grid.innerHTML=view.length?view.map(x=>`<a class="dexCard type-${x.type}" href="pokemon.html?name=${encodeURIComponent(x.name)}"><span class="dexSpriteWrap"><img class="dexSprite" loading="lazy" decoding="async" src="${pokemonSprite(x.name)}" alt="${esc(x.name)}" onerror="imageFallback(this,'${esc(x.name).replace(/'/g,"\\'")}')"></span><span class="dexInfo"><span class="dexName">${esc(x.name)}</span><span class="dexMeta">${typeBadge(x.type)}${x.tier&&x.tier!=='?'?`<span class="dexTier">${esc(x.tier)}</span>`:''}</span></span></a>`).join(''):'<div class="dexEmpty">No hay Pokémon que coincidan con los filtros seleccionados.</div>';
+    pager.innerHTML=list.length>PER_PAGE?`<button type="button" data-dex-prev ${page<=1?'disabled':''}>← Anterior</button><span>${page} / ${pages}</span><button type="button" data-dex-next ${page>=pages?'disabled':''}>Siguiente →</button>`:'';
+    pager.querySelector('[data-dex-prev]')?.addEventListener('click',()=>{page--;draw();grid.scrollIntoView({behavior:'smooth',block:'start'})});
+    pager.querySelector('[data-dex-next]')?.addEventListener('click',()=>{page++;draw();grid.scrollIntoView({behavior:'smooth',block:'start'})});
+  };
+  window.PKARenderDex=(reset=true)=>draw(reset);
+  filter?.addEventListener('input',()=>{clearTimeout(searchTimer);searchTimer=setTimeout(()=>draw(true),120)});
+  [tierFilter,typeFilter,shinyFilter].forEach(el=>el?.addEventListener('change',()=>draw(true)));
+  clearBtn?.addEventListener('click',()=>{if(filter)filter.value='';if(tierFilter)tierFilter.value='all';if(typeFilter)typeFilter.value='all';if(shinyFilter)shinyFilter.value='all';draw(true)});
   draw();
 }
 function enhancePokemonHeader(){if(document.body.dataset.page!=='pokemon')return;const name=new URLSearchParams(location.search).get('name')||'Bulbasaur',avatar=document.querySelector('#pokeInitial'),title=document.querySelector('#pokemonName');const type=pokemonType(name);document.documentElement.style.setProperty('--type-color',`var(--type-${type})`);if(avatar)avatar.innerHTML=`<img src="${pokemonSprite(name)}" alt="${esc(name)}" onerror="this.style.display='none';this.parentElement.textContent='${esc(basePokemonName(name).slice(0,2).toUpperCase())}'">`;if(title&&!title.parentElement.querySelector('.pokemonHeadingMeta')){const meta=document.createElement('div');meta.className='pokemonHeadingMeta';const tier=(D.tierList||[]).find(x=>clean(x['Pokémon']).toLowerCase()===name.toLowerCase());meta.innerHTML=typeBadge(type)+(clean(tier&&tier['Tier'])?`<span class="dexTier">${esc(tier['Tier'])}</span>`:'');title.after(meta)}}
@@ -137,6 +152,7 @@ function enhancePokemonMentions(root=document.querySelector('main')){
   processNode(root);
 }
 function watchPokemonMentions(){
+  if(document.querySelector('#pokedexGrid')||document.body.dataset.page==='items'||document.body.dataset.page==='moves')return;
   const root=document.querySelector('main');
   if(!root||root.dataset.pokeMentionWatch)return;
   root.dataset.pokeMentionWatch='1';

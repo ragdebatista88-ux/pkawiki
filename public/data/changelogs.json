@@ -1,5 +1,27 @@
 [
   {
+    "fecha": "31 de agosto de 2026",
+    "secciones": [
+      {
+        "titulo": "Cambios generales",
+        "cambios": [
+          "Ahora, al pasar por detrás de árboles grandes, estos se vuelven parcialmente transparentes para facilitar la visualización del personaje.",
+          "Se modificó el efecto visual de los drops de objetos raros.",
+          "Los jugadores ahora reciben 6 segundos de inmunidad al entrar o salir de un canal.",
+          "Se agregó un sistema de recuperación del Client en caso de que la tarjeta gráfica del jugador se reinicie, ayudando a evitar cierres inesperados.",
+          "Se realizaron mejoras visuales en diversas habilidades del juego, principalmente relacionadas con los tiempos de aparición de efectos y proyectiles."
+        ]
+      },
+      {
+        "titulo": "Correcciones de bugs",
+        "cambios": [
+          "Se corrigió un error que impedía al jugador salir de Hoenn mediante el Truck.",
+          "Se corrigió un error visual al caminar en diagonal entre los árboles."
+        ]
+      }
+    ]
+  },
+  {
     "fecha": "28 de agosto de 2026",
     "secciones": [
       {

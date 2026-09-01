@@ -1,0 +1,69 @@
+[
+  {
+    "activo": true,
+    "tipo": "evento",
+    "etiqueta": "Evento de la comunidad",
+    "titulo": "¡4,000 y 5,000 jugadores conectados al mismo tiempo!",
+    "texto": "Dos metas alcanzadas una detrás de otra. Para celebrarlo, se activaron tres buffs en todos los servidores.",
+    "fecha": "Hasta el 20 de septiembre de 2026 · 8:59 PM",
+    "beneficios": [
+      {
+        "icono": "✨",
+        "titulo": "+20% Shiny Charm",
+        "detalle": "Comienza con el próximo Server Save."
+      },
+      {
+        "icono": "⚔️",
+        "titulo": "+10% de Captura Crítica",
+        "detalle": "En Premier Ball y Alliance Ball. Comienza con el próximo Server Save."
+      },
+      {
+        "icono": "🟣",
+        "titulo": "+50% Twitch Points",
+        "detalle": "Ya está activo."
+      }
+    ],
+    "notaTitulo": "¿Qué es una captura crítica?",
+    "nota": "Cuando se activa una captura crítica, la probabilidad de captura de esa Ball se duplica.",
+    "cierre": "Gracias a todos los que hacen que cada una de estas metas se sienta cada vez más cercana."
+  },
+  {
+    "activo": true,
+    "tipo": "informativo",
+    "etiqueta": "Información importante",
+    "titulo": "Estado de próximos contenidos y NPCs",
+    "texto": "El equipo de PokeAlliance compartió el estado actual de Titan Rewarder, Alliance Rewarder, la instancia de Clones y los Taunts de los Primals Outfit.",
+    "fecha": "Publicado el 31 de agosto de 2026",
+    "bloques": [
+      {
+        "icono": "⚙️",
+        "titulo": "Titan Rewarder",
+        "estado": "Temporalmente deshabilitado",
+        "fecha": "Regreso previsto: 2 de septiembre",
+        "texto": "El NPC fue deshabilitado debido a un error grave: los objetos arrojados dentro del Metagross Locker podían quedar inaccesibles. Los objetos afectados fueron identificados mediante logs y entregados a sus jugadores."
+      },
+      {
+        "icono": "🎁",
+        "titulo": "NPC Alliance Rewarder",
+        "estado": "En desarrollo",
+        "fecha": "Previsto para el 4 de septiembre",
+        "texto": "Tras el feedback por la celebración de los 5,000 jugadores, el equipo está preparando cosméticos para canjear en el NPC, junto con algunos buffs que ayudarán durante la progresión."
+      },
+      {
+        "icono": "🌀",
+        "titulo": "Instancia de Clones",
+        "estado": "Prioridad máxima",
+        "fecha": "Estimación: hasta el 15 de septiembre",
+        "texto": "El equipo considera esta instancia una prioridad por ser contenido grupal importante. Es un desarrollo más grande y todavía no existe una fecha fija; el 15 de septiembre es únicamente una previsión."
+      },
+      {
+        "icono": "🔥",
+        "titulo": "Taunts de Primals Outfit",
+        "estado": "Plazo anunciado",
+        "fecha": "Fecha pendiente de confirmar",
+        "texto": "Se agregó un plazo para la implementación de los Taunts de los outfits Primales de Groudon y Kyogre. El anuncio compartido no incluye todavía la fecha concreta."
+      }
+    ],
+    "cierre": "Las fechas indicadas son las previsiones comunicadas y pueden cambiar."
+  }
+]

@@ -18,7 +18,7 @@ function nav(){
   ['Pokédex','pokedex.html',[['Pokédex','pokedex.html'],['PokéLog','pokelog.html'],['Tier List','tier-list.html'],['Drops','drops.html'],['Brokes y captura','brokes.html'],['Premier vs Alliance','premier-vs-alliance.html']]],
   ['Progresión','primeros-pasos.html',[['Primeros pasos','primeros-pasos.html'],['Experiencia','sistema-experiencia.html'],['Entrenamiento','sistema-entrenamiento.html'],['Boost','boost.html'],['Star Ascension','sistema-star.html'],['Talentos','talentos.html'],['Helds','sistema-helds.html']]],
   ['Mundo','localizaciones.html',[['Localizaciones','localizaciones.html'],['Instancias','instancias.html'],['GYMs','gyms.html'],['Dungeons','dungeons.html'],['Rotaciones','rotaciones.html']]],
-  ['Actividades','tasks.html',[['Tasks','tasks.html'],['Linked Tasks','linked-tasks.html'],['Rocket','rocket.html'],['Policía','police.html']]],
+  ['Actividades','tasks.html',[['Tasks','tasks.html'],['PokéLog','pokelog.html'],['Linked Tasks','linked-tasks.html'],['Rocket','rocket.html'],['Policía','police.html']]],
   ['Guías','guias.html',[['Guías','guias.html'],['Quests','quests.html'],['Moomoo Milk','quest-moomoo-milk.html']]],
   ['Herramientas','calculadoras.html',[['Calculadoras','calculadoras.html'],['Calculadora de Stars','calculadora-stars.html'],['Calculadora de daño','calculadora-dano.html'],['Hunt Analyzer','hunt-analyzer.html'],['Mapa desbloqueado','mapa-desbloqueado.html']]],
   ['Información','sistemas.html',[['Sistemas','sistemas.html'],['NPCs','npcs.html'],['Changelogs','changelogs.html'],['FAQ','faq.html']]]
@@ -55,7 +55,25 @@ const TYPE_ES={normal:'Normal',fire:'Fuego',water:'Agua',electric:'Eléctrico',g
 const MOVESET_TO_TYPE={normal:'normal',fire:'fire',water:'water',electric:'electric',grass:'grass',ice:'ice',fighting:'fighting',poison:'poison',ground:'ground',flying:'flying',psychic:'psychic',bug:'bug',rock:'rock',ghost:'ghost',dragon:'dragon',dark:'dark',steel:'steel',fairy:'fairy'};
 function basePokemonName(name){return clean(name).replace(/^Shiny\s+/i,'').replace(/^Mega\s+/i,'').trim()}
 function spriteSlug(name){return basePokemonName(name).toLowerCase().replace(/[.’']/g,'').replace(/♀/g,'f').replace(/♂/g,'m').replace(/[^a-z0-9-]+/g,'').replace(/--+/g,'-')}
-function pokemonSprite(name){const local=(window.PKA_POKELOG_ICONS||{})[clean(name)];if(local)return local;const shiny=/^Shiny\s+/i.test(clean(name));return `https://play.pokemonshowdown.com/sprites/gen5${shiny?'-shiny':''}/${spriteSlug(name)}.png`}
+const PKA_ICON_ALIASES={
+  'charmelion':'charmeleon',
+  'shiny charmelion':'shiny charmeleon',
+  'infarnape':'infernape',
+  'shiny infarnape':'shiny infernape',
+  'lopuny':'lopunny',
+  'shiny lopuny':'shiny lopunny'
+};
+let _pkaLocalIconIndex=null;
+function normalizePokemonIconKey(name){return clean(name).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[.’']/g,'').replace(/♀/g,' f').replace(/♂/g,' m').replace(/[^a-z0-9]+/g,' ').trim()}
+function localPokemonSprite(name){
+  const icons=window.PKA_POKELOG_ICONS||{};
+  const exact=icons[clean(name)];if(exact)return exact;
+  if(!_pkaLocalIconIndex){_pkaLocalIconIndex=new Map(Object.entries(icons).map(([k,v])=>[normalizePokemonIconKey(k),v]));}
+  let key=normalizePokemonIconKey(name);
+  key=PKA_ICON_ALIASES[key]||key;
+  return _pkaLocalIconIndex.get(key)||'';
+}
+function pokemonSprite(name){const local=localPokemonSprite(name);if(local)return local;const shiny=/^Shiny\s+/i.test(clean(name));return `https://play.pokemonshowdown.com/sprites/gen5${shiny?'-shiny':''}/${spriteSlug(name)}.png`}
 function imageFallback(img,name){img.onerror=null;img.style.display='none';const p=img.parentElement;if(p){p.classList.add('spriteFallback');p.setAttribute('data-fallback',basePokemonName(name).slice(0,2).toUpperCase())}}
 function normalizeType(v){let x=clean(v).toLowerCase().split(/[\s,/+-]+/)[0];return MOVESET_TO_TYPE[x]||'normal'}
 function pokemonType(name){let row=(D.tierList||[]).find(x=>clean(x['Pokémon']).toLowerCase()===clean(name).toLowerCase());return normalizeType(row&&row['Moveset'])}
@@ -111,12 +129,17 @@ function enhancePokemonMentions(root=document.querySelector('main')){
   if(!names.length)return;
   const escaped=names.map(n=>n.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'));
   const rx=new RegExp('(^|[^A-Za-zÀ-ÿ0-9])('+escaped.join('|')+')(?=$|[^A-Za-zÀ-ÿ0-9])','gi');
-  const skip='SCRIPT,STYLE,NOSCRIPT,TEXTAREA,INPUT,SELECT,OPTION,CODE,PRE,.pokeMention,.pokeCell,.visualPokemon,.sourcePokemon,.dexCard,.rotationPokeName,.pokemonHeadingMeta,.tierPokeCell,.taskPokemonChip,.weeklyPoke,.pokemonTitle,.pokeAvatar';
+  const skip='SCRIPT,STYLE,NOSCRIPT,TEXTAREA,INPUT,SELECT,OPTION,CODE,PRE,.pokeMention,.pokeCell,.visualPokemon,.sourcePokemon,.dexCard,.rotationPokeName,.pokemonHeadingMeta,.tierPokeCell,.taskPokemonChip,.weeklyPoke,.pokemonTitle,.pokeAvatar,.pokelogPokemon,.miniPokeList,.communityRank,.movePokes,.searchPokeLead,.dropQuickHead';
   const canonical=new Map(names.map(n=>[n.toLowerCase(),n]));
   function processNode(node){
     if(node.nodeType===3){
       const parent=node.parentElement;
       if(!parent||parent.closest(skip)||!node.nodeValue||node.nodeValue.trim().length<3)return;
+      // Si un enlace a una ficha Pokémon ya contiene su propio sprite, no volvemos a
+      // convertir el nombre en una mención con otro icono. Esto protege rankings,
+      // favoritos, vistos recientemente y cualquier tarjeta futura con sprite manual.
+      const pokemonLink=parent.closest('a[href*=\"pokemon.html?name=\"]');
+      if(pokemonLink&&pokemonLink.querySelector('img'))return;
       rx.lastIndex=0;
       if(!rx.test(node.nodeValue))return;
       rx.lastIndex=0;

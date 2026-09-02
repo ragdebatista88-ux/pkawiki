@@ -1,5 +1,27 @@
 [
   {
+    "fecha": "1 de septiembre de 2026",
+    "secciones": [
+      {
+        "titulo": "Cambios generales",
+        "cambios": [
+          "Se aumentó el número de canales de 9 a 12.",
+          "El NPC Titan Rewarder está disponible nuevamente.",
+          "Se agregó el nombre del objeto en la ventana de Item Drops.",
+          "Se mejoró la ventana de Heather para la venta de Pokémon.",
+          "Se eliminó la opción de mantener Shift en algunas ventanas para mostrar el drop de los objetos; en su lugar se agregó un icono fijo.",
+          "Se modificó la notificación al completar un Achievement."
+        ]
+      },
+      {
+        "titulo": "Correcciones generales",
+        "cambios": [
+          "Ahora, al hacer zoom en el minimapa, el zoom se centra en el SQM sobre el que se encuentra el cursor."
+        ]
+      }
+    ]
+  },
+  {
     "fecha": "31 de agosto de 2026",
     "secciones": [
       {

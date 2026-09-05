@@ -1,5 +1,51 @@
 [
   {
+    "fecha": "4 de septiembre de 2026",
+    "secciones": [
+      {
+        "titulo": "Cambios generales",
+        "cambios": [
+          "Ahora está disponible la compra del World Migration Ticket en Sun, permitiendo migrar al servidor Moon."
+        ]
+      },
+      {
+        "titulo": "Mewtwo Clones instanciada",
+        "cambios": [
+          "Clones estará disponible de forma instanciada para hasta 20 equipos al mismo tiempo."
+        ]
+      },
+      {
+        "titulo": "Training Camp",
+        "cambios": [
+          "El Training Camp estará disponible en la planta baja del Trade Center, donde los jugadores podrán entrenar a sus Pokémon sin necesidad de tener una house.",
+          "Los slots deberán desbloquearse de forma similar a las Punching Bags: 5 Diamonds o 5kk por slot. Para entrenar 4 Pokémon, el costo total será de 20 Diamonds o 20kk; con Punching Bags, el costo equivalente sería de 15 Diamonds o 15kk.",
+          "Hasta el 14/09, los entrenamientos tanto en Training Camp como en Punching Bag serán un 25% más rápidos, consumiendo una carga cada 1.5 segundos.",
+          "Durante este período, la Punching Bag Charger tendrá un 30% de descuento en la Diamond Shop."
+        ]
+      },
+      {
+        "titulo": "Bonificaciones durante Shutdowns y mantenimientos",
+        "cambios": [
+          "A partir de ahora, durante mantenimientos o Shutdowns del servidor, las bonificaciones dejarán de contabilizar su duración mientras el servidor permanezca offline.",
+          "Este cambio no se aplicará al Shutdown de hoy; el tiempo de bonificación correspondiente al período offline será compensado manualmente."
+        ]
+      },
+      {
+        "titulo": "Guild",
+        "cambios": [
+          "Se modificaron los Guild Banners disponibles. Algunos banners ahora se desbloquean según el nivel de la Guild."
+        ]
+      },
+      {
+        "titulo": "Detalles de las Poké Balls",
+        "cambios": [
+          "Al pasar el cursor sobre una Poké Ball, tanto en la bag como en el Market, ahora se mostrarán detalles como Star, Addons y Helds.",
+          "Esta interfaz todavía no es la versión final y recibirá mejoras visuales. Se adelantó una versión funcional para hacer más transparentes las transacciones entre jugadores."
+        ]
+      }
+    ]
+  },
+  {
     "fecha": "1 de septiembre de 2026",
     "secciones": [
       {

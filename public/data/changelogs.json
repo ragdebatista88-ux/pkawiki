@@ -58,6 +58,24 @@
           "Los Guild Bosses Giant Steelix, Giant Jynx, Giant Shiny Jynx, Giant Tentacruel y Giant Houndoom ahora utilizan los tipos de sus formas normales, incluyendo sus debilidades, resistencias e inmunidades.",
           "Shiny Whiscash: Mud Sludge fue reemplazado por Waterball."
         ]
+      },
+      {
+        "titulo": "Actualización adicional — Cambios generales",
+        "cambios": [
+          "Tras considerar el feedback de la comunidad, se optó por mantener únicamente la estandarización del drop de Stones de los Pokémon Shiny.",
+          "Anteriormente, Shiny Arcanine tenía 100% de probabilidad de dropear Fire Stone.",
+          "Después del ajuste, los Shinies en Wildscape tienen un 50% de probabilidad de dropear Stones básicas y un 10% de probabilidad de dropear Crystal. Si el Pokémon tiene doble elemento, la probabilidad de las Stones básicas se divide en 25% para cada Stone correspondiente.",
+          "Shiny Arcanine ahora tiene 25% de probabilidad de dropear Fire Stone y 5% de probabilidad de dropear Crystal Stone.",
+          "Shiny Blastoise tiene 50% de probabilidad de dropear Water Stone.",
+          "Shiny Dragonair tiene 10% de probabilidad de dropear Crystal Stone."
+        ]
+      },
+      {
+        "titulo": "Actualización adicional — Correcciones de bugs",
+        "cambios": [
+          "Se corrigieron diversos errores de mapa en Cherrygrove.",
+          "Se corrigió el acceso al Trade Center y al Training Room."
+        ]
       }
     ]
   },

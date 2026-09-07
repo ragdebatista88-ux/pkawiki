@@ -1,0 +1,46 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Administrar sugerencias | PKA No Oficial Wiki</title><link rel="stylesheet" href="assets/styles.css"><meta name="theme-color" content="#071625"></head><body data-page="admin-sugerencias" data-matrix=""><header class="topbar"><div class="shell nav"><a class="brand" href="index.html"><span class="brandmark">PKA</span><span>PKA No Oficial Wiki</span></a><nav class="navlinks"><a href="index.html">Inicio</a><a href="pokedex.html">Pokédex</a><a href="megastones.html">Megastones</a><a href="localizaciones.html">Localizaciones</a><a href="tasks.html">Tasks</a><a href="npcs.html">NPCs</a><a href="dungeons.html">Dungeons</a><a href="guias.html">Guías</a><a href="sistemas.html">Sistemas</a><a href="changelogs.html">Changelogs</a><a href="sugerencias.html">Sugerencias</a><a href="faq.html">FAQ</a></nav><button class="menuBtn" aria-label="Abrir menú">☰</button></div></header><main>
+<section class="pageHead"><div class="shell"><span class="eyebrow">Administración</span><h1>Panel de sugerencias</h1><p>Consulta las sugerencias recibidas y actualiza su estado.</p></div></section>
+<section class="section"><div class="shell">
+ <div id="adminLogin" class="adminGate"><div class="adminGateIcon">🔐</div><h2>Acceso administrativo</h2><p>Introduce la clave configurada en Cloudflare para consultar las sugerencias.</p><form id="adminLoginForm"><label><span>Clave de administración</span><input id="adminKey" type="password" required autocomplete="current-password" placeholder="Clave ADMIN_KEY"></label><button class="suggestionSubmit" type="submit">Entrar</button></form><div id="adminLoginMsg" class="suggestionMessage" role="status"></div></div>
+ <div id="adminApp" hidden>
+   <div class="adminToolbar"><div class="adminFilters"><select id="statusFilter"><option value="">Todos los estados</option><option value="pendiente">Pendiente</option><option value="revision">En revisión</option><option value="aceptada">Aceptada</option><option value="implementada">Implementada</option><option value="descartada">Descartada</option></select><input id="adminSearch" type="search" placeholder="Buscar en sugerencias…"></div><div class="adminToolbarRight"><span id="adminCount" class="adminCount">—</span><button id="refreshSuggestions" class="adminSecondary" type="button">↻ Actualizar</button><button id="adminLogout" class="adminSecondary" type="button">Salir</button></div></div>
+   <div id="adminNotice" class="suggestionMessage" role="status"></div>
+   <div id="suggestionsList" class="suggestionsList"></div>
+ </div>
+</div></section></main><footer class="footer"><div class="shell footerRow"><div><b>PKA No Oficial Wiki</b><br>Proyecto comunitario no afiliado ni respaldado oficialmente por PokeAlliance.</div><div>Datos base: Pokedex Pública PokeAlliance (By Mts Vitor).<br>Adaptación y organización en español.</div></div></footer><script src="data/wiki-data.js"></script><script src="assets/pokelog-icons.js"></script><script src="assets/app.js"></script><script src="assets/enhancements.js"></script>
+<script>
+(()=>{
+ const login=document.querySelector('#adminLogin'), app=document.querySelector('#adminApp'), form=document.querySelector('#adminLoginForm'), keyInput=document.querySelector('#adminKey'), loginMsg=document.querySelector('#adminLoginMsg'), list=document.querySelector('#suggestionsList'), count=document.querySelector('#adminCount'), filter=document.querySelector('#statusFilter'), search=document.querySelector('#adminSearch'), notice=document.querySelector('#adminNotice');
+ let key=sessionStorage.getItem('pkaAdminKey')||'', rows=[];
+ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const typeLabel={correccion:'Corrección',nueva_guia:'Nueva guía',informacion_faltante:'Información faltante',mejora_wiki:'Mejora de la wiki',otro:'Otro'};
+ const statusLabel={pendiente:'Pendiente',revision:'En revisión',aceptada:'Aceptada',implementada:'Implementada',descartada:'Descartada'};
+ function setLoginMsg(t,m){loginMsg.className='suggestionMessage '+t;loginMsg.textContent=m;}
+ function authHeaders(){return {'Authorization':'Bearer '+key};}
+ function formatDate(v){if(!v)return 'Sin fecha';const d=new Date(v.replace(' ','T')+'Z');return isNaN(d)?v:new Intl.DateTimeFormat('es-MX',{dateStyle:'medium',timeStyle:'short'}).format(d);}
+ function draw(){
+   const q=search.value.trim().toLowerCase(), st=filter.value;
+   const view=rows.filter(r=>(!st||r.estado===st)&&(!q||[r.nombre,r.tipo,r.pagina,r.sugerencia,String(r.id)].join(' ').toLowerCase().includes(q)));
+   count.textContent=`${view.length} de ${rows.length} sugerencias`;
+   list.innerHTML=view.length?view.map(r=>`<article class="suggestionAdminCard" data-id="${r.id}"><div class="suggestionAdminTop"><div><span class="suggestionId">#${r.id}</span><span class="suggestionType">${esc(typeLabel[r.tipo]||r.tipo)}</span></div><time>${esc(formatDate(r.fecha_creacion))}</time></div><h3>${esc(r.pagina||'Sin página relacionada')}</h3><p class="suggestionBody">${esc(r.sugerencia)}</p><div class="suggestionMeta"><span>👤 ${esc(r.nombre||'Anónimo')}</span></div><div class="suggestionAdminFoot"><label>Estado <select class="statusSelect" data-id="${r.id}">${Object.entries(statusLabel).map(([v,l])=>`<option value="${v}" ${r.estado===v?'selected':''}>${l}</option>`).join('')}</select></label></div></article>`).join(''):'<div class="suggestionEmpty">No hay sugerencias que coincidan con los filtros.</div>';
+   list.querySelectorAll('.statusSelect').forEach(sel=>sel.addEventListener('change',()=>updateStatus(sel)));
+ }
+ async function load(){
+   notice.className='suggestionMessage';notice.textContent='';list.innerHTML='<div class="suggestionLoading">Cargando sugerencias…</div>';
+   const res=await fetch('/api/admin/sugerencias?limit=200',{headers:authHeaders()}); const data=await res.json().catch(()=>({}));
+   if(res.status===401){sessionStorage.removeItem('pkaAdminKey');key='';login.hidden=false;app.hidden=true;setLoginMsg('error','La clave no es válida.');return;}
+   if(!res.ok) throw new Error(data.error||'No fue posible cargar las sugerencias.');
+   rows=data.sugerencias||[]; draw();
+ }
+ async function updateStatus(sel){
+   const id=Number(sel.dataset.id), previous=rows.find(r=>r.id===id)?.estado; sel.disabled=true;
+   try{const res=await fetch('/api/admin/sugerencias',{method:'PATCH',headers:{...authHeaders(),'Content-Type':'application/json'},body:JSON.stringify({id,estado:sel.value})});const data=await res.json().catch(()=>({}));if(!res.ok)throw new Error(data.error||'No se pudo actualizar.');const row=rows.find(r=>r.id===id);if(row)row.estado=sel.value;notice.className='suggestionMessage success';notice.textContent=`Sugerencia #${id} actualizada.`;}
+   catch(e){sel.value=previous||'pendiente';notice.className='suggestionMessage error';notice.textContent=e.message;} finally{sel.disabled=false;}
+ }
+ form.addEventListener('submit',async e=>{e.preventDefault();key=keyInput.value.trim();if(!key)return;sessionStorage.setItem('pkaAdminKey',key);try{await load();if(key){login.hidden=true;app.hidden=false;}}catch(err){setLoginMsg('error',err.message);}});
+ document.querySelector('#refreshSuggestions').addEventListener('click',()=>load().catch(e=>{notice.className='suggestionMessage error';notice.textContent=e.message;}));
+ document.querySelector('#adminLogout').addEventListener('click',()=>{sessionStorage.removeItem('pkaAdminKey');key='';app.hidden=true;login.hidden=false;keyInput.value='';setLoginMsg('','');});
+ filter.addEventListener('change',draw); search.addEventListener('input',draw);
+ if(key){login.hidden=true;app.hidden=false;load().catch(e=>{notice.className='suggestionMessage error';notice.textContent=e.message;});}
+})();
+</script></body></html>

@@ -1,5 +1,24 @@
 [
   {
+    "fecha": "6 de septiembre de 2026",
+    "secciones": [
+      {
+        "titulo": "Cambios generales",
+        "cambios": [
+          "Ahora es posible enviar objetos a la Stash directamente desde su propia interfaz, no únicamente mediante el objeto del mapa.",
+          "Al buscar objetos en la Diamond Shop, ahora se muestra en qué categoría se encuentran."
+        ]
+      },
+      {
+        "titulo": "Correcciones de bugs",
+        "cambios": [
+          "Se corrigió un error por el que los drops de Shiny Dragonair (Primal), Shiny Scizor (Primal) y Shiny Arcanine (general) habían quedado fuera del estándar establecido.",
+          "Se corrigió un error por el que las condiciones Burn y Poison estaban aplicando solamente la mitad de los turnos que correspondían."
+        ]
+      }
+    ]
+  },
+  {
     "fecha": "5 de septiembre de 2026",
     "secciones": [
       {

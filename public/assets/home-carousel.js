@@ -13,6 +13,10 @@
       body=`<div class="announcementBuffs">${a.beneficios.map(b=>`<div class="announcementBuff"><span>${esc(b.icono)}</span><b>${esc(b.titulo)}</b><small>${esc(b.detalle)}</small></div>`).join('')}</div>`;
       if(a.nota)body+=`<div class="announcementNote"><b>${esc(a.notaTitulo||'Nota')}</b><br>${esc(a.nota)}</div>`;
     }
+    if(a.tipo==='recompensa'&&Array.isArray(a.beneficios)){
+      body=`<div class="announcementRewardRow">${a.beneficios.map(b=>`<div class="announcementReward"><span>${esc(b.icono)}</span><div><b>${esc(b.titulo)}</b><small>${esc(b.detalle||'')}</small></div></div>`).join('')}</div>`;
+      if(Array.isArray(a.requisitos)&&a.requisitos.length)body+=`<div class="announcementReqs">${a.requisitos.map(x=>`<span>✓ ${esc(x)}</span>`).join('')}</div>`;
+    }
     if(a.tipo==='informativo'&&Array.isArray(a.bloques)){
       body=`<div class="announcementInfoGrid">${a.bloques.map(b=>`<article class="announcementInfoCard"><div class="announcementInfoHead"><span class="announcementInfoIcon">${esc(b.icono||'•')}</span><div><h3>${esc(b.titulo)}</h3><span class="announcementStatus">${esc(b.estado||'')}</span></div></div><p>${esc(b.texto||'')}</p><strong class="announcementDate">${esc(b.fecha||'')}</strong></article>`).join('')}</div>`;
     }

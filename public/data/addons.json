@@ -1,0 +1,882 @@
+[
+  {
+    "pokemon": "Machamp",
+    "costume": "Mahoraga Costume",
+    "origin": "Pase de Batalla",
+    "cost": "50 puntos",
+    "shiny": true,
+    "image": "assets/addons/001-machamp-mahoraga-costume.png"
+  },
+  {
+    "pokemon": "Misdreavus",
+    "costume": "The Nurse Costume",
+    "origin": "Pase de Batalla",
+    "cost": "50 puntos",
+    "shiny": true,
+    "image": "assets/addons/002-misdreavus-the-nurse-costume.png"
+  },
+  {
+    "pokemon": "Florges",
+    "costume": "Floral Eclipse Costume",
+    "origin": "Pase de Batalla",
+    "cost": "50 puntos",
+    "shiny": true,
+    "image": "assets/addons/003-florges-floral-eclipse-costume.png"
+  },
+  {
+    "pokemon": "Tangrowth",
+    "costume": "It's certainly not Tangrowth",
+    "origin": "Pase de Batalla",
+    "cost": "50 puntos",
+    "shiny": true,
+    "image": "assets/addons/004-tangrowth-it-s-certainly-not-tangrowth.png"
+  },
+  {
+    "pokemon": "Misdreavus",
+    "costume": "Eerie Performer Costume",
+    "origin": "Pase de Batalla",
+    "cost": "50 puntos",
+    "shiny": true,
+    "image": "assets/addons/005-misdreavus-eerie-performer-costume.png"
+  },
+  {
+    "pokemon": "Blastoise",
+    "costume": "Twitch Costume",
+    "origin": "Twitch",
+    "cost": "50,000 puntos Twitch",
+    "shiny": true,
+    "image": "assets/addons/006-blastoise-twitch-costume.png"
+  },
+  {
+    "pokemon": "Wailord",
+    "costume": "Darkness Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/007-wailord-darkness-costume.png"
+  },
+  {
+    "pokemon": "Absol",
+    "costume": "Lunar Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/008-absol-lunar-costume.png"
+  },
+  {
+    "pokemon": "Glalie",
+    "costume": "Samurai Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/009-glalie-samurai-costume.png"
+  },
+  {
+    "pokemon": "Hitmonlee",
+    "costume": "Athletic Hitmonlee",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/010-hitmonlee-athletic-hitmonlee.png"
+  },
+  {
+    "pokemon": "Swampert",
+    "costume": "Shukaku Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/011-swampert-shukaku-costume.png"
+  },
+  {
+    "pokemon": "Sceptile",
+    "costume": "Zoro Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/012-sceptile-zoro-costume.png"
+  },
+  {
+    "pokemon": "Exploud",
+    "costume": "Frostloud",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/013-exploud-frostloud.png"
+  },
+  {
+    "pokemon": "Typhlosion",
+    "costume": "Todoroki Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/014-typhlosion-todoroki-costume.png"
+  },
+  {
+    "pokemon": "Rhyperior",
+    "costume": "Sasori Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/015-rhyperior-sasori-costume.png"
+  },
+  {
+    "pokemon": "Aggron",
+    "costume": "Country Bumpkin Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "25 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/016-aggron-country-bumpkin-costume.png"
+  },
+  {
+    "pokemon": "Ampharos",
+    "costume": "Country Bumpkin Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "25 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/017-ampharos-country-bumpkin-costume.png"
+  },
+  {
+    "pokemon": "Kingdra",
+    "costume": "Country Bumpkin Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "25 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/018-kingdra-country-bumpkin-costume.png"
+  },
+  {
+    "pokemon": "Mimikyu",
+    "costume": "Country Bumpkin Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "25 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/019-mimikyu-country-bumpkin-costume.png"
+  },
+  {
+    "pokemon": "Infernape",
+    "costume": "Country Bumpkin Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "25 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/020-infernape-country-bumpkin-costume.png"
+  },
+  {
+    "pokemon": "Tangrowth",
+    "costume": "Country Bumpkin Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "25 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/021-tangrowth-country-bumpkin-costume.png"
+  },
+  {
+    "pokemon": "Tauros",
+    "costume": "Country Bumpkin Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "25 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/022-tauros-country-bumpkin-costume.png"
+  },
+  {
+    "pokemon": "Typhlosion",
+    "costume": "Country Bumpkin Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "25 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/023-typhlosion-country-bumpkin-costume.png"
+  },
+  {
+    "pokemon": "Wobbuffet",
+    "costume": "Espiggoffet Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "25 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/024-wobbuffet-espiggoffet-costume.png"
+  },
+  {
+    "pokemon": "Torterra",
+    "costume": "Bonfire Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "25 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/025-torterra-bonfire-costume.png"
+  },
+  {
+    "pokemon": "Dusknoir",
+    "costume": "Abyssal Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/026-dusknoir-abyssal-costume.png"
+  },
+  {
+    "pokemon": "Salamence",
+    "costume": "Toothless Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/027-salamence-toothless-costume.png"
+  },
+  {
+    "pokemon": "Salamence",
+    "costume": "Fury of Light Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/028-salamence-fury-of-light-costume.png"
+  },
+  {
+    "pokemon": "Mightyena",
+    "costume": "Angelic Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/029-mightyena-angelic-costume.png"
+  },
+  {
+    "pokemon": "Gengar",
+    "costume": "Abyssal Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/030-gengar-abyssal-costume.png"
+  },
+  {
+    "pokemon": "Flygon",
+    "costume": "Ghost Rider Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/031-flygon-ghost-rider-costume.png"
+  },
+  {
+    "pokemon": "Gliscor",
+    "costume": "Ghost Rider Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/032-gliscor-ghost-rider-costume.png"
+  },
+  {
+    "pokemon": "Glaceon",
+    "costume": "Kyuubi Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/033-glaceon-kyuubi-costume.png"
+  },
+  {
+    "pokemon": "Kingdra",
+    "costume": "Queendra Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/034-kingdra-queendra-costume.png"
+  },
+  {
+    "pokemon": "Mightyena",
+    "costume": "Abyssal Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/035-mightyena-abyssal-costume.png"
+  },
+  {
+    "pokemon": "Blastoise",
+    "costume": "Bowser Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/036-blastoise-bowser-costume.png"
+  },
+  {
+    "pokemon": "Kangaskhan",
+    "costume": "Grand Marshal Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/037-kangaskhan-grand-marshal-costume.png"
+  },
+  {
+    "pokemon": "Arcanine",
+    "costume": "Diamond Elite Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/038-arcanine-diamond-elite-costume.png"
+  },
+  {
+    "pokemon": "Arcanine",
+    "costume": "Firamon Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/039-arcanine-firamon-costume.png"
+  },
+  {
+    "pokemon": "Scizor",
+    "costume": "Demonic Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/040-scizor-demonic-costume.png"
+  },
+  {
+    "pokemon": "Toxicroak",
+    "costume": "Shadow Toxic Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/041-toxicroak-shadow-toxic-costume.png"
+  },
+  {
+    "pokemon": "Mimikyu",
+    "costume": "Shadow Flames Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/042-mimikyu-shadow-flames-costume.png"
+  },
+  {
+    "pokemon": "Gardevoir",
+    "costume": "Albedo Fight Mode Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/043-gardevoir-albedo-fight-mode-costume.png"
+  },
+  {
+    "pokemon": "Alakazam",
+    "costume": "Golden Armor Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/044-alakazam-golden-armor-costume.png"
+  },
+  {
+    "pokemon": "Pinsir",
+    "costume": "Shadow Lighting Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/045-pinsir-shadow-lighting-costume.png"
+  },
+  {
+    "pokemon": "Arcanine",
+    "costume": "Saint Bernard Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/046-arcanine-saint-bernard-costume.png"
+  },
+  {
+    "pokemon": "Machamp",
+    "costume": "Black Sledgehammer Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/047-machamp-black-sledgehammer-costume.png"
+  },
+  {
+    "pokemon": "Sylveon",
+    "costume": "Queen's Crown Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/048-sylveon-queen-s-crown-costume.png"
+  },
+  {
+    "pokemon": "Swalot",
+    "costume": "Shadow Gosme Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/049-swalot-shadow-gosme-costume.png"
+  },
+  {
+    "pokemon": "Skarmory",
+    "costume": "Shadow Steel Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/050-skarmory-shadow-steel-costume.png"
+  },
+  {
+    "pokemon": "Pupitar",
+    "costume": "Core Digital Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/051-pupitar-core-digital-costume.png"
+  },
+  {
+    "pokemon": "Ursaring",
+    "costume": "Projeto U.R.S.A",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/052-ursaring-projeto-u-r-s-a.png"
+  },
+  {
+    "pokemon": "Snorlax",
+    "costume": "Bat Lax Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/053-snorlax-bat-lax-costume.png"
+  },
+  {
+    "pokemon": "Gardevoir",
+    "costume": "Wanda's Verse Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/054-gardevoir-wanda-s-verse-costume.png"
+  },
+  {
+    "pokemon": "Alakazam",
+    "costume": "Death Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/055-alakazam-death-costume.png"
+  },
+  {
+    "pokemon": "Arcanine",
+    "costume": "Flame Armored Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/056-arcanine-flame-armored-costume.png"
+  },
+  {
+    "pokemon": "Sylveon",
+    "costume": "Astro Nova Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/057-sylveon-astro-nova-costume.png"
+  },
+  {
+    "pokemon": "Flygon",
+    "costume": "Mecha Flygon Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/058-flygon-mecha-flygon-costume.png"
+  },
+  {
+    "pokemon": "Gyarados",
+    "costume": "Coven Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/059-gyarados-coven-costume.png"
+  },
+  {
+    "pokemon": "Kingdra",
+    "costume": "Coven Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/060-kingdra-coven-costume.png"
+  },
+  {
+    "pokemon": "Sharpedo",
+    "costume": "Coven Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/061-sharpedo-coven-costume.png"
+  },
+  {
+    "pokemon": "Milotic",
+    "costume": "Coven Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/062-milotic-coven-costume.png"
+  },
+  {
+    "pokemon": "Magmar",
+    "costume": "Davy Jones Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/063-magmar-davy-jones-costume.png"
+  },
+  {
+    "pokemon": "Magmar",
+    "costume": "Skull Cursed Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/064-magmar-skull-cursed-costume.png"
+  },
+  {
+    "pokemon": "Blaziken",
+    "costume": "Sudden Blaze Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/065-blaziken-sudden-blaze-costume.png"
+  },
+  {
+    "pokemon": "Hitmontop",
+    "costume": "Gear5 Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/066-hitmontop-gear5-costume.png"
+  },
+  {
+    "pokemon": "Machamp",
+    "costume": "Kratos Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/067-machamp-kratos-costume.png"
+  },
+  {
+    "pokemon": "Snorlax",
+    "costume": "Bartholomew Kuma Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/068-snorlax-bartholomew-kuma-costume.png"
+  },
+  {
+    "pokemon": "Raichu",
+    "costume": "Tor Chu Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/069-raichu-tor-chu-costume.png"
+  },
+  {
+    "pokemon": "Sceptile",
+    "costume": "Zero Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "20 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/070-sceptile-zero-costume.png"
+  },
+  {
+    "pokemon": "Blaziken",
+    "costume": "Slash Beast Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "20 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/071-blaziken-slash-beast-costume.png"
+  },
+  {
+    "pokemon": "Swampert",
+    "costume": "Megaman Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "20 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/072-swampert-megaman-costume.png"
+  },
+  {
+    "pokemon": "Ampharos",
+    "costume": "Static Shock Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "25 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/073-ampharos-static-shock-costume.png"
+  },
+  {
+    "pokemon": "Marowak",
+    "costume": "Phantom Knight Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "25 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/074-marowak-phantom-knight-costume.png"
+  },
+  {
+    "pokemon": "Ninetales",
+    "costume": "Cosmic Essence",
+    "origin": "Tienda de Diamantes",
+    "cost": "20 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/075-ninetales-cosmic-essence.png"
+  },
+  {
+    "pokemon": "Umbreon",
+    "costume": "Cyber Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "20 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/076-umbreon-cyber-costume.png"
+  },
+  {
+    "pokemon": "Espeon",
+    "costume": "Angel Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "20 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/077-espeon-angel-costume.png"
+  },
+  {
+    "pokemon": "Flareon",
+    "costume": "Spiked Mane",
+    "origin": "Tienda de Diamantes",
+    "cost": "20 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/078-flareon-spiked-mane.png"
+  },
+  {
+    "pokemon": "Vaporeon",
+    "costume": "Showman Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "20 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/079-vaporeon-showman-costume.png"
+  },
+  {
+    "pokemon": "Jolteon",
+    "costume": "Broken Bonds",
+    "origin": "Tienda de Diamantes",
+    "cost": "20 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/080-jolteon-broken-bonds.png"
+  },
+  {
+    "pokemon": "Hitmontop",
+    "costume": "Soldier Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "20 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/081-hitmontop-soldier-costume.png"
+  },
+  {
+    "pokemon": "Fearow",
+    "costume": "Moltres Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "20 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/082-fearow-moltres-costume.png"
+  },
+  {
+    "pokemon": "Steelix",
+    "costume": "Megatron Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "20 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/083-steelix-megatron-costume.png"
+  },
+  {
+    "pokemon": "Venusaur",
+    "costume": "Zombie Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "20 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/084-venusaur-zombie-costume.png"
+  },
+  {
+    "pokemon": "Charizard",
+    "costume": "Samurai Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "20 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/085-charizard-samurai-costume.png"
+  },
+  {
+    "pokemon": "Blastoise",
+    "costume": "Bones Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "20 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/086-blastoise-bones-costume.png"
+  },
+  {
+    "pokemon": "Raichu",
+    "costume": "Aviator Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "15 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/087-raichu-aviator-costume.png"
+  },
+  {
+    "pokemon": "Scizor",
+    "costume": "Illidan Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "5 Diamonds",
+    "shiny": false,
+    "image": "assets/addons/088-scizor-illidan-costume.png"
+  },
+  {
+    "pokemon": "Scizor",
+    "costume": "Ninja Clothes",
+    "origin": "Tienda de Diamantes",
+    "cost": "5 Diamonds",
+    "shiny": false,
+    "image": "assets/addons/089-scizor-ninja-clothes.png"
+  },
+  {
+    "pokemon": "Steelix",
+    "costume": "Iron Jaw",
+    "origin": "Tienda de Diamantes",
+    "cost": "5 Diamonds",
+    "shiny": false,
+    "image": "assets/addons/090-steelix-iron-jaw.png"
+  },
+  {
+    "pokemon": "Gyarados",
+    "costume": "Shenlong Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/091-gyarados-shenlong-costume.png"
+  },
+  {
+    "pokemon": "Dragonair",
+    "costume": "Holydramon Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/092-dragonair-holydramon-costume.png"
+  },
+  {
+    "pokemon": "Charizard",
+    "costume": "Blue Eyed White Dragon Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/093-charizard-blue-eyed-white-dragon-costume.png"
+  },
+  {
+    "pokemon": "Alakazam",
+    "costume": "Invoker Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/094-alakazam-invoker-costume.png"
+  },
+  {
+    "pokemon": "Machamp",
+    "costume": "Four Arms Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/095-machamp-four-arms-costume.png"
+  },
+  {
+    "pokemon": "Gengar",
+    "costume": "Grim Reaper Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/096-gengar-grim-reaper-costume.png"
+  },
+  {
+    "pokemon": "Wobbuffet",
+    "costume": "Borgo Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/097-wobbuffet-borgo-costume.png"
+  },
+  {
+    "pokemon": "Electabuzz",
+    "costume": "Goku Superior Instinct Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/098-electabuzz-goku-superior-instinct-costume.png"
+  },
+  {
+    "pokemon": "Marowak",
+    "costume": "Ghostfire Shroud Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/099-marowak-ghostfire-shroud-costume.png"
+  },
+  {
+    "pokemon": "Electabuzz",
+    "costume": "Goku Super Saiyan Blue Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/100-electabuzz-goku-super-saiyan-blue-costume.png"
+  },
+  {
+    "pokemon": "Magmar",
+    "costume": "Vegeta Super Saiyan God Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/101-magmar-vegeta-super-saiyan-god-costume.png"
+  },
+  {
+    "pokemon": "Scizor",
+    "costume": "Asclépio Armor",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/102-scizor-asclepio-armor.png"
+  },
+  {
+    "pokemon": "Gengar",
+    "costume": "Igris Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/103-gengar-igris-costume.png"
+  },
+  {
+    "pokemon": "Gengar",
+    "costume": "Houndoom Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/104-gengar-houndoom-costume.png"
+  },
+  {
+    "pokemon": "Pinsir",
+    "costume": "Chrysalimon Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/105-pinsir-chrysalimon-costume.png"
+  },
+  {
+    "pokemon": "Metagross",
+    "costume": "Shadow Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/106-metagross-shadow-costume.png"
+  },
+  {
+    "pokemon": "Wobbuffet",
+    "costume": "Saitama Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/107-wobbuffet-saitama-costume.png"
+  },
+  {
+    "pokemon": "Alakazam",
+    "costume": "Deva Costume",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/108-alakazam-deva-costume.png"
+  },
+  {
+    "pokemon": "Alakazam",
+    "costume": "Dark Magician",
+    "origin": "Tienda de Diamantes",
+    "cost": "50 Diamonds",
+    "shiny": true,
+    "image": "assets/addons/109-alakazam-dark-magician.png"
+  },
+  {
+    "pokemon": "Scyther",
+    "costume": "Beru Costume",
+    "origin": "Market",
+    "cost": "Precio variable",
+    "shiny": true,
+    "image": "assets/addons/999-shiny-scyther-beru-costume.png"
+  }
+]

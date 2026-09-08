@@ -1,0 +1,708 @@
+[
+  {
+    "name": "Hiro / Zero Two",
+    "origin": "Tienda de Diamantes",
+    "price": 70,
+    "available": true,
+    "note": "Precio de referencia; puede variar o aparecer con descuento.",
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/diamond-01-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/diamond-01-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Emperor King / Emperor Queen",
+    "origin": "Tienda de Diamantes",
+    "price": 70,
+    "available": true,
+    "note": "Precio de referencia; puede variar o aparecer con descuento.",
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/diamond-02-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/diamond-02-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Prince Ashitaka / Princess Mononoke",
+    "origin": "Tienda de Diamantes",
+    "price": 70,
+    "available": true,
+    "note": "Precio de referencia; puede variar o aparecer con descuento.",
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/diamond-03-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/diamond-03-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Prince Ashitaka / Kaia Ultra Instinct",
+    "origin": "Tienda de Diamantes",
+    "price": 70,
+    "available": true,
+    "note": "Precio de referencia; puede variar o aparecer con descuento.",
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/diamond-04-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/diamond-04-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Goku Ultra Instinct / Lorekeeper Outfit",
+    "origin": "Tienda de Diamantes",
+    "price": 70,
+    "available": true,
+    "note": "Precio de referencia; puede variar o aparecer con descuento.",
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/diamond-05-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/diamond-05-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Lorekeeper Outfit / Reaper of Souls Outfit",
+    "origin": "Tienda de Diamantes",
+    "price": 70,
+    "available": true,
+    "note": "Precio de referencia; puede variar o aparecer con descuento.",
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/diamond-06-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/diamond-06-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Reaper of Souls Outfit / Bonny Gear5 Outfit",
+    "origin": "Tienda de Diamantes",
+    "price": 70,
+    "available": true,
+    "note": "Precio de referencia; puede variar o aparecer con descuento.",
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/diamond-07-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/diamond-07-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Luffy Gear5 Outfit / Saiyan Legacy Outfit",
+    "origin": "Tienda de Diamantes",
+    "price": 70,
+    "available": true,
+    "note": "Precio de referencia; puede variar o aparecer con descuento.",
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/diamond-08-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/diamond-08-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Saiyan Legacy Outfit / City Engineer Outfit",
+    "origin": "Tienda de Diamantes",
+    "price": 70,
+    "available": true,
+    "note": "Precio de referencia; puede variar o aparecer con descuento.",
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/diamond-09-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/diamond-09-f.png"
+      }
+    ]
+  },
+  {
+    "name": "City Engineer Outfit / Hex Maniac Outfit",
+    "origin": "Tienda de Diamantes",
+    "price": 50,
+    "available": true,
+    "note": "Precio de referencia; puede variar o aparecer con descuento.",
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/diamond-10-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/diamond-10-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Hex Maniac Outfit / Marta Outfit",
+    "origin": "Tienda de Diamantes",
+    "price": 50,
+    "available": true,
+    "note": "Precio de referencia; puede variar o aparecer con descuento.",
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/diamond-11-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/diamond-11-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Neymar Outfit / Ronaldinho Outfit",
+    "origin": "Tienda de Diamantes",
+    "price": 70,
+    "available": true,
+    "note": "Precio de referencia; puede variar o aparecer con descuento.",
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/diamond-12-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/diamond-12-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Ronaldinho Outfit",
+    "origin": "Tienda de Diamantes",
+    "price": 70,
+    "available": true,
+    "note": "Precio de referencia; puede variar o aparecer con descuento.",
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/diamond-13-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/diamond-13-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Ronaldinho Outfit / Zodiac Outfit",
+    "origin": "Tienda de Diamantes",
+    "price": 70,
+    "available": true,
+    "note": "Precio de referencia; puede variar o aparecer con descuento.",
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/diamond-14-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/diamond-14-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Zodiac Outfit / Mage Outfit",
+    "origin": "Tienda de Diamantes",
+    "price": 30,
+    "available": true,
+    "note": "Precio de referencia; puede variar o aparecer con descuento.",
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/diamond-15-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/diamond-15-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Mage Outfit / Shakky Outfit",
+    "origin": "Tienda de Diamantes",
+    "price": 30,
+    "available": true,
+    "note": "Precio de referencia; puede variar o aparecer con descuento.",
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/diamond-16-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/diamond-16-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Rocks D. Xebec Outfit / Dark Flash Outfit",
+    "origin": "Tienda de Diamantes",
+    "price": 30,
+    "available": true,
+    "note": "Precio de referencia; puede variar o aparecer con descuento.",
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/diamond-17-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/diamond-17-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Dark Flash Outfit / Hogwarts Outfit",
+    "origin": "Tienda de Diamantes",
+    "price": 30,
+    "available": true,
+    "note": "Precio de referencia; puede variar o aparecer con descuento.",
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/diamond-18-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/diamond-18-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Hogwarts Outfit / Punk Kid Outfit",
+    "origin": "Tienda de Diamantes",
+    "price": 30,
+    "available": true,
+    "note": "Precio de referencia; puede variar o aparecer con descuento.",
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/diamond-19-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/diamond-19-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Punk Kid Outfit / Coven Outfit",
+    "origin": "Tienda de Diamantes",
+    "price": 30,
+    "available": true,
+    "note": "Precio de referencia; puede variar o aparecer con descuento.",
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/diamond-20-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/diamond-20-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Coven Outfit / Uraraka Outfit",
+    "origin": "Tienda de Diamantes",
+    "price": 30,
+    "available": true,
+    "note": "Precio de referencia; puede variar o aparecer con descuento.",
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/diamond-21-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/diamond-21-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Midoriya Outfit / Royal Flame Outfit",
+    "origin": "Tienda de Diamantes",
+    "price": 30,
+    "available": true,
+    "note": "Precio de referencia; puede variar o aparecer con descuento.",
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/diamond-22-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/diamond-22-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Royal Flame Outfit / King Kong Outfit",
+    "origin": "Tienda de Diamantes",
+    "price": 30,
+    "available": true,
+    "note": "Precio de referencia; puede variar o aparecer con descuento.",
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/diamond-23-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/diamond-23-f.png"
+      }
+    ]
+  },
+  {
+    "name": "King Kong Outfit / Lugia Outfit",
+    "origin": "Tienda de Diamantes",
+    "price": 30,
+    "available": true,
+    "note": "Precio de referencia; puede variar o aparecer con descuento.",
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/diamond-24-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/diamond-24-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Lugia Outfit / Frieren Outfit",
+    "origin": "Tienda de Diamantes",
+    "price": 30,
+    "available": true,
+    "note": "Precio de referencia; puede variar o aparecer con descuento.",
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/diamond-25-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/diamond-25-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Himmel Outfit / Tallulah Outfit",
+    "origin": "Tienda de Diamantes",
+    "price": 30,
+    "available": true,
+    "note": "Precio de referencia; puede variar o aparecer con descuento.",
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/diamond-26-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/diamond-26-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Gala Special Outfit",
+    "origin": "Tienda de Diamantes",
+    "price": 30,
+    "available": true,
+    "note": "Precio de referencia; puede variar o aparecer con descuento.",
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/diamond-27-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/diamond-27-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Digimon Special Outfit",
+    "origin": "Pase de Batalla",
+    "available": true,
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/pass-0-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/pass-0-f.png"
+      }
+    ],
+    "note": "Incluye estilos adicionales dentro del mismo outfit."
+  },
+  {
+    "name": "Killua / Biscuit Krueger Outfit",
+    "origin": "Pase de Batalla",
+    "available": true,
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/pass-1-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/pass-1-f.png"
+      }
+    ],
+    "note": "Incluye estilos adicionales dentro del mismo outfit."
+  },
+  {
+    "name": "Titan Outfit",
+    "origin": "Pase de Batalla",
+    "available": true,
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/pass-titan-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/pass-titan-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Solo Leveling Outfit",
+    "origin": "Pase de Batalla",
+    "available": true,
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/pass-solo-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/pass-solo-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Canarinho Outfit",
+    "origin": "Evento Mundial",
+    "available": false,
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/evt-canarinho.png"
+      }
+    ]
+  },
+  {
+    "name": "San Valentín 2026",
+    "origin": "Evento de San Valentín 2026",
+    "available": false,
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/evt-san-valentin-2026-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/evt-san-valentin-2026-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Pascua",
+    "origin": "Evento de Pascua",
+    "available": false,
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/evt-pascua-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/evt-pascua-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Aniversario",
+    "origin": "Evento de Aniversario",
+    "available": false,
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/evt-aniversario-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/evt-aniversario-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Carnaval",
+    "origin": "Evento de Carnaval",
+    "available": false,
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/evt-carnaval-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/evt-carnaval-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Carnaval - variante",
+    "origin": "Evento de Carnaval",
+    "available": false,
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/evt-carnaval---variante-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/evt-carnaval---variante-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Halloween",
+    "origin": "Evento de Halloween",
+    "available": false,
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/evt-halloween-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/evt-halloween-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Recompensa de Dungeon",
+    "origin": "Recompensa de Dungeon",
+    "available": false,
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/evt-recompensa-de-dungeon-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/evt-recompensa-de-dungeon-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Paquete Fundador",
+    "origin": "Paquete Fundador",
+    "available": false,
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/evt-paquete-fundador-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/evt-paquete-fundador-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Paquete Groudon",
+    "origin": "Paquete de Diamantes",
+    "available": true,
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/evt-paquete-groudon-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/evt-paquete-groudon-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Paquete Kyogre",
+    "origin": "Paquete de Diamantes",
+    "available": true,
+    "variants": [
+      {
+        "label": "Hombre",
+        "image": "assets/outfits/evt-paquete-kyogre-m.png"
+      },
+      {
+        "label": "Mujer",
+        "image": "assets/outfits/evt-paquete-kyogre-f.png"
+      }
+    ]
+  },
+  {
+    "name": "Titan nivel 500",
+    "origin": "Evento Titan",
+    "available": true,
+    "note": "Normal: recompensa nivel 350. Shiny: recompensa nivel 400 en servidor Titan.",
+    "variants": [
+      {
+        "label": "Hombre normal",
+        "image": "assets/outfits/evt-titan-0.png"
+      },
+      {
+        "label": "Hombre shiny",
+        "image": "assets/outfits/evt-titan-1.png"
+      },
+      {
+        "label": "Mujer normal",
+        "image": "assets/outfits/evt-titan-2.png"
+      },
+      {
+        "label": "Mujer shiny",
+        "image": "assets/outfits/evt-titan-3.png"
+      }
+    ]
+  }
+]

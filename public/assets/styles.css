@@ -162,3 +162,7 @@ td .pokeMentionSprite,li .pokeMentionSprite,.faqItem .pokeMentionSprite{width:22
 .gymDungeonRoster{margin:12px 0}
 .gymDungeonRoster .gymCompactRoster{grid-template-columns:repeat(2,minmax(0,1fr))}
 @media(max-width:760px){.gymLeaderGrid{grid-template-columns:1fr}.gymCompactRoster,.gymDungeonRoster .gymCompactRoster{grid-template-columns:1fr}}
+
+/* PKA Wiki identity */
+.brandmark{width:48px;height:48px;border-radius:0;background:none;box-shadow:none;display:grid;place-items:center;flex:0 0 48px;overflow:visible}.brandmark img{display:block;width:48px;height:48px;object-fit:contain}.nav{min-height:68px}
+@media(max-width:580px){.brandmark,.brandmark img{width:44px;height:44px}.brandmark{flex-basis:44px}}

@@ -193,7 +193,7 @@ window.addEventListener('DOMContentLoaded',()=>{enhanceSearchSprites();renderDex
 
 /* === UX conectada: navegación, contexto y páginas relacionadas === */
 const UX_GROUPS=[
- ['Pokédex',['Pokédex|pokedex.html','Tier List|tier-list.html','Drops|drops.html','Brokes y captura|brokes.html']],
+ ['Pokédex',['Pokédex|pokedex.html','Megastones|megastones.html','Addons|addons.html','Tier List|tier-list.html','Drops|drops.html','Brokes y captura|brokes.html']],
  ['Progresión',['Primeros pasos|primeros-pasos.html','Experiencia|sistema-experiencia.html','Entrenamiento|sistema-entrenamiento.html','Boost|boost.html','Star Ascension|sistema-star.html','Talentos|talentos.html','Helds|sistema-helds.html']],
  ['Mundo y actividades',['Localizaciones|localizaciones.html','Instancias|instancias.html','GYMs|gyms.html','Dungeons|dungeons.html','Tasks|tasks.html','Linked Tasks|linked-tasks.html','Rocket|rocket.html','Policía|police.html']],
  ['Herramientas e info',['Calculadoras|calculadoras.html','Rotaciones|rotaciones.html','Hunt Analyzer|hunt-analyzer.html','Guías|guias.html','NPCs|npcs.html','Changelogs|changelogs.html','FAQ|faq.html']]
@@ -204,7 +204,7 @@ const RELATED={
  'calculadora-dano.html':['Damage de referencia|damage.html','Entrenamiento|sistema-entrenamiento.html','Star Ascension|sistema-star.html','Rotaciones|rotaciones.html'],
  'sistema-entrenamiento.html':['Estimador de daño|calculadora-dano.html','Boost|boost.html','Star Ascension|sistema-star.html','Talentos|talentos.html'],
  'boost.html':['Entrenamiento|sistema-entrenamiento.html','Star Ascension|sistema-star.html','Calculadoras|calculadoras.html','Damage|damage.html'],
- 'pokedex.html':['Tier List|tier-list.html','Localizaciones|localizaciones.html','Drops|drops.html','Brokes y captura|brokes.html'],
+ 'pokedex.html':['Megastones|megastones.html','Addons|addons.html','Tier List|tier-list.html','Localizaciones|localizaciones.html','Drops|drops.html','Brokes y captura|brokes.html'],
  'localizaciones.html':['Instancias|instancias.html','Pokédex|pokedex.html','Rotaciones|rotaciones.html','Tasks|tasks.html'],
  'tasks.html':['Linked Tasks|linked-tasks.html','NPCs|npcs.html','Localizaciones|localizaciones.html','Pokédex|pokedex.html'],
  'instancias.html':['Localizaciones|localizaciones.html','Rotaciones|rotaciones.html','Pokédex|pokedex.html','Guías|guias.html'],

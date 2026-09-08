@@ -465,11 +465,11 @@
     "variants": [
       {
         "label": "Hombre",
-        "image": "assets/outfits/pass-0-m.png"
+        "image": "assets/outfits/pass-0-m.jpg"
       },
       {
         "label": "Mujer",
-        "image": "assets/outfits/pass-0-f.png"
+        "image": "assets/outfits/pass-0-f.jpg"
       }
     ],
     "note": "Incluye estilos adicionales dentro del mismo outfit."
@@ -481,11 +481,11 @@
     "variants": [
       {
         "label": "Hombre",
-        "image": "assets/outfits/pass-1-m.png"
+        "image": "assets/outfits/pass-1-m.jpg"
       },
       {
         "label": "Mujer",
-        "image": "assets/outfits/pass-1-f.png"
+        "image": "assets/outfits/pass-1-f.jpg"
       }
     ],
     "note": "Incluye estilos adicionales dentro del mismo outfit."
@@ -497,11 +497,11 @@
     "variants": [
       {
         "label": "Hombre",
-        "image": "assets/outfits/pass-titan-m.png"
+        "image": "assets/outfits/pass-titan-outfit-m.jpg"
       },
       {
         "label": "Mujer",
-        "image": "assets/outfits/pass-titan-f.png"
+        "image": "assets/outfits/pass-titan-outfit-f.jpg"
       }
     ]
   },
@@ -512,11 +512,11 @@
     "variants": [
       {
         "label": "Hombre",
-        "image": "assets/outfits/pass-solo-m.png"
+        "image": "assets/outfits/pass-solo-leveling-outfit-m.jpg"
       },
       {
         "label": "Mujer",
-        "image": "assets/outfits/pass-solo-f.png"
+        "image": "assets/outfits/pass-solo-leveling-outfit-f.jpg"
       }
     ]
   },
@@ -527,7 +527,7 @@
     "variants": [
       {
         "label": "Hombre",
-        "image": "assets/outfits/evt-canarinho.png"
+        "image": "assets/outfits/evt-canarinho-outfit.jpg"
       }
     ]
   },
@@ -538,11 +538,11 @@
     "variants": [
       {
         "label": "Hombre",
-        "image": "assets/outfits/evt-san-valentin-2026-m.png"
+        "image": "assets/outfits/evt-san-valentin-2026-m.jpg"
       },
       {
         "label": "Mujer",
-        "image": "assets/outfits/evt-san-valentin-2026-f.png"
+        "image": "assets/outfits/evt-san-valentin-2026-f.jpg"
       }
     ]
   },
@@ -553,11 +553,11 @@
     "variants": [
       {
         "label": "Hombre",
-        "image": "assets/outfits/evt-pascua-m.png"
+        "image": "assets/outfits/evt-pascua-m.jpg"
       },
       {
         "label": "Mujer",
-        "image": "assets/outfits/evt-pascua-f.png"
+        "image": "assets/outfits/evt-pascua-f.jpg"
       }
     ]
   },
@@ -568,11 +568,11 @@
     "variants": [
       {
         "label": "Hombre",
-        "image": "assets/outfits/evt-aniversario-m.png"
+        "image": "assets/outfits/evt-aniversario-m.jpg"
       },
       {
         "label": "Mujer",
-        "image": "assets/outfits/evt-aniversario-f.png"
+        "image": "assets/outfits/evt-aniversario-f.jpg"
       }
     ]
   },
@@ -583,11 +583,11 @@
     "variants": [
       {
         "label": "Hombre",
-        "image": "assets/outfits/evt-carnaval-m.png"
+        "image": "assets/outfits/evt-carnaval-m.jpg"
       },
       {
         "label": "Mujer",
-        "image": "assets/outfits/evt-carnaval-f.png"
+        "image": "assets/outfits/evt-carnaval-f.jpg"
       }
     ]
   },
@@ -598,11 +598,11 @@
     "variants": [
       {
         "label": "Hombre",
-        "image": "assets/outfits/evt-carnaval---variante-m.png"
+        "image": "assets/outfits/evt-carnaval-variante-m.jpg"
       },
       {
         "label": "Mujer",
-        "image": "assets/outfits/evt-carnaval---variante-f.png"
+        "image": "assets/outfits/evt-carnaval-variante-f.jpg"
       }
     ]
   },
@@ -613,11 +613,11 @@
     "variants": [
       {
         "label": "Hombre",
-        "image": "assets/outfits/evt-halloween-m.png"
+        "image": "assets/outfits/evt-halloween-m.jpg"
       },
       {
         "label": "Mujer",
-        "image": "assets/outfits/evt-halloween-f.png"
+        "image": "assets/outfits/evt-halloween-f.jpg"
       }
     ]
   },
@@ -628,11 +628,11 @@
     "variants": [
       {
         "label": "Hombre",
-        "image": "assets/outfits/evt-recompensa-de-dungeon-m.png"
+        "image": "assets/outfits/evt-recompensa-de-dungeon-m.jpg"
       },
       {
         "label": "Mujer",
-        "image": "assets/outfits/evt-recompensa-de-dungeon-f.png"
+        "image": "assets/outfits/evt-recompensa-de-dungeon-f.jpg"
       }
     ]
   },
@@ -643,11 +643,11 @@
     "variants": [
       {
         "label": "Hombre",
-        "image": "assets/outfits/evt-paquete-fundador-m.png"
+        "image": "assets/outfits/evt-paquete-fundador-m.jpg"
       },
       {
         "label": "Mujer",
-        "image": "assets/outfits/evt-paquete-fundador-f.png"
+        "image": "assets/outfits/evt-paquete-fundador-f.jpg"
       }
     ]
   },
@@ -658,11 +658,11 @@
     "variants": [
       {
         "label": "Hombre",
-        "image": "assets/outfits/evt-paquete-groudon-m.png"
+        "image": "assets/outfits/evt-paquete-groudon-m.jpg"
       },
       {
         "label": "Mujer",
-        "image": "assets/outfits/evt-paquete-groudon-f.png"
+        "image": "assets/outfits/evt-paquete-groudon-f.jpg"
       }
     ]
   },
@@ -673,11 +673,11 @@
     "variants": [
       {
         "label": "Hombre",
-        "image": "assets/outfits/evt-paquete-kyogre-m.png"
+        "image": "assets/outfits/evt-paquete-kyogre-m.jpg"
       },
       {
         "label": "Mujer",
-        "image": "assets/outfits/evt-paquete-kyogre-f.png"
+        "image": "assets/outfits/evt-paquete-kyogre-f.jpg"
       }
     ]
   },
@@ -689,19 +689,19 @@
     "variants": [
       {
         "label": "Hombre normal",
-        "image": "assets/outfits/evt-titan-0.png"
+        "image": "assets/outfits/evt-titan-500-0.jpg"
       },
       {
         "label": "Hombre shiny",
-        "image": "assets/outfits/evt-titan-1.png"
+        "image": "assets/outfits/evt-titan-500-1.jpg"
       },
       {
         "label": "Mujer normal",
-        "image": "assets/outfits/evt-titan-2.png"
+        "image": "assets/outfits/evt-titan-500-2.jpg"
       },
       {
         "label": "Mujer shiny",
-        "image": "assets/outfits/evt-titan-3.png"
+        "image": "assets/outfits/evt-titan-500-3.jpg"
       }
     ]
   }

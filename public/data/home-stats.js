@@ -1,0 +1,1 @@
+window.PKA_STATS={"pokemon":866,"drops":855,"tasks":426,"dungeons":25};

@@ -1,34 +1,18 @@
-// performance-i18n-v2
-const CACHE='pka-wiki-v12-performance-i18n';
-const CORE=['./','index.html','assets/styles.css','assets/app.js','assets/i18n.js','assets/enhancements.js','assets/pokelog-icons.js','data/wiki-data.js','lang/es/common.json','lang/pt-BR/common.json'];
-
-self.addEventListener('install',event=>{
-  event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(CORE)).then(()=>self.skipWaiting()));
-});
-
-self.addEventListener('activate',event=>{
-  event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));
-});
-
-function isStatic(request){
-  const url=new URL(request.url);
-  if(url.origin!==self.location.origin)return false;
-  return /\.(?:css|js|json|png|jpg|jpeg|webp|svg|ico|woff2?)$/i.test(url.pathname);
-}
-
+// performance-v3: lightweight data bundles + inline base i18n
+const CACHE='pka-wiki-v13-performance-max';
+const CORE=['./','index.html','assets/styles.css','assets/app.js','assets/i18n.js','assets/enhancements.js','data/pokemon-index.js','data/home-stats.js','assets/pka-wiki-logo.png'];
+self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting())));
+self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
+function staticAsset(r){const u=new URL(r.url);return u.origin===self.location.origin&&/\.(?:css|js|json|png|jpg|jpeg|webp|svg|ico|woff2?)$/i.test(u.pathname)}
 self.addEventListener('fetch',event=>{
-  if(event.request.method!=='GET')return;
-  if(isStatic(event.request)){
-    // Stale-while-revalidate: respuesta inmediata desde caché y actualización en segundo plano.
-    event.respondWith(caches.open(CACHE).then(async cache=>{
-      const cached=await cache.match(event.request);
-      const network=fetch(event.request).then(response=>{
-        if(response&&response.ok)cache.put(event.request,response.clone());
-        return response;
-      }).catch(()=>null);
-      return cached || network || Response.error();
-    }));
-    return;
-  }
-  event.respondWith(fetch(event.request).catch(()=>caches.match(event.request).then(r=>r||caches.match('index.html'))));
+ if(event.request.method!=='GET')return;
+ if(staticAsset(event.request)){
+  event.respondWith(caches.open(CACHE).then(async c=>{
+   const hit=await c.match(event.request);
+   const net=fetch(event.request).then(r=>{if(r&&r.ok)c.put(event.request,r.clone());return r}).catch(()=>null);
+   return hit||net||Response.error();
+  }));return;
+ }
+ // HTML stays network-first so deployments never feel stale; cached page is offline fallback.
+ if(event.request.mode==='navigate')event.respondWith(fetch(event.request).then(r=>{const copy=r.clone();caches.open(CACHE).then(c=>c.put(event.request,copy));return r}).catch(()=>caches.match(event.request).then(r=>r||caches.match('index.html'))));
 });

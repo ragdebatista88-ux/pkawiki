@@ -23,24 +23,20 @@
   }
 
   async function loadBaseCatalogs() {
-    const pagePath = `lang/${lang}/pages/${page}.json`;
-    const targetPaths = [`lang/${lang}/common.json`, pagePath];
-    const target = await Promise.all(targetPaths.map(getJSON));
-    catalogs[lang] = Object.assign({}, ...target);
-
-    if (lang === 'es') {
-      catalogs.es = catalogs.es && Object.keys(catalogs.es).length ? { ...catalogs.es, ...catalogs[lang] } : catalogs[lang];
-      reverse = {};
-      dynamicReady = false;
-      return;
+    const inline = window.PKA_I18N_INLINE || {};
+    if (inline[lang]) catalogs[lang] = inline[lang];
+    else {
+      const target = await Promise.all([getJSON(`lang/${lang}/common.json`), getJSON(`lang/${lang}/pages/${page}.json`)]);
+      catalogs[lang] = Object.assign({}, ...target);
     }
 
-    const source = await Promise.all([
-      getJSON('lang/es/common.json'),
-      getJSON(`lang/es/pages/${page}.json`)
-    ]);
-    catalogs.es = Object.assign({}, ...source);
-    rebuildReverse();
+    if (inline.es) catalogs.es = inline.es;
+    else if (lang !== 'es') {
+      const source = await Promise.all([getJSON('lang/es/common.json'), getJSON(`lang/es/pages/${page}.json`)]);
+      catalogs.es = Object.assign({}, ...source);
+    } else catalogs.es = catalogs[lang];
+
+    if (lang !== 'es') rebuildReverse(); else reverse = {};
     dynamicReady = false;
   }
 

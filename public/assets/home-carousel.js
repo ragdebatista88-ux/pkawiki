@@ -32,7 +32,7 @@
   };
   const stop=()=>{if(timer){clearInterval(timer);timer=null}};
   const start=()=>{stop();if(slides.length>1&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches)timer=setInterval(()=>go(index+1),8000)};
-  fetch('data/anuncios.json',{cache:'no-store'}).then(r=>r.json()).then(data=>{
+  fetch('data/anuncios.json',{cache:'force-cache'}).then(r=>r.json()).then(data=>{
     slides=(Array.isArray(data)?data:[]).filter(x=>x&&x.activo!==false);
     if(!slides.length)return;
     track.innerHTML=slides.map(renderSlide).join('');

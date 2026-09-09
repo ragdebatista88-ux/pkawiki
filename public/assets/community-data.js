@@ -23,8 +23,8 @@ async function run(){
  const el=document.querySelector('#communityStats');if(!el)return;
  try{
    const [data,recent]=await Promise.all([
-     fetch('data/community-stats.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json()}),
-     fetch('data/recent-captures.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json()})
+     fetch('data/community-stats.json',{cache:'force-cache'}).then(r=>{if(!r.ok)throw Error();return r.json()}),
+     fetch('data/recent-captures.json',{cache:'force-cache'}).then(r=>{if(!r.ok)throw Error();return r.json()})
    ]);
    const page=document.querySelector('#pokemonName')?.textContent||'';
    const shiny=/^Shiny\s+/i.test(page),mode=shiny?'shiny':'normal',key=baseName(page);

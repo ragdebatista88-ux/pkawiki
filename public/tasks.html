@@ -5,7 +5,7 @@
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="Tasks del mundo de PokeAlliance con filtros por dificultad, ubicación y Pokémon." name="description"/>
 <title data-i18n="tasks.0001.622141d3"></title>
-<link href="assets/styles.css" rel="stylesheet"/>
+<link href="assets/styles.css" rel="stylesheet"/><link data-i18n-preload="common-es" href="lang/es/common.json" rel="preload" as="fetch"/><link data-i18n-preload="page-es" href="lang/es/pages/tasks.json" rel="preload" as="fetch"/>
 <link href="assets/tasks.css" rel="stylesheet"/>
 <meta content="#071625" name="theme-color"/><link href="assets/favicon-32.png" rel="icon" sizes="32x32" type="image/png"/><link href="assets/apple-touch-icon.png" rel="apple-touch-icon"/><link href="manifest.webmanifest" rel="manifest"/></head>
 <body data-matrix="" data-page="tasks-world">
@@ -36,7 +36,7 @@
 <script src="assets/pokelog-icons.js"></script><script src="assets/app.js"></script><script src="assets/i18n.js"></script>
 <script>
 (async()=>{
-  const D=await(await fetch('data/tasks-table.json',{cache:'no-store'})).json();
+  const D=await(await fetch('data/tasks-table.json',{cache:'force-cache'})).json();
   const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const N=s=>String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
   const U=a=>[...new Set(a.filter(Boolean))].sort((a,b)=>String(a).localeCompare(String(b),'es'));

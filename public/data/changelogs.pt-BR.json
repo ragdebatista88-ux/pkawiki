@@ -1,29 +1,29 @@
 [
   {
-    "fecha": "8 de septiembre de 2026",
+    "fecha": "8 de setembro de 2026",
     "secciones": [
       {
-        "titulo": "Cambios en la regla de World Transfer",
+        "titulo": "Alterações na regra de World Transfer",
         "cambios": [
-          "Anteriormente no era posible realizar una transferencia si el personaje pertenecía a una Guild. Con este cambio, válido en todos los servidores, la Guild también podrá ser migrada.",
-          "Inicialmente, si ya existe una Guild con el mismo nombre en el servidor de destino, la Guild transferida recibirá un nombre aleatorio.",
-          "En los próximos días se realizarán cambios internos para implementar un registro único de nombres de Guilds y evitar conflictos entre mundos.",
-          "Para transferir la Guild, el líder deberá expulsar a todos sus miembros y después transferir su personaje. La Guild será migrada junto con el líder."
+          "Anteriormente, não era possível realizar uma transferência caso o personagem estivesse em uma Guild. Com esta alteração, válida em todos os servidores, a Guild também poderá ser migrada.",
+          "Inicialmente, caso já exista uma Guild com o mesmo nome no servidor de destino, a Guild transferida receberá um nome aleatório.",
+          "Nos próximos dias, serão realizadas alterações internas para implementar um cadastro único dos nomes das Guilds e evitar conflitos entre os mundos.",
+          "Para transferir a Guild, o líder deverá expulsar todos os membros e depois transferir seu personagem. A Guild será migrada junto com o líder."
         ]
       },
       {
-        "titulo": "Cambios generales",
+        "titulo": "Alterações gerais",
         "cambios": [
-          "Todos los jugadores de Titan 1 y Titan 2 recibieron gratuitamente un World Migration Ticket.",
-          "Se agregó un historial de “PIX” dentro del juego, accesible desde la Wallet.",
-          "Se agregaron opciones gráficas al juego: Antialiasing (predeterminado), Smooth Retro y None (Pixel perfect).",
-          "Se agregó el cooldown de Teleport a las barras de condiciones del jugador."
+          "Todos os jogadores do Titan 1 e Titan 2 receberam gratuitamente um World Migration Ticket.",
+          "Foi adicionado um histórico de “PIX” dentro do jogo, que pode ser acessado pela Wallet.",
+          "Foram adicionadas opções gráficas ao jogo: Antialiasing (padrão), Smooth Retro e None (Pixel perfect).",
+          "Foi adicionado o cooldown de Teleport às barras de condições do jogador."
         ]
       },
       {
-        "titulo": "Correcciones de bugs",
+        "titulo": "Correções de bugs",
         "cambios": [
-          "Se corrigió un error por el que el Pokémon quedaba sin el target del jugador durante algunos milisegundos al regresar de la Poké Ball."
+          "Foi corrigido um erro em que o Pokémon ficava sem o target do jogador por alguns milissegundos ao retornar da Poké Ball."
         ]
       }
     ]

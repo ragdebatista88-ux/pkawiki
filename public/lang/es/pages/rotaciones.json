@@ -187,5 +187,12 @@
   "rotaciones.0186.0bbd0ee9": "Shiny Scyther — SR",
   "rotaciones.0187.55fcb7d0": "Scolipede — T2",
   "rotaciones.0188.d601ac61": "— incompleta",
-  "rotaciones.0189.98023e6f": "La guía no propone una rotación inicial para Dragon por ahora."
+  "rotaciones.0189.98023e6f": "La guía no propone una rotación inicial para Dragon por ahora.",
+  "rotaciones.0190.minreq_title": "Requisitos mínimos recomendados",
+  "rotaciones.0191.minreq_intro": "Como referencia para comenzar a realizar rotaciones de forma cómoda, jugadores experimentados de la comunidad recomiendan contar al menos con:",
+  "rotaciones.0192.minreq_atk": "Training de ATK: nivel 30 o superior.",
+  "rotaciones.0193.minreq_held": "Held Item: ATK T4.",
+  "rotaciones.0194.minreq_team": "Equipo: mínimo 2 Pokémon con 2 estrellas.",
+  "rotaciones.0195.minreq_sr": "Si cuentas con un Pokémon Super Rare (SR) adecuado para la rotación, puede sustituir a uno de los Pokémon T1.",
+  "rotaciones.0196.minreq_note": "Estos valores son una referencia mínima basada en la experiencia de jugadores de la comunidad. El rendimiento puede variar según la rotación, los Pokémon utilizados, habilidades, Held Items, Stars, tier y composición del equipo."
 }

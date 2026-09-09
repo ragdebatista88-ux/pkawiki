@@ -186,3 +186,6 @@ td .pokeMentionSprite,li .pokeMentionSprite,.faqItem .pokeMentionSprite{width:22
 @media(min-width:931px){.topbar .shell.nav{padding-right:155px}}
 @media(max-width:930px){.topbar>.languageSwitcher{right:62px}.topbar .shell.nav{padding-right:150px}}
 @media(max-width:560px){.topbar>.languageSwitcher{right:56px}.topbar .shell.nav{padding-right:138px}}
+
+/* Requisitos mínimos de rotaciones */
+.rotMinReq{margin:24px 0 28px}.rotMinReq>h2{margin-bottom:8px}.rotMinReq>p{color:var(--muted);margin-bottom:10px}.rotMinReqList{margin:0;padding-left:22px;display:grid;gap:8px}.rotMinReqList li{padding-left:2px}

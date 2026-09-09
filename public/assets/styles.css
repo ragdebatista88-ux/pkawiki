@@ -174,3 +174,8 @@ td .pokeMentionSprite,li .pokeMentionSprite,.faqItem .pokeMentionSprite{width:22
 .languageSwitcher select:hover,.languageSwitcher select:focus{border-color:rgba(96,165,250,.7)}
 @media(max-width:980px){.languageSwitcher{margin-left:8px}.languageSwitcher .languageIcon{display:none}.languageSwitcher select{padding:6px 24px 6px 8px}}
 @media(max-width:560px){.languageSwitcher select{max-width:108px;font-size:11px}}
+
+/* Ajuste selector idioma: extremo derecho del header */
+.languageSwitcher{margin-left:auto!important;order:90}
+.menuBtn{order:100}
+@media(max-width:930px){.languageSwitcher{margin-left:auto!important}.menuBtn{margin-left:0!important}}

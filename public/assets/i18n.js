@@ -41,7 +41,7 @@
     const shell=document.querySelector('.topbar .shell, header .shell, .topbar'); if(!shell)return;
     const wrap=document.createElement('label'); wrap.className='languageSwitcher'; wrap.setAttribute('data-no-i18n','');
     wrap.innerHTML='<span class="languageIcon" aria-hidden="true">🌐</span><select id="wikiLanguageSelect" aria-label="Idioma"><option value="es">ES · Español</option><option value="pt-BR">BR · Português</option></select>';
-    const nav=shell.querySelector('.nav,.navlinks'); if(nav)shell.insertBefore(wrap,nav); else shell.appendChild(wrap);
+    shell.appendChild(wrap);
     wrap.querySelector('select').value=lang; wrap.querySelector('select').addEventListener('change',e=>setLanguage(e.target.value));
   }
   async function render(){ applying=true; document.documentElement.lang=lang; await loadCatalogs(); applyKeyed(); translateDynamic(); const s=document.querySelector('#wikiLanguageSelect'); if(s)s.value=lang; applying=false; document.dispatchEvent(new CustomEvent('pka:languagechange',{detail:{language:lang}})); }

@@ -179,3 +179,10 @@ td .pokeMentionSprite,li .pokeMentionSprite,.faqItem .pokeMentionSprite{width:22
 .languageSwitcher{margin-left:auto!important;order:90}
 .menuBtn{order:100}
 @media(max-width:930px){.languageSwitcher{margin-left:auto!important}.menuBtn{margin-left:0!important}}
+
+/* Selector de idioma: esquina superior derecha, dentro de la misma barra */
+.topbar{position:sticky}
+.topbar>.languageSwitcher{position:absolute!important;right:18px;top:50%;transform:translateY(-50%);margin:0!important;order:initial!important;z-index:80}
+@media(min-width:931px){.topbar .shell.nav{padding-right:155px}}
+@media(max-width:930px){.topbar>.languageSwitcher{right:62px}.topbar .shell.nav{padding-right:150px}}
+@media(max-width:560px){.topbar>.languageSwitcher{right:56px}.topbar .shell.nav{padding-right:138px}}

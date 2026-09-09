@@ -38,7 +38,7 @@
   }
   function injectSwitcher(){
     if(document.querySelector('.languageSwitcher')) return;
-    const shell=document.querySelector('.topbar .shell, header .shell, .topbar'); if(!shell)return;
+    const shell=document.querySelector('.topbar'); if(!shell)return;
     const wrap=document.createElement('label'); wrap.className='languageSwitcher'; wrap.setAttribute('data-no-i18n','');
     wrap.innerHTML='<span class="languageIcon" aria-hidden="true">🌐</span><select id="wikiLanguageSelect" aria-label="Idioma"><option value="es">ES · Español</option><option value="pt-BR">BR · Português</option></select>';
     shell.appendChild(wrap);

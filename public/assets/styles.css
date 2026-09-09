@@ -166,3 +166,11 @@ td .pokeMentionSprite,li .pokeMentionSprite,.faqItem .pokeMentionSprite{width:22
 /* PKA Wiki identity */
 .brandmark{width:48px;height:48px;border-radius:0;background:none;box-shadow:none;display:grid;place-items:center;flex:0 0 48px;overflow:visible}.brandmark img{display:block;width:48px;height:48px;object-fit:contain}.nav{min-height:68px}
 @media(max-width:580px){.brandmark,.brandmark img{width:44px;height:44px}.brandmark{flex-basis:44px}}
+
+/* === Selector de idioma ES / PT-BR === */
+.languageSwitcher{display:flex;align-items:center;gap:6px;margin-left:auto;position:relative;z-index:40;color:var(--muted);font-size:12px;white-space:nowrap}
+.languageSwitcher .languageIcon{font-size:15px;line-height:1}
+.languageSwitcher select{appearance:none;-webkit-appearance:none;border:1px solid rgba(148,163,184,.24);background:rgba(15,23,42,.78);color:var(--text,#e5e7eb);border-radius:9px;padding:7px 26px 7px 9px;font:inherit;font-weight:700;cursor:pointer;outline:none;background-image:linear-gradient(45deg,transparent 50%,currentColor 50%),linear-gradient(135deg,currentColor 50%,transparent 50%);background-position:calc(100% - 12px) 50%,calc(100% - 8px) 50%;background-size:4px 4px,4px 4px;background-repeat:no-repeat}
+.languageSwitcher select:hover,.languageSwitcher select:focus{border-color:rgba(96,165,250,.7)}
+@media(max-width:980px){.languageSwitcher{margin-left:8px}.languageSwitcher .languageIcon{display:none}.languageSwitcher select{padding:6px 24px 6px 8px}}
+@media(max-width:560px){.languageSwitcher select{max-width:108px;font-size:11px}}

@@ -24,3 +24,11 @@ Proyecto no oficial, no afiliado ni respaldado por PokeAlliance. Los valores pue
 ## Actualización de guías
 
 Esta versión añade una sección de Guías con quests, rotaciones y sistemas explicados en español, además de corregir el encabezado sticky de las tablas para que no cubra la primera fila. Las guías se reorganizaron a partir de material comunitario; no son copias literales de los HTML de referencia.
+
+## Actualización ES / PT-BR
+- Selector global de idioma en el encabezado.
+- Cambio dinámico sin recargar la página.
+- Preferencia persistente con localStorage.
+- Traducción de contenido estático y contenido generado dinámicamente por JavaScript.
+- El atributo `lang` del documento cambia entre `es` y `pt-BR`.
+- Service Worker actualizado para cachear el módulo de idioma.

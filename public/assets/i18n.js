@@ -64,8 +64,14 @@
     ['\brequiere\b','requer'],['\brequieren\b','requerem'],['\bpermite\b','permite'],['\bpermite\b','permite'],['\baumenta\b','aumenta'],['\breduce\b','reduz'],['\baparece\b','aparece'],['\baparecen\b','aparecem'],['\butiliza\b','utiliza'],['\butilizar\b','utilizar'],['\bconsigue\b','consegue'],['\bconseguir\b','conseguir'],
     ['\bobjetivo\b','objetivo'],['\bmisión\b','missão'],['\bmisiones\b','missões'],['\btarea\b','tarefa'],['\btareas\b','tarefas'],['\bobjeto\b','item'],['\bobjetos\b','itens'],['\bmaterial\b','material'],['\bmateriales\b','materiais'],['\bmoneda\b','moeda'],['\bmonedas\b','moedas'],
     ['\bregistrado\b','registrado'],['\bregistrados\b','registrados'],['\bregistrada\b','registrada'],['\bregistradas\b','registradas'],['\bpendiente\b','pendente'],['\bcompleto\b','completo'],['\bcompleta\b','completa'],['\bincompleto\b','incompleto'],['\bincompleta\b','incompleta'],
+    ['\bganaste\b','você ganhou'],['\bganar\b','ganhar'],['\bderrotar\b','derrotar'],['\bderrota\b','derrote'],['\bmatar\b','derrotar'],['\bcompleta\b','complete'],['\bcompletar\b','completar'],['\bhabla\b','fale'],['\bhablar\b','falar'],['\bentrega\b','entrega'],['\bentregar\b','entregar'],['\bvuelve\b','volte'],['\bregresa\b','volte'],['\bregresar\b','voltar'],
+    ['\bmejor\b','melhor'],['\bmejores\b','melhores'],['\bpeor\b','pior'],['\bfácil\b','fácil'],['\bdifícil\b','difícil'],['\brápido\b','rápido'],['\brápida\b','rápida'],['\blento\b','lento'],['\blenta\b','lenta'],['\bgrande\b','grande'],['\bpequeño\b','pequeno'],['\bpequeña\b','pequena'],
+    ['\bderecha\b','direita'],['\bizquierda\b','esquerda'],['\bcamino\b','caminho'],['\bruta\b','rota'],['\bescaleras\b','escadas'],['\bpuerta\b','porta'],['\bciudad\b','cidade'],['\bpueblo\b','cidade'],['\bmapa\b','mapa'],['\bzona\b','área'],['\blugar\b','lugar'],
+    ['\bprimera vez\b','primeira vez'],['\bveces\b','vezes'],['\bvez\b','vez'],['\bcada\b','cada'],['\bcualquier\b','qualquer'],['\botro\b','outro'],['\botra\b','outra'],['\botros\b','outros'],['\botras\b','outras'],
+    ['\bmayor\b','maior'],['\bmenor\b','menor'],['\baumentar\b','aumentar'],['\breducir\b','reduzir'],['\bprobabilidad\b','probabilidade'],['\baparición\b','aparecimento'],['\bcaptura\b','captura'],['\bcapturar\b','capturar'],['\bderrotado\b','derrotado'],['\bderrotados\b','derrotados'],
+    ['\bnecesita\b','precisa'],['\bnecesitan\b','precisam'],['\bencuentra\b','encontra'],['\bencuentran\b','encontram'],['\bconsigues\b','consegue'],['\brecibes\b','recebe'],['\brecibe\b','recebe'],['\botorga\b','concede'],['\botorgan\b','concedem'],
     ['\bactualización\b','atualização'],['\bactualizaciones\b','atualizações'],['\bcambio\b','mudança'],['\bcambios\b','mudanças'],['\bcorrección\b','correção'],['\bcorrecciones\b','correções'],['\bsistema\b','sistema'],['\bsistemas\b','sistemas']
-  ].map(([p,r]) => [new RegExp(p,'giu'), r]);
+  ].map(([p,r]) => [new RegExp(p.replace(/\x08/g, '\\b'),'giu'), r]);
 
   const originals = new WeakMap();
   const attrOriginals = new WeakMap();
@@ -82,6 +88,20 @@
     const trimmed = text.trim();
     if (exact.has(trimmed)) return text.replace(trimmed, exact.get(trimmed));
     let out = text;
+    const phrases = [
+      [/\bde esta\b/giu,'desta'],[/\bde este\b/giu,'deste'],[/\ben esta\b/giu,'nesta'],[/\ben este\b/giu,'neste'],[/\ben el\b/giu,'no'],[/\ben la\b/giu,'na'],[/\ben los\b/giu,'nos'],[/\ben las\b/giu,'nas'],
+      [/\bde un\b/giu,'de um'],[/\bde una\b/giu,'de uma'],[/\bpor el\b/giu,'pelo'],[/\bpor la\b/giu,'pela'],[/\bpor los\b/giu,'pelos'],[/\bpor las\b/giu,'pelas'],
+      [/\bpara el\b/giu,'para o'],[/\bpara la\b/giu,'para a'],[/\bcon el\b/giu,'com o'],[/\bcon la\b/giu,'com a'],[/\bdel juego\b/giu,'do jogo'],[/\bde juego\b/giu,'do jogo'],
+      [/\ba través de\b/giu,'através de'],[/\bdespués de\b/giu,'depois de'],[/\bantes de\b/giu,'antes de'],[/\bcerca de\b/giu,'perto de'],[/\balrededor de\b/giu,'ao redor de'],
+      [/\bse encuentra\b/giu,'fica'],[/\bse encuentran\b/giu,'ficam'],[/\bse obtiene\b/giu,'é obtido'],[/\bse obtienen\b/giu,'são obtidos'],[/\bse puede\b/giu,'é possível'],[/\bse pueden\b/giu,'é possível'],
+      [/\bten en cuenta\b/giu,'lembre-se'],[/\bteniendo en cuenta\b/giu,'levando em conta'],[/\bpor ejemplo\b/giu,'por exemplo'],[/\bes decir\b/giu,'ou seja'],
+      [/\bpuntos de experiencia\b/giu,'pontos de experiência'],[/\bpunto de experiencia\b/giu,'ponto de experiência'],[/\bpuntos de vida\b/giu,'pontos de vida'],
+      [/\bcentro pokémon\b/giu,'Centro Pokémon'],[/\bcentro pokemon\b/giu,'Centro Pokémon'],[/\bcasa de\b/giu,'casa de'],[/\bisla de\b/giu,'ilha de'],[/\bzona de\b/giu,'área de'],
+      [/\bhaz clic\b/giu,'clique'],[/\bdar clic\b/giu,'clicar'],[/\bdale clic\b/giu,'clique'],[/\bdebes\b/giu,'você deve'],[/\bnecesitas\b/giu,'você precisa'],[/\bpuedes\b/giu,'você pode'],
+      [/\brecuerda que\b/giu,'lembre-se de que'],[/\buna vez que\b/giu,'depois que'],[/\bcada vez que\b/giu,'sempre que'],[/\bno se puede\b/giu,'não é possível'],[/\bno puedes\b/giu,'você não pode'],
+      [/\bno hay\b/giu,'não há'],[/\bno existe\b/giu,'não existe'],[/\bno existen\b/giu,'não existem'],[/\bpor ahora\b/giu,'por enquanto'],[/\bactualmente\b/giu,'atualmente']
+    ];
+    for (const [rx,repl] of phrases) out = out.replace(rx, m => preserveCase(m,repl));
     for (const [rx, repl] of words) out = out.replace(rx, m => preserveCase(m, repl));
     // Correcciones frecuentes después de sustituciones por palabras.
     out = out

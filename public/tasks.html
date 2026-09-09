@@ -11,7 +11,7 @@
 <body data-page="tasks-world" data-matrix="">
 <header class="topbar"><div class="shell nav"><a class="brand" href="index.html"><span class="brandmark"><img src="assets/pka-wiki-logo.png" alt="" aria-hidden="true"></span><span>PKA No Oficial Wiki</span></a><nav class="navlinks"><a href="index.html">Inicio</a><a href="pokedex.html">Pokédex</a><a href="megastones.html">Megastones</a><a href="addons.html">Addons</a><a href="localizaciones.html">Localizaciones</a><a href="tasks.html">Tasks</a><a href="npcs.html">NPCs</a><a href="dungeons.html">Dungeons</a><a href="guias.html">Guías</a><a href="sistemas.html">Sistemas</a><a href="changelogs.html">Changelogs</a><a href="sugerencias.html">Sugerencias</a><a href="faq.html">FAQ</a></nav><button class="menuBtn" aria-label="Abrir menú">☰</button></div></header>
 <main>
-<section class="pageHead"><div class="shell"><span class="eyebrow">Tasks del mundo</span><h1>Tasks</h1><p>Consulta los NPC, su ubicación, los Pokémon que debes derrotar, la dificultad y las recompensas.</p><div class="tasksHeroMeta"><span class="taskMetaPill">43 tasks registradas</span><span class="taskMetaPill">Los filtros funcionan en conjunto</span><a class="taskMetaPill" href="linked-tasks.html">Ver Linked Tasks →</a></div></div></section>
+<section class="pageHead"><div class="shell"><span class="eyebrow">Tasks del mundo</span><h1>Tasks</h1><p>Consulta los NPC, su ubicación, los Pokémon que debes derrotar, la dificultad y las recompensas.</p><div class="tasksHeroMeta"><span class="taskMetaPill" id="taskTotal">Tasks registradas</span><span class="taskMetaPill">Los filtros funcionan en conjunto</span><a class="taskMetaPill" href="linked-tasks.html">Ver Linked Tasks →</a></div></div></section>
 <section class="section"><div class="shell">
 <div class="taskFilters">
   <div class="taskFilter taskFilterSearch"><label for="taskSearch">Buscar</label><input id="taskSearch" type="search" placeholder="NPC, ciudad, Pokémon o recompensa…" autocomplete="off"></div>
@@ -28,7 +28,7 @@
 </table>
 <div id="taskEmpty" class="taskEmpty" hidden>No hay Tasks que coincidan con los filtros seleccionados.</div>
 </div>
-<div class="taskSourceNote">La task de Leah aparece como una incorporación posterior en la fuente y no viene asociada a una de las cuatro categorías originales, por eso se muestra como “Adicional”.</div>
+<div class="taskSourceNote">Las Tasks de Hoenn enlazadas desde la Pokédex ya aparecen en esta tabla. Cuando la fuente actual solo identifica el NPC y los Pokémon asociados, la cantidad y la recompensa se marcan como pendientes de documentar para evitar inventar datos. La task de Leah se mantiene como “Adicional”.</div>
 </div></section>
 </main>
 <footer class="footer"><div class="shell footerRow"><div><b>PKA No Oficial Wiki</b><br>Proyecto comunitario no afiliado ni respaldado oficialmente por PokeAlliance.</div><div>Contenido reorganizado y adaptado al español.</div></div></footer>
@@ -49,26 +49,34 @@
     while((m=re.exec(String(text)))) out.push({qty:m[1],shiny:!!m[2],name:m[3]});
     return out;
   }
-  function targetHtml(text){
-    const arr=targets(text);
-    if(!arr.length) return `<span>${E(text)}</span>`;
-    return `<div class="taskPokemonList">${arr.map(p=>{
+  function pokemonTargets(row){
+    const parsed=targets(row.task);
+    if(parsed.length) return parsed;
+    return (Array.isArray(row.pokemon)?row.pokemon:[]).map(name=>({qty:'',shiny:/^Shiny\s+/i.test(name),name:String(name).replace(/^Shiny\s+/i,'')}));
+  }
+  function targetHtml(row){
+    const arr=pokemonTargets(row);
+    if(!arr.length) return `<span>${E(row.task)}</span>`;
+    const chips=`<div class="taskPokemonList">${arr.map(p=>{
       const full=(p.shiny?'Shiny ':'')+p.name;
       const src=typeof pokemonSprite==='function'?pokemonSprite(full):'';
-      return `<span class="taskPokemonChip ${p.shiny?'isShiny':''}" title="${E(p.qty+' '+full)}">${src?`<img class="taskPokemonSprite" src="${E(src)}" alt="${E(full)}" loading="lazy" onerror="this.style.display='none'">`:''}<span class="taskPokemonQty">${E(p.qty)}×</span><span class="taskPokemonName">${p.shiny?'<b>Shiny</b> ':''}${E(p.name)}</span></span>`;
+      const label=(p.qty?p.qty+' ':'')+full;
+      return `<span class="taskPokemonChip ${p.shiny?'isShiny':''}" title="${E(label)}">${src?`<img class="taskPokemonSprite" src="${E(src)}" alt="${E(full)}" loading="lazy" onerror="this.style.display='none'">`:''}${p.qty?`<span class="taskPokemonQty">${E(p.qty)}×</span>`:''}<span class="taskPokemonName">${p.shiny?'<b>Shiny</b> ':''}${E(p.name)}</span></span>`;
     }).join('')}</div>`;
+    return chips+(targets(row.task).length?'':`<small class="taskPending">Cantidades pendientes de documentar.</small>`);
   }
 
+  document.querySelector('#taskTotal').textContent=D.length+' tasks registradas';
   U(D.map(x=>x.dificultad)).forEach(x=>df.add(new Option(x,x)));
   U(D.map(x=>x.ubicacion)).forEach(x=>lf.add(new Option(x,x)));
-  const pokemonNames=U(D.flatMap(x=>targets(x.task).map(p=>p.name)));
+  const pokemonNames=U(D.flatMap(x=>pokemonTargets(x).map(p=>p.name)));
   pokemonNames.forEach(x=>pf.add(new Option(x,x)));
 
   function render(){
-    const a=D.filter(x=>(!q.value||N([x.npc,x.ubicacion,x.task,x.recompensa,x.dificultad].join(' ')).includes(N(q.value)))&&(!df.value||x.dificultad===df.value)&&(!lf.value||x.ubicacion===lf.value)&&(!pf.value||targets(x.task).some(p=>N(p.name)===N(pf.value))));
+    const a=D.filter(x=>(!q.value||N([x.npc,x.ubicacion,x.task,x.recompensa,x.dificultad].join(' ')).includes(N(q.value)))&&(!df.value||x.dificultad===df.value)&&(!lf.value||x.ubicacion===lf.value)&&(!pf.value||pokemonTargets(x).some(p=>N(p.name)===N(pf.value))));
     document.querySelector('#taskCount').textContent=a.length+' '+(a.length===1?'Task':'Tasks');
     document.querySelector('#taskEmpty').hidden=!!a.length;
-    tb.innerHTML=a.map(x=>`<tr><td data-label="NPC"><strong>${E(x.npc)}</strong></td><td data-label="Ubicación">${E(x.ubicacion)}</td><td data-label="Qué pide matar" class="taskTarget">${targetHtml(x.task)}</td><td data-label="Dificultad"><span class="taskDifficulty">${E(x.dificultad)}</span></td><td data-label="Recompensa"><strong>${E(x.recompensa)}</strong></td><td data-label="Ubicación visual">${x.imagen?`<a class="taskMapBtn" href="${E(x.imagen)}" target="_blank" rel="noopener">Ver imagen ↗</a>`:'—'}</td></tr>`).join('');
+    tb.innerHTML=a.map(x=>`<tr><td data-label="NPC"><strong>${E(x.npc)}</strong></td><td data-label="Ubicación">${E(x.ubicacion)}</td><td data-label="Qué pide matar" class="taskTarget">${targetHtml(x)}</td><td data-label="Dificultad"><span class="taskDifficulty">${E(x.dificultad)}</span></td><td data-label="Recompensa"><strong>${E(x.recompensa)}</strong>${x.nota?`<small class="taskRewardNote">${E(x.nota)}</small>`:''}</td><td data-label="Ubicación visual">${x.imagen?`<a class="taskMapBtn" href="${E(x.imagen)}" target="_blank" rel="noopener">Ver imagen ↗</a>`:'—'}</td></tr>`).join('');
   }
   [q,df,lf,pf].forEach(e=>e.addEventListener(e===q?'input':'change',render));
   document.querySelector('#clearTaskFilters').onclick=()=>{q.value=df.value=lf.value=pf.value='';render()};

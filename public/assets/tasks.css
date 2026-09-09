@@ -6,3 +6,5 @@
 @media(max-width:1000px){.taskFilters{grid-template-columns:1fr 1fr}.taskFilterSearch{grid-column:1/-1}.taskClearBtn{grid-column:1/-1}.taskResultBar{align-items:flex-start;flex-direction:column}}
 @media(max-width:760px){.taskFilters{grid-template-columns:1fr}.taskFilterSearch,.taskClearBtn{grid-column:auto}.taskTable{min-width:0}.taskTable thead{display:none}.taskTable,.taskTable tbody,.taskTable tr,.taskTable td{display:block;width:100%}.taskTable tr{padding:10px 14px;border-bottom:1px solid var(--border)}.taskTable td{display:grid;grid-template-columns:120px 1fr;gap:10px;padding:7px 0;border:0}.taskTable td:before{content:attr(data-label);font-size:.69rem;text-transform:uppercase;font-weight:800;opacity:.55}.taskTarget{min-width:0}.taskPokemonList{margin-top:-4px}.taskPokemonChip{white-space:normal}}
 @media(max-width:480px){.taskTable td{grid-template-columns:96px 1fr}.taskPokemonSprite{width:30px;height:30px}.taskPokemonChip{padding-right:7px}}
+
+.taskPending,.taskRewardNote{display:block;margin-top:6px;color:var(--muted,#8ea3b7);font-size:.78rem;line-height:1.35}.taskRewardNote{max-width:34ch}

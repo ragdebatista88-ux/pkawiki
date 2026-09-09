@@ -985,8 +985,8 @@
   },
   {
     "nombre": "Rafaela",
-    "queHace": "NPC de Tasks asociado a Hariyama, Makuhita.",
-    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "queHace": "Entrega una Task asociada a Makuhita y Hariyama. Recompensa: 3,000,000 EXP, 100 Mighty Tokens y 5 Special Bubble Gums. El Special Bubble Gum aumenta en 150% la aparición de Pokémon Shiny durante 2 horas.",
+    "ubicacion": "Isla de Makuhita y Hariyama · Coordenadas: 1909, 4365, 7",
     "imagen": "https://imgur.com/a/subt538",
     "categoria": "Tasks",
     "pagina": "tasks.html"

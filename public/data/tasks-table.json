@@ -342,5 +342,939 @@
     "recompensa": "50K EXP",
     "imagen": null,
     "dificultad": "Adicional"
+  },
+  {
+    "npc": "Adriano",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Electrike, Manectric. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/gZXKevQ",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Electrike",
+      "Manectric"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Aldric",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Relicanth. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/FWC14O8",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Relicanth"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Alessandra",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Anorith, Armaldo. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/3TH2eLX",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Anorith",
+      "Armaldo"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Atlas",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Heracross. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/JrzuMGt",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Heracross"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Beatriz",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Blaziken, Combusken, Torchic. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/13SqnNQ",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Blaziken",
+      "Combusken",
+      "Torchic"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Bianca",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Minun, Plusle. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/NP74ZdI",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Minun",
+      "Plusle"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Blake",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Bulbasaur, Ivysaur. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/bZOLHYr",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Bulbasaur",
+      "Ivysaur"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Cedric",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Marshtomp, Mudkip, Swampert. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/CilI2Qu",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Marshtomp",
+      "Mudkip",
+      "Swampert"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Darian",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Huntail. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/yf8McW8",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Huntail"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Diana",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Mightyena, Poochyena. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/quY35DH",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Mightyena",
+      "Poochyena"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Dr. Oliveira",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Ditto. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/bVsObWr",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Ditto"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Edmund",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Pachirisu. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/AHqoyTH",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Pachirisu"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Eduardo",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Linoone, Zigzagoon. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/srQujl5",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Linoone",
+      "Zigzagoon"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Elisa",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Feebas, Milotic. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/KXcgrGa",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Feebas",
+      "Milotic"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Ester",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Beldum, Metagross, Metang. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/63Z6NBG",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Beldum",
+      "Metagross",
+      "Metang"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Fabiana",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Gulpin, Swalot. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/W1n420E",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Gulpin",
+      "Swalot"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Fernanda",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Beautifly, Silcoon. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/DzCTHuU",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Beautifly",
+      "Silcoon"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Fernando",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Kecleon. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/tIZh4hQ",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Kecleon"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Gavin",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Machoke, Machop. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/1yRsaFj",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Machoke",
+      "Machop"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Gilberto",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Carvanha, Sharpedo. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/cG8jdq3",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Carvanha",
+      "Sharpedo"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Grace",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Gastly, Haunter. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/7owKwog",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Gastly",
+      "Haunter"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Gustavo",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Cascoon, Dustox. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/qWFHjSa",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Cascoon",
+      "Dustox"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Harper",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Jynx. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/dy3sR9T",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Jynx"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Hayden",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Pidgeot, Pidgeotto, Pidgey. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/pcKcLKB",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Pidgeot",
+      "Pidgeotto",
+      "Pidgey"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Helena",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Lombre, Lotad, Ludicolo. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/bVXSMgI",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Lombre",
+      "Lotad",
+      "Ludicolo"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Helio",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Solrock. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/W937hgf",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Solrock"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Heloisa",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Wailmer, Wailord. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/f1vbCNC",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Wailmer",
+      "Wailord"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Henrique",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Tropius. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/4tWBIfg",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Tropius"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Igor",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Nuzleaf, Seedot, Shiftry. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/5qzdvFp",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Nuzleaf",
+      "Seedot",
+      "Shiftry"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Isadora",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Chimecho. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/makffiD",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Chimecho"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Iuri",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Camerupt, Numel. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/LltpRYe",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Camerupt",
+      "Numel"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Jaqueline",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Torkoal. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/e9oSags",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Torkoal"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Jorge",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Absol. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/JvDgg2S",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Absol"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Kaue",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Grumpig, Spoink. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/iViOJtA",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Grumpig",
+      "Spoink"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Kevin",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Pelipper, Wingull. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/3uzfVdr",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Pelipper",
+      "Wingull"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Kyra",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Mimikyu. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/UvNX1DL",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Mimikyu"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Larissa",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Gardevoir, Kirlia, Ralts. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/4qZv6j4",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Gardevoir",
+      "Kirlia",
+      "Ralts"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Leonardo",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Clamperl. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/7plXUBy",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Clamperl"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Lily",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Cubone, Marowak. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/GEmLpCs",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Cubone",
+      "Marowak"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Lyra",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Lunatone. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/ZNfrPlF",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Lunatone"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Marcelo",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Masquerain, Surskit. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/7RyMS2g",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Masquerain",
+      "Surskit"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Mario",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Flygon, Trapinch, Vibrava. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/J2yH0M6",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Flygon",
+      "Trapinch",
+      "Vibrava"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Mason",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Venusaur. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/2a1rF5l",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Venusaur"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Natalia",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Cacnea, Cacturne. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/CHRjs14",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Cacnea",
+      "Cacturne"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Nelio",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Sealeo, Spheal, Walrein. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/1SDaMvq",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Sealeo",
+      "Spheal",
+      "Walrein"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Nicole",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Breloom, Shroomish. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/s6WzxSe",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Breloom",
+      "Shroomish"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Nolan",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Tangela. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/nlNYZER",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Tangela"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Octavio",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Slaking, Slakoth, Vigoroth. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/Rv0FwSX",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Slaking",
+      "Slakoth",
+      "Vigoroth"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Olivia",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Huntail. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/GvUNfvI",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Huntail"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Osvaldo",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Altaria, Swablu. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/4BU3DIw",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Altaria",
+      "Swablu"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Patricia",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Nincada, Ninjask, Shedinja. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/E8qjeH8",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Nincada",
+      "Ninjask",
+      "Shedinja"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Penelope",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Meganium, Venusaur. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/uUDQMYp",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Meganium",
+      "Venusaur"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Priscila",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Zangoose. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/UZYLkq1",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Zangoose"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Quezia",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Gorebyss. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/rPNCYPx",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Gorebyss"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Quill",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Qwilfish. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/fmnPze7",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Qwilfish"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Quirino",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Exploud, Loudred, Whismur. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/rGxGeVU",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Exploud",
+      "Loudred",
+      "Whismur"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Rafaela",
+    "ubicacion": "Isla de Makuhita y Hariyama · Coordenadas: 1909, 4365, 7",
+    "task": "Task de Makuhita y Hariyama. Cantidades pendientes de documentar.",
+    "recompensa": "3,000,000 EXP, 100 Mighty Tokens y 5 Special Bubble Gums",
+    "imagen": "assets/tasks/rafaela-ubicacion.png",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Makuhita",
+      "Hariyama"
+    ],
+    "region": "Hoenn",
+    "nota": "Special Bubble Gum aumenta en 150% la aparición de Pokémon Shiny durante 2 horas."
+  },
+  {
+    "npc": "Renato",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Seviper. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/8blMAEF",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Seviper"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Roberto",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Relicanth. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/6rbv74w",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Relicanth"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Rowena",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Absol. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/3CUDkD2",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Absol"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Sergio",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Seviper. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/xp2NokO",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Seviper"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Sonia",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Bagon, Salamence, Shelgon. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/aH6C5Aa",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Bagon",
+      "Salamence",
+      "Shelgon"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Thiago",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Lunatone, Solrock. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/tHVsIsX",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Lunatone",
+      "Solrock"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Tiago",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Luvdisc. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/TD4brVl",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Luvdisc"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Vicente",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Barboach, Whiscash. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/3VwW2qZ",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Barboach",
+      "Whiscash"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Vincent",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Tangela. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/DqsE5Ex",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Tangela"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Wagner",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Sableye. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/pPbHeWc",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Sableye"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Xenia",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Mawile. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/SJjIR88",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Mawile"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Xisto",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Corphish, Crawdaunt. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/8N0wTGr",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Corphish",
+      "Crawdaunt"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Yasmin",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Baltoy, Claydol. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/91iZYub",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Baltoy",
+      "Claydol"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Ygor",
+    "ubicacion": "Ubicación exacta no documentada en texto.",
+    "task": "Task asociada a Aggron, Aron, Lairon. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Aggron",
+      "Aron",
+      "Lairon"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Zeca",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Cradily. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/dhBNsP3",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Cradily"
+    ],
+    "region": "Hoenn"
+  },
+  {
+    "npc": "Zuleica",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "task": "Task asociada a Medicham, Meditite. Cantidades pendientes de documentar.",
+    "recompensa": "Pendiente de documentar",
+    "imagen": "https://imgur.com/a/0irrv1r",
+    "dificultad": "Hoenn",
+    "pokemon": [
+      "Medicham",
+      "Meditite"
+    ],
+    "region": "Hoenn"
   }
 ]

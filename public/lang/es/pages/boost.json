@@ -1,0 +1,17 @@
+{
+  "boost.0001.4c099c02": "Sistema de Boost | PKA No Oficial Wiki",
+  "boost.0002.75cdfd91": "El Boost fortalece de forma permanente el daño de las magias del Pokémon. El límite descrito es +50.",
+  "boost.0003.69af072a": "Cada +1 Boost se trata como",
+  "boost.0004.a230a3a6": "3 niveles adicionales",
+  "boost.0005.4dc7a49e": "para el cálculo de daño de las magias; +50 equivale a 150 niveles adicionales en ese cálculo. Usa una Boost Stone de la franja correcta y de un elemento compatible con al menos uno de los elementos del Pokémon.",
+  "boost.0006.dcb99eef": "Piedras, rangos y chance inicial",
+  "boost.0007.d4f7c4a8": "Qué pasa al fallar",
+  "boost.0008.4848e1e1": "La piedra se consume, pero el Pokémon no pierde Boost. Cada fallo suma",
+  "boost.0009.87b720f9": "10 puntos porcentuales",
+  "boost.0010.a4c1bd35": "a la siguiente tentativa dentro de esa franja. Al acertar, el acumulado vuelve a cero.",
+  "boost.0011.501697de": "Craft y fragmentos",
+  "boost.0012.573bc5f7": "Las recetas pueden usar ítems del elemento, fragmentos, la piedra elemental correspondiente y otros materiales. Como las recetas pueden cambiar, conviene revisar la máquina antes de reunir recursos. Los fragmentos se obtienen principalmente en Dungeons ligadas al mismo elemento.",
+  "boost.0013.9a78aca6": "El sistema antiguo por encima de +50 con regresión y límite +70 no forma parte de la configuración descrita en esta guía.",
+  "boost.0014.70377813": "Materiales registrados en la base comunitaria",
+  "boost.0015.c6f294c6": "Debajo se conserva la tabla procedente del Excel para consultar materiales por tipo."
+}

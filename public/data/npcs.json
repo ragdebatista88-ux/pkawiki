@@ -264,6 +264,13 @@
     "pagina": "tasks.html"
   },
   {
+    "nombre": "Diveman",
+    "queHace": "Entrega la Ropa de Buceo a cambio de 3 Water Stone.",
+    "ubicacion": "Ubicación disponible en la referencia visual. El NPC se encuentra en la superficie, al lado de la entrada.",
+    "imagen": "https://imgur.com/xWkxgwg",
+    "categoria": "Intercambios"
+  },
+  {
     "nombre": "Doris",
     "queHace": "Entrega una Task: 1500 Snorlax y 25 Shiny Snorlax. Recompensa: 1KK EXP y desbloquea el intercambio del item Shiny. · NPC de Tasks asociado a Snorlax.",
     "ubicacion": "A la izquierda de Cerulean, en el bosque",
@@ -1144,6 +1151,13 @@
     "pagina": "tasks.html"
   },
   {
+    "nombre": "Sandman",
+    "queHace": "Entrega el Sandboard a cambio de 3 Enigma Stone.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/bUSyhB4",
+    "categoria": "Intercambios"
+  },
+  {
     "nombre": "Scarlet",
     "queHace": "Entrega una Task: 300 Dragonair y 1 Shiny Dragonair. Recompensa: 500K EXP y 2 Bubble Gum. · NPC de Tasks asociado a Dragonair.",
     "ubicacion": "A la derecha de Mahogany City, en la entrada de la montaña",
@@ -1182,6 +1196,13 @@
     "imagen": "https://imgur.com/a/xp2NokO",
     "categoria": "Tasks",
     "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Snowman",
+    "queHace": "Entrega la Ropa de Ski a cambio de 3 Ice Stone.",
+    "ubicacion": "Ubicación disponible en la referencia visual.",
+    "imagen": "https://imgur.com/a/zyBfjzG",
+    "categoria": "Intercambios"
   },
   {
     "nombre": "Sonia",

@@ -283,41 +283,54 @@ function applySearchQueryToPage(){
 }
 window.addEventListener('DOMContentLoaded',()=>{injectGlobalSearch();applySearchQueryToPage()});
 
-/* === UX 2026-09: convierte catálogos tabulares en vistas visuales === */
-const VISUAL_TABLE_PAGES=new Set([
- 'achievements.html','gamepass.html','npc-jully.html','sistema-experiencia.html',
- 'sistema-entrenamiento.html','comandos.html','brokes.html','hazard.html',
- 'cupones.html','gyms.html','boost.html','sistema-vip.html','tiers-especiales.html',
- 'quest-principales.html','sistema-helds.html','premier-vs-alliance.html','prey.html'
-]);
+/* === UX 2026-09: auditoría de tablas y vistas visuales === */
+const FORCE_CARD_TABLES={
+ 'npc-jully.html':'all','achievements.html':'all','comandos.html':'all','boost.html':'all',
+ 'brokes.html':[0],'sistema-entrenamiento.html':[0,1],'sistema-experiencia.html':'all',
+ 'gamepass.html':'all','sistema-vip.html':'all','prey.html':'all','sistema-helds.html':'all',
+ 'cupones.html':'all'
+};
+const FORCE_CLASSIC_TABLES={
+ 'sistema-star.html':'all','star-level.html':'all','premier-vs-alliance.html':'all',
+ 'gyms.html':'all','quest-principales.html':'all','quest-mewtwo-clones.html':'all',
+ 'tiers-especiales.html':[1],'hazard.html':[1]
+};
 function visualTableLang(){return document.documentElement.lang==='pt-BR'?'pt-BR':'es'}
+function tableChoice(rule,index){return rule==='all'||(Array.isArray(rule)&&rule.includes(index))}
+function tableColumnCount(table){const h=table.querySelectorAll('thead th').length,b=[...table.querySelectorAll('tbody tr')].map(r=>r.children.length);return Math.max(h,...b,0)}
+function tableHeaders(table,cols){const raw=[...table.querySelectorAll('thead th')].map(x=>clean(x.textContent)),fb=['Nombre','Detalle','Información','Valor','Dato'];return Array.from({length:cols},(_,i)=>raw[i]||fb[i]||`Dato ${i+1}`)}
+function addCardSearch(table,rows,lang){
+ if(rows.length<10||table.previousElementSibling?.classList?.contains('cardTableSearch'))return;
+ const box=document.createElement('div');box.className='cardTableSearch';
+ box.innerHTML=`<span>⌕</span><input type="search" placeholder="${lang==='pt-BR'?'Buscar nesta seção…':'Buscar en esta sección…'}"><small>${rows.length}</small>`;
+ const input=box.querySelector('input'),count=box.querySelector('small');
+ input.oninput=()=>{const q=clean(input.value).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();let n=0;rows.forEach(r=>{const s=clean(r.textContent).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase(),show=!q||s.includes(q);r.hidden=!show;if(show)n++});count.textContent=n};
+ table.parentNode.insertBefore(box,table);
+}
 function enhanceVisualTables(){
  const page=(location.pathname.split('/').pop()||'index.html').toLowerCase();
- if(!VISUAL_TABLE_PAGES.has(page))return;
- const tables=[...document.querySelectorAll('main table, .container table, article table')].filter(t=>!t.closest('.globalSearchModal')&&!t.classList.contains('noVisualCards'));
+ const tables=[...document.querySelectorAll('main table,.container table,article table')].filter(t=>!t.closest('.globalSearchModal')&&!t.classList.contains('noVisualCards')&&!t.dataset.visualAudited);
  if(!tables.length)return;
- const lang=visualTableLang();
- const tx=lang==='pt-BR'?{title:'Visualização do conteúdo',desc:'Cartões facilitam a leitura; use tabela para comparar colunas.',cards:'Cartões',table:'Tabela'}:{title:'Vista del contenido',desc:'Las tarjetas facilitan la lectura; usa tabla cuando quieras comparar columnas.',cards:'Tarjetas',table:'Tabla'};
- const saved=localStorage.getItem('pka-table-view');
- if(saved==='classic')document.body.classList.add('tableClassic');
- tables.forEach(table=>{
-   const headers=[...table.querySelectorAll('thead th')].map((th,i)=>clean(th.textContent)||(['Nombre','Detalle','Información','Valor'][i]||`Dato ${i+1}`));
-   const rows=[...table.querySelectorAll('tbody tr')];
-   if(!rows.length)return;
-   table.classList.add('wikiCardTable');
-   const cols=Math.max(...rows.map(r=>r.children.length),headers.length);
-   if(cols===2&&rows.length<=8)table.classList.add('wikiStatTable');
-   rows.forEach(row=>[...row.children].forEach((cell,i)=>{if(cell.tagName==='TD')cell.dataset.label=headers[i]||`Dato ${i+1}`}));
+ const lang=visualTableLang(),tx=lang==='pt-BR'?{title:'Visualização do conteúdo',desc:'Cartões para catálogos; tabelas quando comparar colunas é mais útil.',cards:'Cartões',table:'Tabela'}:{title:'Vista del contenido',desc:'Tarjetas para catálogos; tablas cuando comparar columnas es más útil.',cards:'Tarjetas',table:'Tabla'};
+ let visual=0,classic=0;
+ tables.forEach((table,index)=>{
+   table.dataset.visualAudited='1';const rows=[...table.querySelectorAll('tbody tr')];if(!rows.length)return;
+   const cols=tableColumnCount(table),headers=tableHeaders(table,cols);
+   const useCards=tableChoice(FORCE_CARD_TABLES[page],index)||(!tableChoice(FORCE_CLASSIC_TABLES[page],index)&&cols<=2);
+   if(!useCards){table.classList.add('wikiKeepTable');classic++;return}
+   visual++;table.classList.add('wikiCardTable');if(cols===2&&rows.length<=8)table.classList.add('wikiStatTable');if(page==='npc-jully.html')table.classList.add('jullyCatalogTable');
+   rows.forEach(r=>[...r.children].forEach((c,i)=>{if(c.tagName==='TD')c.dataset.label=headers[i]||`Dato ${i+1}`}));
+   addCardSearch(table,rows,lang);
  });
- const first=tables[0];
- if(first&& !document.querySelector('.visualTableTools')){
-   const tools=document.createElement('div');tools.className='visualTableTools';
-   tools.innerHTML=`<div class="visualTableToolsText"><strong>${tx.title}</strong><span>${tx.desc}</span></div><button class="visualTableToggle" type="button"><span class="toggleIcon">▦</span><span class="toggleLabel"></span></button>`;
-   const button=tools.querySelector('button'),label=tools.querySelector('.toggleLabel'),icon=tools.querySelector('.toggleIcon');
-   const sync=()=>{const classic=document.body.classList.contains('tableClassic');label.textContent=classic?tx.cards:tx.table;icon.textContent=classic?'▦':'☷';button.setAttribute('aria-label',classic?tx.cards:tx.table)};
-   button.addEventListener('click',()=>{document.body.classList.toggle('tableClassic');localStorage.setItem('pka-table-view',document.body.classList.contains('tableClassic')?'classic':'cards');sync()});
-   sync();
-   first.parentNode.insertBefore(tools,first);
+ // Jully y catálogos puros no vuelven accidentalmente a vista Excel.
+ if(visual&&classic&&page!=='npc-jully.html'&&!document.querySelector('.visualTableTools')){
+   const first=document.querySelector('table.wikiCardTable');if(!first)return;
+   if(localStorage.getItem(`pka-table-view:${page}`)==='classic')document.body.classList.add('tableClassic');
+   const tools=document.createElement('div');tools.className='visualTableTools';tools.innerHTML=`<div class="visualTableToolsText"><strong>${tx.title}</strong><span>${tx.desc}</span></div><button class="visualTableToggle" type="button"><span class="toggleIcon">▦</span><span class="toggleLabel"></span></button>`;
+   const b=tools.querySelector('button'),l=tools.querySelector('.toggleLabel'),i=tools.querySelector('.toggleIcon');
+   const sync=()=>{const c=document.body.classList.contains('tableClassic');l.textContent=c?tx.cards:tx.table;i.textContent=c?'▦':'☷'};
+   b.onclick=()=>{document.body.classList.toggle('tableClassic');localStorage.setItem(`pka-table-view:${page}`,document.body.classList.contains('tableClassic')?'classic':'cards');sync()};sync();first.parentNode.insertBefore(tools,first);
  }
 }
-window.addEventListener('DOMContentLoaded',()=>setTimeout(enhanceVisualTables,180));
+window.addEventListener('DOMContentLoaded',()=>{setTimeout(enhanceVisualTables,120);setTimeout(enhanceVisualTables,500)});
+

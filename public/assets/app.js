@@ -15,13 +15,12 @@ function nav(){
  const p=location.pathname.split('/').pop()||'index.html',nav=document.querySelector('.navlinks');
  if(!nav)return;
  const groups=[
-  ['Pokédex','pokedex.html',[['Pokédex','pokedex.html'],['Megastones','megastones.html'],['Addons','addons.html'],['PokéLog','pokelog.html'],['Tier List','tier-list.html'],['Drops','drops.html'],['Brokes y captura','brokes.html'],['Premier vs Alliance','premier-vs-alliance.html']]],
-  ['Progresión','primeros-pasos.html',[['Primeros pasos','primeros-pasos.html'],['Experiencia','sistema-experiencia.html'],['Entrenamiento','sistema-entrenamiento.html'],['Boost','boost.html'],['Star Ascension','sistema-star.html'],['Talentos','talentos.html'],['Helds','sistema-helds.html']]],
-  ['Mundo','localizaciones.html',[['Localizaciones','localizaciones.html'],['Instancias','instancias.html'],['GYMs','gyms.html'],['Dungeons','dungeons.html'],['Rotaciones','rotaciones.html']]],
-  ['Actividades','tasks.html',[['Tasks','tasks.html'],['PokéLog','pokelog.html'],['Linked Tasks','linked-tasks.html'],['Rocket','rocket.html'],['Policía','police.html']]],
-  ['Guías','guias.html',[['Guías','guias.html'],['Quests','quests.html'],['Moomoo Milk','quest-moomoo-milk.html']]],
-  ['Herramientas','calculadoras.html',[['Calculadoras','calculadoras.html'],['Calculadora de Stars','calculadora-stars.html'],['Calculadora de daño','calculadora-dano.html'],['Hunt Analyzer','hunt-analyzer.html'],['Mapa desbloqueado','mapa-desbloqueado.html']]],
-  ['Información','sistemas.html',[['Sistemas','sistemas.html'],['NPCs','npcs.html'],['Changelogs','changelogs.html'],['FAQ','faq.html']]]
+  ['Pokédex','pokedex.html',[['Pokédex','pokedex.html'],['Megastones','megastones.html'],['Addons / Outfits','addons.html'],['PokéLog','pokelog.html'],['Tier List','tier-list.html'],['Drops','drops.html'],['Brokes y captura','brokes.html'],['Premier vs Alliance','premier-vs-alliance.html']]],
+  ['Mundo','localizaciones.html',[['Localizaciones','localizaciones.html'],['Instancias','instancias.html'],['NPCs','npcs.html'],['GYMs','gyms.html'],['Dungeons','dungeons.html'],['Rotaciones','rotaciones.html']]],
+  ['Progresión','primeros-pasos.html',[['Primeros pasos','primeros-pasos.html'],['Tasks','tasks.html'],['Linked Tasks','linked-tasks.html'],['Experiencia','sistema-experiencia.html'],['Training Camp','sistema-entrenamiento.html'],['Boost','boost.html'],['Star Ascension','sistema-star.html'],['Talentos','talentos.html'],['Helds','sistema-helds.html']]],
+  ['Guías','guias.html',[['Guías','guias.html'],['Quests','quests.html'],['Moomoo Milk','quest-moomoo-milk.html'],['Lucky Amulet','quest-lucky-amulet.html'],['Mewtwo Clones','quest-mewtwo-clones.html'],['Acceso a Hoenn','quest-hoenn.html'],['Comandos','comandos.html']]],
+  ['Herramientas','calculadoras.html',[['Calculadoras','calculadoras.html'],['Calculadora de Stars','calculadora-stars.html'],['Calculadora de daño','calculadora-dano.html'],['Hunt Analyzer','hunt-analyzer.html'],['Mapa desbloqueado','mapa-desbloqueado.html'],['Calendario','calendario.html']]],
+  ['Comunidad','changelogs.html',[['Changelogs','changelogs.html'],['Sistemas','sistemas.html'],['Estadísticas','estadisticas-comunidad.html'],['Sugerencias','sugerencias.html'],['FAQ','faq.html'],['Rocket','rocket.html'],['Policía','police.html']]]
  ];
  const belongs=(href,items)=>href===p||items.some(x=>x[1]===p)||((p==='pokemon.html')&&href==='pokedex.html');
  nav.innerHTML=`<a class="navHome ${p==='index.html'?'active':''}" href="index.html">Inicio</a>`+groups.map(([title,href,items],i)=>`<div class="navGroup ${belongs(href,items)?'active':''}"><div class="navGroupTop"><a class="navGroupLink" href="${href}">${title}</a><button class="navDropBtn" type="button" aria-label="Abrir ${title}" aria-expanded="false">▾</button></div><div class="navDropdown">${items.map(([t,h])=>`<a href="${h}" class="${h===p?'active':''}">${t}</a>`).join('')}</div></div>`).join('');
@@ -218,3 +217,107 @@ function enhancePokemonConnections(){if(document.body.dataset.page!=='pokemon')r
 function setupPokemonDropPreview(wrap,name){if(!wrap)return;const row=(D.drops||[]).find(x=>clean(x.Pokémon).toLowerCase()===clean(name).toLowerCase());const drops=row&&Array.isArray(row.Drops)?row.Drops:[];const MAX=8;const shown=drops.slice(0,MAX);const pop=document.createElement('div');pop.className='dropQuickPreview';pop.setAttribute('role','dialog');pop.setAttribute('aria-label',`Drops de ${name}`);pop.innerHTML=`<div class="dropQuickHead"><img src="${pokemonSprite(name)}" alt="" loading="lazy" decoding="async"><div><small>Vista rápida</small><strong>${esc(name)}</strong></div></div><div class="dropQuickItems">${shown.length?shown.map(i=>`<div class="dropQuickItem">${itemGlyph(i)}<span>${esc(i)}</span></div>`).join(''):'<div class="dropQuickEmpty">No hay drops registrados para este Pokémon.</div>'}</div>${drops.length>MAX?`<div class="dropQuickMore">+${drops.length-MAX} drops más</div>`:''}<a class="dropQuickAll" href="drops.html">Ver todos los drops →</a>`;wrap.appendChild(pop);const link=wrap.querySelector('.dropPreviewLink');let touchOpen=false;link.addEventListener('click',e=>{if(matchMedia('(hover: none)').matches&&!touchOpen){e.preventDefault();touchOpen=true;wrap.classList.add('previewOpen')}});document.addEventListener('click',e=>{if(touchOpen&&!wrap.contains(e.target)){touchOpen=false;wrap.classList.remove('previewOpen')}})}
 function uxInit(){injectContext();injectRelated();enhancePokemonConnections()}
 window.addEventListener('DOMContentLoaded',()=>setTimeout(uxInit,20));
+
+
+/* === Centro de búsqueda global (todas las páginas) === */
+const SEARCH_TEXT={
+ es:{open:'Buscar',placeholder:'Busca Pokémon, NPCs, quests, sistemas…',hint:'Busca en toda la wiki',empty:'No encontramos resultados para',recent:'Accesos rápidos',pokemon:'Pokémon',pages:'Secciones y guías',npcs:'NPCs',close:'Cerrar búsqueda',shortcut:'Ctrl K'},
+ 'pt-BR':{open:'Buscar',placeholder:'Busque Pokémon, NPCs, quests, sistemas…',hint:'Pesquise em toda a wiki',empty:'Nenhum resultado para',recent:'Acessos rápidos',pokemon:'Pokémon',pages:'Seções e guias',npcs:'NPCs',close:'Fechar busca',shortcut:'Ctrl K'}
+};
+const normSearch=s=>clean(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+const searchLang=()=>document.documentElement.lang==='pt-BR'?'pt-BR':'es';
+let globalPageCatalog=null,globalNpcCatalog=null,globalPokemonRelations=null;
+function scoreSearch(value,q){
+ const v=normSearch(value),n=normSearch(q);if(!n)return 0;if(v===n)return 120;if(v.startsWith(n))return 90;if(v.includes(n))return 60;
+ const words=n.split(/\s+/).filter(Boolean);return words.every(w=>v.includes(w))?35:0;
+}
+function pokemonRelations(name){
+ const found=globalPokemonRelations&&globalPokemonRelations[name];
+ if(found&&found.length)return found.slice(0,5).map(([label,url])=>[label,url+'?q='+encodeURIComponent(name)]);
+ const n=normSearch(name),links=[];
+ const has=(rows,key='Pokémon')=>(rows||[]).some(r=>normSearch(r&&r[key])===n);
+ if(has(D.localizaciones))links.push(['Localizaciones','localizaciones.html?q='+encodeURIComponent(name)]);
+ if(has(D.drops))links.push(['Drops','drops.html?q='+encodeURIComponent(name)]);
+ if(has(D.tasks))links.push(['Tasks','tasks.html?q='+encodeURIComponent(name)]);
+ if(has(D.tierList))links.push(['Tier','tier-list.html?q='+encodeURIComponent(name)]);
+ return links.slice(0,5);
+}
+async function loadGlobalSearchData(){
+ if(!globalPageCatalog){try{globalPageCatalog=await fetch('data/search-pages.json',{cache:'force-cache'}).then(r=>r.ok?r.json():[])}catch(e){globalPageCatalog=[]}}
+ if(!globalNpcCatalog){try{globalNpcCatalog=await fetch('data/npcs.json',{cache:'force-cache'}).then(r=>r.ok?r.json():[])}catch(e){globalNpcCatalog=[]}}
+ if(!globalPokemonRelations){try{globalPokemonRelations=await fetch('data/search-pokemon-relations.json',{cache:'force-cache'}).then(r=>r.ok?r.json():{})}catch(e){globalPokemonRelations={}}}
+}
+function injectGlobalSearch(){
+ const bar=document.querySelector('.topbar .nav');if(!bar||document.querySelector('.globalSearchTrigger'))return;
+ const t=SEARCH_TEXT[searchLang()];
+ const trigger=document.createElement('button');trigger.type='button';trigger.className='globalSearchTrigger';trigger.setAttribute('aria-label',t.open);trigger.innerHTML=`<span class="globalSearchTriggerIcon">⌕</span><span class="globalSearchTriggerLabel">${t.open}</span><kbd>${navigator.platform&&/Mac/.test(navigator.platform)?'⌘':'Ctrl'} K</kbd>`;
+ const menu=bar.querySelector('.menuBtn');bar.insertBefore(trigger,menu||null);
+ const modal=document.createElement('div');modal.className='globalSearchModal';modal.hidden=true;modal.innerHTML=`<div class="globalSearchBackdrop" data-search-close></div><section class="globalSearchPanel" role="dialog" aria-modal="true" aria-label="${t.hint}"><div class="globalSearchInputRow"><span>⌕</span><input id="wikiGlobalSearch" type="search" autocomplete="off" spellcheck="false" placeholder="${t.placeholder}"><button type="button" class="globalSearchClose" data-search-close aria-label="${t.close}">Esc</button></div><div class="globalSearchBody"><div class="globalSearchIntro"><strong>${t.hint}</strong><span>${t.placeholder}</span></div><div id="wikiGlobalResults"></div></div></section>`;
+ document.body.appendChild(modal);
+ const input=modal.querySelector('#wikiGlobalSearch'),results=modal.querySelector('#wikiGlobalResults');let active=-1;
+ const close=()=>{modal.hidden=true;document.body.classList.remove('searchOpen');trigger.focus();active=-1};
+ const open=async()=>{modal.hidden=false;document.body.classList.add('searchOpen');input.value='';results.innerHTML='';modal.querySelector('.globalSearchIntro').hidden=false;await loadGlobalSearchData();setTimeout(()=>input.focus(),0)};
+ trigger.addEventListener('click',open);modal.querySelectorAll('[data-search-close]').forEach(x=>x.addEventListener('click',close));
+ function group(title,items){if(!items.length)return'';return `<section class="globalResultGroup"><h3>${title}<span>${items.length}</span></h3><div class="globalResultList">${items.join('')}</div></section>`}
+ function pageItem(r){return `<a class="globalResultItem" href="${esc(r.url)}"><span class="globalResultIcon">${r.category==='Herramientas'?'🧮':r.category==='Guías'?'📖':r.category==='Mundo'?'🗺️':r.category==='Progresión'?'📈':r.category==='Comunidad'?'💬':'📚'}</span><span class="globalResultText"><strong>${esc(r.title)}</strong><small>${esc(r.category||'Wiki')}</small></span><span class="globalResultArrow">→</span></a>`}
+ function pokeItem(name){const rel=pokemonRelations(name);return `<div class="globalPokemonResult"><a class="globalResultItem" href="pokemon.html?name=${encodeURIComponent(name)}"><span class="globalResultIcon poke"><img loading="lazy" decoding="async" src="${pokemonSprite(name)}" alt=""></span><span class="globalResultText"><strong>${esc(name)}</strong><small>Ficha Pokémon</small></span><span class="globalResultArrow">→</span></a>${rel.length?`<div class="globalRelatedChips">${rel.map(([label,url])=>`<a href="${url}">${label}</a>`).join('')}</div>`:''}</div>`}
+ function npcItem(n){return `<a class="globalResultItem" href="${esc(n.pagina||'npcs.html')}?q=${encodeURIComponent(n.nombre||'')}"><span class="globalResultIcon">👤</span><span class="globalResultText"><strong>${esc(n.nombre||'NPC')}</strong><small>${esc(n.categoria||'NPC')} · ${esc((n.ubicacion||'').slice(0,72))}</small></span><span class="globalResultArrow">→</span></a>`}
+ function draw(){
+  const q=input.value.trim(),tt=SEARCH_TEXT[searchLang()];modal.querySelector('.globalSearchIntro').hidden=!!q;if(!q){results.innerHTML=group(tt.recent,[pageItem({title:'Pokédex',url:'pokedex.html',category:'Pokédex'}),pageItem({title:'Instancias',url:'instancias.html',category:'Mundo'}),pageItem({title:'Quests',url:'quests.html',category:'Guías'}),pageItem({title:'Calculadoras',url:'calculadoras.html',category:'Herramientas'})]);return}
+  const pokes=allPokemon().map(name=>({name,score:Math.max(scoreSearch(name,q),scoreSearch(name.replace(/^Shiny /i,''),q)-4)})).filter(x=>x.score>0).sort((a,b)=>b.score-a.score||a.name.localeCompare(b.name)).slice(0,7);
+  const pages=(globalPageCatalog||[]).map(r=>({...r,score:Math.max(scoreSearch(r.title,q),scoreSearch(r.keywords,q)*.7)})).filter(r=>r.score>0&&r.url!=='pokemon.html').sort((a,b)=>b.score-a.score).slice(0,7);
+  const npcs=(globalNpcCatalog||[]).map(r=>({...r,score:Math.max(scoreSearch(r.nombre,q),scoreSearch(`${r.queHace||''} ${r.ubicacion||''} ${r.categoria||''}`,q)*.65)})).filter(r=>r.score>0).sort((a,b)=>b.score-a.score).slice(0,5);
+  results.innerHTML=group(tt.pokemon,pokes.map(x=>pokeItem(x.name)))+group(tt.pages,pages.map(pageItem))+group(tt.npcs,npcs.map(npcItem));
+  if(!results.innerHTML)results.innerHTML=`<div class="globalSearchEmpty">⌕<strong>${tt.empty} “${esc(q)}”</strong><span>${tt.placeholder}</span></div>`;
+  active=-1;
+ }
+ input.addEventListener('input',draw);
+ input.addEventListener('keydown',e=>{const links=[...results.querySelectorAll('a.globalResultItem')];if(e.key==='ArrowDown'&&links.length){e.preventDefault();active=(active+1)%links.length;links[active].focus()}else if(e.key==='Escape')close()});
+ document.addEventListener('keydown',e=>{if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='k'){e.preventDefault();modal.hidden?open():close()}else if(e.key==='Escape'&&!modal.hidden)close()});
+ draw();
+}
+function applySearchQueryToPage(){
+ const q=new URLSearchParams(location.search).get('q');if(!q)return;
+ const selectors=['#instanceSearch','#npcSearch','#tierSearch','#addonSearch','#outfitSearch','.tableSearch','.visualToolbar input[type="search"]','input[type="search"]'];
+ let tries=0;const apply=()=>{for(const sel of selectors){const input=document.querySelector(sel);if(input&&input.id!=='wikiGlobalSearch'&&input.id!=='globalSearch'){input.value=q;input.dispatchEvent(new Event('input',{bubbles:true}));input.scrollIntoView({block:'center'});return}}if(++tries<8)setTimeout(apply,120)};setTimeout(apply,80);
+}
+window.addEventListener('DOMContentLoaded',()=>{injectGlobalSearch();applySearchQueryToPage()});
+
+/* === UX 2026-09: convierte catálogos tabulares en vistas visuales === */
+const VISUAL_TABLE_PAGES=new Set([
+ 'achievements.html','gamepass.html','npc-jully.html','sistema-experiencia.html',
+ 'sistema-entrenamiento.html','comandos.html','brokes.html','hazard.html',
+ 'cupones.html','gyms.html','boost.html','sistema-vip.html','tiers-especiales.html',
+ 'quest-principales.html','sistema-helds.html','premier-vs-alliance.html','prey.html'
+]);
+function visualTableLang(){return document.documentElement.lang==='pt-BR'?'pt-BR':'es'}
+function enhanceVisualTables(){
+ const page=(location.pathname.split('/').pop()||'index.html').toLowerCase();
+ if(!VISUAL_TABLE_PAGES.has(page))return;
+ const tables=[...document.querySelectorAll('main table, .container table, article table')].filter(t=>!t.closest('.globalSearchModal')&&!t.classList.contains('noVisualCards'));
+ if(!tables.length)return;
+ const lang=visualTableLang();
+ const tx=lang==='pt-BR'?{title:'Visualização do conteúdo',desc:'Cartões facilitam a leitura; use tabela para comparar colunas.',cards:'Cartões',table:'Tabela'}:{title:'Vista del contenido',desc:'Las tarjetas facilitan la lectura; usa tabla cuando quieras comparar columnas.',cards:'Tarjetas',table:'Tabla'};
+ const saved=localStorage.getItem('pka-table-view');
+ if(saved==='classic')document.body.classList.add('tableClassic');
+ tables.forEach(table=>{
+   const headers=[...table.querySelectorAll('thead th')].map((th,i)=>clean(th.textContent)||(['Nombre','Detalle','Información','Valor'][i]||`Dato ${i+1}`));
+   const rows=[...table.querySelectorAll('tbody tr')];
+   if(!rows.length)return;
+   table.classList.add('wikiCardTable');
+   const cols=Math.max(...rows.map(r=>r.children.length),headers.length);
+   if(cols===2&&rows.length<=8)table.classList.add('wikiStatTable');
+   rows.forEach(row=>[...row.children].forEach((cell,i)=>{if(cell.tagName==='TD')cell.dataset.label=headers[i]||`Dato ${i+1}`}));
+ });
+ const first=tables[0];
+ if(first&& !document.querySelector('.visualTableTools')){
+   const tools=document.createElement('div');tools.className='visualTableTools';
+   tools.innerHTML=`<div class="visualTableToolsText"><strong>${tx.title}</strong><span>${tx.desc}</span></div><button class="visualTableToggle" type="button"><span class="toggleIcon">▦</span><span class="toggleLabel"></span></button>`;
+   const button=tools.querySelector('button'),label=tools.querySelector('.toggleLabel'),icon=tools.querySelector('.toggleIcon');
+   const sync=()=>{const classic=document.body.classList.contains('tableClassic');label.textContent=classic?tx.cards:tx.table;icon.textContent=classic?'▦':'☷';button.setAttribute('aria-label',classic?tx.cards:tx.table)};
+   button.addEventListener('click',()=>{document.body.classList.toggle('tableClassic');localStorage.setItem('pka-table-view',document.body.classList.contains('tableClassic')?'classic':'cards');sync()});
+   sync();
+   first.parentNode.insertBefore(tools,first);
+ }
+}
+window.addEventListener('DOMContentLoaded',()=>setTimeout(enhanceVisualTables,180));

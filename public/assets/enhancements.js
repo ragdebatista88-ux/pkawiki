@@ -15,7 +15,7 @@
     ['Progresión','primeros-pasos.html',[['Primeros pasos','primeros-pasos.html'],['Experiencia','sistema-experiencia.html'],['Party / XP Share','party.html'],['Entrenamiento','sistema-entrenamiento.html'],['Boost','boost.html'],['Star Ascension','sistema-star.html'],['Talentos','talentos.html'],['Helds','sistema-helds.html']]],
     ['Mundo','localizaciones.html',[['Localizaciones','localizaciones.html'],['Instancias','instancias.html'],['GYMs','gyms.html'],['Dungeons','dungeons.html'],['Rotaciones','rotaciones.html']]],
     ['Actividades','tasks.html',[['Tasks','tasks.html'],['Linked Tasks','linked-tasks.html'],['Rocket','rocket.html'],['Policía','police.html']]],
-    ['Guías','guias.html',[['Guías','guias.html'],['Quests','quests.html'],['Moomoo Milk','quest-moomoo-milk.html']]],
+    ['Guías','guias.html',[['Guías','guias.html'],['Guild Bosses','guild-bosses.html'],['Quests','quests.html'],['Moomoo Milk','quest-moomoo-milk.html']]],
     ['Herramientas','calculadoras.html',[['Calculadoras','calculadoras.html'],['Comparador Pokémon','comparador.html'],['Calculadora de Stars','calculadora-stars.html'],['Calculadora de daño','calculadora-dano.html'],['Hunt Analyzer','hunt-analyzer.html']]],
     ['Información','sistemas.html',[['Sistemas','sistemas.html'],['NPCs','npcs.html'],['Estadísticas comunidad','estadisticas-comunidad.html'],['Changelogs','changelogs.html'],['Outfits','outfits.html'],['FAQ','faq.html']]]
    ];

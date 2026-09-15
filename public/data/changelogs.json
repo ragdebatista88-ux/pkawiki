@@ -1,5 +1,47 @@
 [
   {
+    "fecha": "14 de septiembre de 2026",
+    "secciones": [
+      {
+        "titulo": "Cambios generales",
+        "cambios": [
+          "Se realizaron diversas mejoras internas con el objetivo de soportar más jugadores sin generar situaciones de lag.",
+          "Se agregaron los 18 canales en los servidores Sun y Moon.",
+          "Cuando un jugador superaba una oferta (BID) en una subasta, el importe de la oferta anterior se devolvía como saldo si estaba conectado y como tarjeta de crédito si estaba desconectado. Ahora se estandarizó para que la devolución se reciba siempre mediante tarjeta en el Centro Pokémon."
+        ]
+      },
+      {
+        "titulo": "Correcciones de bugs",
+        "cambios": [
+          "Se corrigió un error al mover objetos en la bag mientras el jugador estaba dentro de cinemáticas.",
+          "Se corrigió un error por el cual, en determinadas situaciones, el jugador no podía utilizar Balls en Pokémon dentro de canales.",
+          "Se corrigió una interacción entre diferentes buffs de velocidad que podía hacer que el personaje se volviera extremadamente lento.",
+          "Se corrigió el elemento del movimiento Flame Circle de Shiny Rapidash.",
+          "Se corrigió un error por el cual Serpents Wrap no causaba daño en áreas de canales.",
+          "Shiny Aerodactyl copiado por Ditto ya no posee la habilidad Fly.",
+          "Se corrigió un error por el cual la Hunt de Metang Primal no otorgaba la experiencia correcta.",
+          "Se corrigió un error en la descripción de Shiny Wailord.",
+          "Se corrigió un error por el cual el Analyzer no contabilizaba el profit y el Look no mostraba el precio de los siguientes objetos: Small Stone; Membranous Wing; Metal Coat; King's Rock; Dragon Scale; Green Spore; Lotad Beak; Sloth Claw; Chicken Feet; Nut Shell; Teardrop Fur; Mud Tail; Feather Tail; White Fin; White Short; Big Whale Fin.",
+          "Se corrigió un error por el cual el jugador no recibía la experiencia de primera captura si capturaba un Shiny antes que su versión normal.",
+          "Se corrigió un error que permitía que jugadores de nivel menor a 350 accedieran a los canales de Rampardos Primal.",
+          "Se corrigió una interacción entre el movimiento Shadow Gale y regresar al Pokémon a su Poké Ball.",
+          "Se corrigió un error que permitía arrastrar bags y containers directamente fuera de una casa sin la validación correcta.",
+          "Se corrigió un error en varias puertas de casas que impedía abrir la nueva ventana de casas.",
+          "Se corrigieron errores en la descripción y el nombre de objetos relacionados con la Willy Quest.",
+          "Se corrigió un error por el cual Moomoo Milk no tenía descripción.",
+          "Se corrigió un error al entregar una Miltank cuando se encontraba fuera de la Ball en la Moomoo Farm Quest.",
+          "Se corrigió un error que impedía mover un objeto al suelo en determinadas situaciones después de interacciones dentro de canales.",
+          "Se corrigió un error que permitía recibir una Guild Daily antes de que transcurrieran 24 horas en una Guild.",
+          "Se corrigió un error por el cual el ataque Helping Hand no funcionaba correctamente.",
+          "Se corrigió un error por el cual algunos Pokémon aparecían en la Dex con pasivas que no existen: Banette y Shiny Banette → Cursed Body; Aggron y Shiny Aggron → Sturdy.",
+          "Se corrigió un error en la ropa del NPC Terra que hacía que fuera invisible en determinadas direcciones.",
+          "Se corrigió un error en la animación al caminar del outfit femenino de Metagross.",
+          "Se corrigió un error al cerrar ventanas del chat cuando este se encontraba en un tamaño pequeño."
+        ]
+      }
+    ]
+  },
+  {
     "fecha": "8 de septiembre de 2026",
     "secciones": [
       {

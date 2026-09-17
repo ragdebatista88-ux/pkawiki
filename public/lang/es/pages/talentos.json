@@ -1,4 +1,9 @@
 {
   "talentos.0001.b9026c55": "PokeTalents | PKA No Oficial Wiki",
-  "talentos.0002.49f2b6df": "Objetos necesarios, fuentes, cantidades y buffs de los talentos, ahora con referencias visuales del objeto y del Pokémon que lo consigue."
+  "talentos.0002.49f2b6df": "Guía visual de talentos: efectos, niveles, objetos necesarios y dónde conseguirlos.",
+  "talentos.0003.introTitle": "¿Qué son los talentos?",
+  "talentos.0004.introText": "Los talentos son mejoras permanentes que se desbloquean entregando los objetos indicados. Dependiendo de la rama, pueden mejorar al personaje, al Pokémon o el daño y la defensa de un elemento. Cada tarjeta agrupa todos los materiales necesarios para desbloquear el mismo nivel de talento.",
+  "talentos.0005.dualTitle": "Pokémon de doble elemento",
+  "talentos.0006.dualText": "Los talentos defensivos tienen un 50 % de efectividad en Pokémon que poseen dos elementos.",
+  "talentos.0007.help": "Elige una categoría para ver sus talentos. Puedes buscar por nivel, objeto, Pokémon, fuente o efecto."
 }

@@ -1,5 +1,42 @@
 [
   {
+    "fecha": "18 de septiembre de 2026",
+    "secciones": [
+      {
+        "titulo": "Cambios generales",
+        "cambios": [
+          "Se agregó el Pokélog de Mega Clefable."
+        ]
+      },
+      {
+        "titulo": "Balanceo",
+        "cambios": [
+          "Clefairy, Lickitung, Shiny Lickitung, Shiny Sandslash, Azumarill, Cyndaquil, Dunsparce, Marill, Phanpy, Quilava, Shiny Azumarill, Shiny Cyndaquil, Shiny Dunsparce, Shiny Phanpy, Shiny Quilava, Shiny Typhlosion, Sealeo y Shiny Sealeo — Sus versiones salvajes ya no utilizan el movimiento Defense Curl.",
+          "Cloyster, Graveler, Kabuto, Kakuna, Kingler, Krabby, Metapod, Omanyte, Onix, Shellder, Squirtle, Wartortle, Shiny Beedrill, Shiny Clefairy, Shiny Geodude, Shiny Golem, Shiny Graveler, Shiny Grimer, Shiny Kabuto, Shiny Kakuna, Shiny Kingler, Shiny Krabby, Shiny Metapod, Shiny Omanyte, Shiny Omastar, Shiny Onix, Shiny Squirtle, Shiny Wartortle, Shiny Weezing, Forretress, Gligar, Pineco, Slugma, Shiny Corsola, Shiny Forretress, Shiny Gligar, Shiny Magcargo, Shiny Pineco, Shiny Slugma y Shiny Trubbish — Sus versiones salvajes ya no utilizan el movimiento Harden.",
+          "Dratini, Seadra, Shiny Horsea y Shiny Seadra — Sus versiones salvajes ya no utilizan el movimiento Dragon Rage.",
+          "Shiny Abra, Shiny Kadabra y Stantler — Sus versiones salvajes ya no utilizan el movimiento Calm Mind.",
+          "Shiny Arcanine y Shiny Growlithe — Sus versiones salvajes ya no utilizan el movimiento War Dog.",
+          "Shiny Blastoise y Shiny Venusaur — Sus versiones salvajes ya no utilizan el movimiento Ancient Armor.",
+          "Shiny Muk — Su versión salvaje ya no utiliza el movimiento Acid Armor.",
+          "Shiny Pidgeot — Su versión salvaje ya no utiliza el movimiento Confide.",
+          "Shiny Meganium — Su versión salvaje ya no utiliza el movimiento Light Screen.",
+          "Shiny Shuckle — Su versión salvaje ya no utiliza el movimiento Withdraw.",
+          "Shiny Steelix — Su versión salvaje ya no utiliza Iron Defense.",
+          "Shiny Xatu — Su versión salvaje ya no utiliza Predict.",
+          "Tyrogue y Shiny Tyrogue — Sus versiones salvajes ya no utilizan el movimiento Bulk Up.",
+          "Wobbuffet y Shiny Wobbuffet — Sus versiones salvajes ya no utilizan el movimiento Mirror Coat.",
+          "Kecleon y Shiny Kecleon — Sus versiones salvajes ya no utilizan el movimiento Camouflage."
+        ]
+      },
+      {
+        "titulo": "Nota",
+        "cambios": [
+          "Sabemos que las marcas de las áreas de canales del Minimap quedaron deshabilitadas temporalmente y no era nuestra intención. Estamos revisando la mejor forma de solucionar el problema hasta la llegada definitiva del Hunt Finder, que será el responsable de migrar los datos e información sobre las ubicaciones de los canales, entre otros."
+        ]
+      }
+    ]
+  },
+  {
     "fecha": "14 de septiembre de 2026",
     "secciones": [
       {

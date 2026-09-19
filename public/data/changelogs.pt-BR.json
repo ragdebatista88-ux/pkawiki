@@ -1,5 +1,42 @@
 [
   {
+    "fecha": "18 de setembro de 2026",
+    "secciones": [
+      {
+        "titulo": "Alterações gerais",
+        "cambios": [
+          "Adicionado Pokélog da Mega Clefable."
+        ]
+      },
+      {
+        "titulo": "Balanceamento",
+        "cambios": [
+          "Clefairy, Lickitung, Shiny Lickitung, Shiny Sandslash, Azumarill, Cyndaquil, Dunsparce, Marill, Phanpy, Quilava, Shiny Azumarill, Shiny Cyndaquil, Shiny Dunsparce, Shiny Phanpy, Shiny Quilava, Shiny Typhlosion, Sealeo e Shiny Sealeo — As versões selvagens não utilizam mais o golpe Defense Curl.",
+          "Cloyster, Graveler, Kabuto, Kakuna, Kingler, Krabby, Metapod, Omanyte, Onix, Shellder, Squirtle, Wartortle, Shiny Beedrill, Shiny Clefairy, Shiny Geodude, Shiny Golem, Shiny Graveler, Shiny Grimer, Shiny Kabuto, Shiny Kakuna, Shiny Kingler, Shiny Krabby, Shiny Metapod, Shiny Omanyte, Shiny Omastar, Shiny Onix, Shiny Squirtle, Shiny Wartortle, Shiny Weezing, Forretress, Gligar, Pineco, Slugma, Shiny Corsola, Shiny Forretress, Shiny Gligar, Shiny Magcargo, Shiny Pineco, Shiny Slugma e Shiny Trubbish — As versões selvagens não utilizam mais o golpe Harden.",
+          "Dratini, Seadra, Shiny Horsea e Shiny Seadra — As versões selvagens não utilizam mais o golpe Dragon Rage.",
+          "Shiny Abra, Shiny Kadabra e Stantler — As versões selvagens não utilizam mais o golpe Calm Mind.",
+          "Shiny Arcanine e Shiny Growlithe — As versões selvagens não utilizam mais o golpe War Dog.",
+          "Shiny Blastoise e Shiny Venusaur — As versões selvagens não utilizam mais o golpe Ancient Armor.",
+          "Shiny Muk — A versão selvagem não utiliza mais o golpe Acid Armor.",
+          "Shiny Pidgeot — A versão selvagem não utiliza mais o golpe Confide.",
+          "Shiny Meganium — A versão selvagem não utiliza mais o golpe Light Screen.",
+          "Shiny Shuckle — A versão selvagem não utiliza mais o golpe Withdraw.",
+          "Shiny Steelix — A versão selvagem não utiliza mais o Iron Defense.",
+          "Shiny Xatu — A versão selvagem não utiliza mais o Predict.",
+          "Tyrogue e Shiny Tyrogue — As versões selvagens não utilizam mais o golpe Bulk Up.",
+          "Wobbuffet e Shiny Wobbuffet — As versões selvagens não utilizam mais o golpe Mirror Coat.",
+          "Kecleon e Shiny Kecleon — As versões selvagens não utilizam mais o golpe Camouflage."
+        ]
+      },
+      {
+        "titulo": "Nota",
+        "cambios": [
+          "Sabemos que as marcações das áreas de canais do Minimap ficaram desabilitadas momentaneamente e não foi a nossa intenção. Estamos verificando a melhor forma de solucionar o problema até a entrada definitiva do Hunt Finder, no qual será o responsável pela migração dos dados de informações de locais de canais, etc."
+        ]
+      }
+    ]
+  },
+  {
     "fecha": "14 de setembro de 2026",
     "secciones": [
       {

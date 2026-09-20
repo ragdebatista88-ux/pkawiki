@@ -1,5 +1,23 @@
 [
   {
+    "fecha": "20 de setembro de 2026",
+    "secciones": [
+      {
+        "titulo": "Alterações gerais",
+        "cambios": [
+          "Ícones de hunts no minimapa: ouvimos o feedback sobre a remoção dos ícones das hunts que possuem canal e revertemos a mudança. Os ícones voltam a aparecer e continuam opcionais; quem preferir pode desativá-los nas configurações.",
+          "Instâncias das hunts Wildscape de Hoenn: diversas hunts do Wildscape de Hoenn ganham instâncias nesta atualização. Também foi anunciado que ainda nesta semana serão liberados os canais das hunts Primal de Hoenn."
+        ]
+      },
+      {
+        "titulo": "Correções de bugs",
+        "cambios": [
+          "Corrigido o erro que impedia a conquista “Hoenn Marathonist” de contabilizar os passos. Agora ela conta em todo o continente de Hoenn, incluindo as áreas Primal. A contagem começa a partir desta atualização; os passos anteriores não são recuperados."
+        ]
+      }
+    ]
+  },
+  {
     "fecha": "18 de setembro de 2026",
     "secciones": [
       {

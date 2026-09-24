@@ -1,5 +1,41 @@
 [
   {
+    "fecha": "23 de septiembre de 2026",
+    "secciones": [
+      {
+        "titulo": "Cambios generales · Pokémon Center",
+        "cambios": [
+          "El Pokémon Center fue completamente reformulado para ser más agradable y contar con una identidad visual propia de PokeAlliance."
+        ]
+      },
+      {
+        "titulo": "Dungeon de celebración de los 10k",
+        "cambios": [
+          "Todos los jugadores de nivel 150 o superior que sean VIP reciben 2 llaves para realizar la Dungeon temática de Probopass. En esta Dungeon existe la posibilidad de recibir buffs de Shiny Charm y Experience.",
+          "Al completar la Dungeon 10 veces se puede completar un Achievement con recompensas únicas: Outfit Pharaoh Probopass, Backpack Pharaoh Probopass, Locker Pharaoh Probopass, 10× Log Pose y 10× Experience Boost."
+        ]
+      },
+      {
+        "titulo": "Promoción en Diamond Shop",
+        "cambios": [
+          "Durante los 15 días de celebración, la pestaña de Poké Balls tendrá un 20% de descuento."
+        ]
+      },
+      {
+        "titulo": "Canales para las hunts Primal",
+        "cambios": [
+          "Se habilitó el sistema de canales para las hunts Primal Ultra Rare y Legendary de Hoenn."
+        ]
+      },
+      {
+        "titulo": "Correcciones de bugs",
+        "cambios": [
+          "Se corrigió el loot base de las hunts Primal de Dragonair, Dragonite, Electabuzz, Magmar, Snorlax y Sylveon, que estaban entregando menos objetos de los que correspondían."
+        ]
+      }
+    ]
+  },
+  {
     "fecha": "20 de septiembre de 2026",
     "secciones": [
       {

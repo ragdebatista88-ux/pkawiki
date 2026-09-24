@@ -2,115 +2,61 @@
   {
     "activo": true,
     "tipo": "informativo",
-    "etiqueta": "Hito de la comunidad",
-    "etiquetaPt": "Marco da comunidade",
-    "titulo": "¡10,000 jugadores online al mismo tiempo!",
-    "tituloPt": "10.000 jogadores online ao mesmo tempo!",
-    "texto": "PokeAlliance alcanzó 10,000 jugadores simultáneos. En las últimas 24 h entraron más de 16,000 jugadores únicos; 25,000 en 7 días y más de 40,000 en 30 días. La celebración comienza el 23/09 en el shutdown de las 23:59 y dura 15 días.",
-    "textoPt": "PokeAlliance alcançou 10.000 jogadores simultâneos. Nas últimas 24 h entraram mais de 16.000 jogadores únicos; 25.000 em 7 dias e mais de 40.000 em 30 dias. A celebração começa em 23/09 no shutdown das 23:59 e dura 15 dias.",
-    "fecha": "Celebración · 15 días",
-    "fechaPt": "Celebração · 15 dias",
+    "etiqueta": "Celebración de los 10,000",
+    "etiquetaPt": "Celebração dos 10.000",
+    "titulo": "Evento de celebración de los 10,000 jugadores",
+    "tituloPt": "Evento de celebração dos 10.000 jogadores",
+    "texto": "PokeAlliance celebra la marca de 10,000 jugadores simultáneos con una Dungeon temática de Probopass, recompensas exclusivas y descuento en Poké Balls. El evento dura 15 días.",
+    "textoPt": "PokeAlliance celebra a marca de 10.000 jogadores simultâneos com uma Dungeon temática do Probopass, recompensas exclusivas e desconto em Pokébolas. O evento dura 15 dias.",
+    "fecha": "Evento · 15 días",
+    "fechaPt": "Evento · 15 dias",
     "bloques": [
       {
         "icono": "🏆",
-        "titulo": "Dungeon especial de los 10,000",
-        "tituloPt": "Dungeon especial dos 10.000",
-        "estado": "Nivel 150+ · 2 llaves gratis",
-        "estadoPt": "Level 150+ · 2 chaves grátis",
-        "texto": "Al iniciar sesión, los jugadores de nivel 150 o superior reciben 2 llaves gratis. Al completar la dungeon 10 veces: Pedestal Outfit Probopass, Bag Probopass, Locker Probopass Pharaoh, 10× Log Pose, 10× Experience Boost y achievement exclusivo.",
-        "textoPt": "Ao entrar no jogo, jogadores level 150 ou superior recebem 2 chaves grátis. Ao concluir a dungeon 10 vezes: Pedestal da Outfit do Probopass, Bag do Probopass, Locker do Probopass Pharaoh, 10× Log Pose, 10× Experience Boost e achievement exclusivo.",
-        "fecha": "Desde 23/09 · shutdown 23:59",
-        "fechaPt": "A partir de 23/09 · shutdown 23:59"
+        "titulo": "Dungeon de celebración de los 10k",
+        "tituloPt": "Dungeon de Comemoração dos 10k",
+        "estado": "Nivel 150+ · VIP · 2 llaves",
+        "estadoPt": "Level 150+ · VIP · 2 chaves",
+        "texto": "Los jugadores de nivel 150 o superior que sean VIP reciben 2 llaves para la Dungeon temática de Probopass. Dentro existe la posibilidad de recibir buffs de Shiny Charm y Experience.",
+        "textoPt": "Jogadores de level 150 ou superior que sejam VIP recebem 2 chaves para a Dungeon temática do Probopass. Nela existe a possibilidade de receber buffs de Shiny Charm e Experience.",
+        "fecha": "Celebración de los 10k",
+        "fechaPt": "Celebração dos 10k"
+      },
+      {
+        "icono": "🎁",
+        "titulo": "Recompensas por 10 conclusiones",
+        "tituloPt": "Recompensas por 10 conclusões",
+        "estado": "Achievement con recompensas únicas",
+        "estadoPt": "Achievement com recompensas únicas",
+        "texto": "Outfit Pharaoh Probopass, Backpack Pharaoh Probopass, Locker Pharaoh Probopass, 10× Log Pose y 10× Experience Boost.",
+        "textoPt": "Outfit Pharaoh Probopass, Backpack Pharaoh Probopass, Locker Pharaoh Probopass, 10× Log Pose e 10× Experience Boost.",
+        "fecha": "Completa la Dungeon 10 veces",
+        "fechaPt": "Conclua a Dungeon 10 vezes"
       },
       {
         "icono": "🛒",
         "titulo": "20% de descuento en Poké Balls",
         "tituloPt": "20% de desconto em Pokébolas",
-        "estado": "Durante el evento",
-        "estadoPt": "Durante o evento",
-        "texto": "La tienda de Poké Balls tendrá un 20% de descuento durante la celebración.",
-        "textoPt": "A loja de Pokébolas terá 20% de desconto durante a celebração.",
-        "fecha": "15 días",
-        "fechaPt": "15 dias"
-      },
-      {
-        "icono": "🧭",
-        "titulo": "Nuevas hunts",
-        "tituloPt": "Novas hunts",
-        "estado": "9 nuevas hunts",
-        "estadoPt": "9 novas hunts",
-        "texto": "Llegan hunts de Shiny Vespiquen, Shiny Yanmega, Shiny Garchomp, Shiny Conkeldurr, Shiny Staraptor, Shiny Mismagius, Shiny Abomasnow, Shiny Gallade y Shiny Bastiodon.",
-        "textoPt": "Chegam hunts de Shiny Vespiquen, Shiny Yanmega, Shiny Garchomp, Shiny Conkeldurr, Shiny Staraptor, Shiny Mismagius, Shiny Abomasnow, Shiny Gallade e Shiny Bastiodon.",
-        "fecha": "Completa la tabla de Tier List",
-        "fechaPt": "Completa a tabela da Tier List"
+        "estado": "Diamond Shop",
+        "estadoPt": "Diamond Shop",
+        "texto": "Durante los 15 días de celebración, la pestaña de Poké Balls del Diamond Shop tiene 20% de descuento.",
+        "textoPt": "Durante os 15 dias de comemoração, a aba de Pokébolas do Diamond Shop fica com 20% de desconto.",
+        "fecha": "Durante el evento",
+        "fechaPt": "Durante o evento"
       },
       {
         "icono": "🏥",
-        "titulo": "Remake del Centro Pokémon",
-        "tituloPt": "Remake do Centro Pokémon",
-        "estado": "Nueva identidad visual",
-        "estadoPt": "Nova identidade visual",
-        "texto": "El Centro Pokémon recibe un remake completo con identidad visual propia.",
-        "textoPt": "O Centro Pokémon recebe um remake completo, com identidade visual própria.",
-        "fecha": "Nueva actualización",
-        "fechaPt": "Nova atualização"
+        "titulo": "Nuevo Pokémon Center",
+        "tituloPt": "Novo Pokémon Center",
+        "estado": "Remodelación completa",
+        "estadoPt": "Reformulação completa",
+        "texto": "El Pokémon Center fue completamente reformulado para ofrecer una experiencia más agradable y una identidad visual propia de PokeAlliance.",
+        "textoPt": "O Pokémon Center foi totalmente reformulado para ser mais agradável e ter uma identidade visual própria do PokeAlliance.",
+        "fecha": "Actualización actual",
+        "fechaPt": "Atualização atual"
       }
     ],
-    "cierre": "Gracias a todos los jugadores, creadores de contenido, tutores, GMs, spriters y devs que forman parte de este hito.",
-    "cierrePt": "Obrigado a todos os jogadores, criadores de conteúdo, tutores, GMs, spriters e devs que fazem parte deste marco."
-  },
-  {
-    "activo": true,
-    "tipo": "recompensa",
-    "etiqueta": "Hito de la comunidad",
-    "titulo": "¡7,500 jugadores simultáneos!",
-    "texto": "PokeAlliance alcanzó 7,500 jugadores online al mismo tiempo. Hay un regalo especial para celebrarlo.",
-    "fecha": "6 de septiembre de 2026",
-    "beneficios": [
-      {
-        "icono": "🧭",
-        "titulo": "10× Log Pose",
-        "detalle": "Recompensa del hito"
-      },
-      {
-        "icono": "⚡",
-        "titulo": "10× Minor XP Boost",
-        "detalle": "Recompensa del hito"
-      }
-    ],
-    "requisitos": [
-      "Alliance Rewarder · Trade Center",
-      "Disponible después del shutdown",
-      "1 vez por cuenta · nivel 150+"
-    ],
-    "cierre": "¡Rumbo a los 10,000!"
-  },
-  {
-    "activo": true,
-    "tipo": "evento",
-    "etiqueta": "Evento de la comunidad",
-    "titulo": "¡4,000 y 5,000 jugadores conectados al mismo tiempo!",
-    "texto": "Dos metas alcanzadas una detrás de otra. Para celebrarlo, se activaron tres buffs en todos los servidores.",
-    "fecha": "Hasta el 20 de septiembre de 2026 · 8:59 PM",
-    "beneficios": [
-      {
-        "icono": "✨",
-        "titulo": "+20% Shiny Charm",
-        "detalle": "Comienza con el próximo Server Save."
-      },
-      {
-        "icono": "⚔️",
-        "titulo": "+10% de Captura Crítica",
-        "detalle": "En Premier Ball y Alliance Ball. Comienza con el próximo Server Save."
-      },
-      {
-        "icono": "🟣",
-        "titulo": "+50% Twitch Points",
-        "detalle": "Ya está activo."
-      }
-    ],
-    "notaTitulo": "¿Qué es una captura crítica?",
-    "nota": "Cuando se activa una captura crítica, la probabilidad de captura de esa Ball se duplica.",
-    "cierre": "Gracias a todos los que hacen que cada una de estas metas se sienta cada vez más cercana."
+    "cierre": "La información de este anuncio corresponde a la actualización publicada tras el shutdown de las 23:59.",
+    "cierrePt": "As informações deste anúncio correspondem à atualização publicada após o shutdown das 23:59."
   }
 ]

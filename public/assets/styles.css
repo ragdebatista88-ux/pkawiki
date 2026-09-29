@@ -244,3 +244,90 @@ html[lang="es"] [data-lang-only="pt-BR"],html[lang="pt-BR"] [data-lang-only="es"
 .megaMenuTrigger{margin-left:0}.megaMenuPanel[hidden]{display:none!important}
 @media(max-width:930px){.topbar .shell.nav{padding-right:132px!important;gap:8px}.megaMenuTrigger{margin-left:auto!important;width:40px;height:40px;padding:0;justify-content:center}.megaMenuTrigger .megaMenuText,.megaMenuTrigger>b{display:none!important}.globalSearchTrigger{margin-left:0!important;width:40px;height:40px;padding:0!important;justify-content:center}.globalSearchTriggerLabel,.globalSearchTrigger kbd{display:none!important}.menuBtn{display:none!important}.topbar>.languageSwitcher{right:12px!important}.megaMenuPanel{top:68px}.megaMenuGrid{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.topbar .shell.nav{padding-right:124px!important;padding-left:12px!important}.brandmark,.brandmark img{width:42px;height:42px}.brandmark{flex-basis:42px}.megaMenuGrid{grid-template-columns:1fr}.megaMenuPanel>.shell{padding:12px}.megaMenuTop strong{font-size:17px}.megaMenuTop small{font-size:11px}.topbar>.languageSwitcher select{max-width:104px}.pageHead{padding-top:26px}.tocLinks{gap:7px}.tocLinks a{padding:8px 10px}}
+
+/* === Header responsive final: navegación clara en desktop y móvil === */
+@media (min-width: 931px){
+  .topbar .shell.nav{
+    max-width: 1280px;
+    padding-left: 28px;
+    padding-right: 170px;
+    gap: 0;
+  }
+  .topbar .brand{margin-right: 34px}
+  .topbar .megaMenuTrigger{margin:0 30px 0 0!important}
+  .topbar .globalSearchTrigger{margin:0!important}
+}
+
+@media (max-width: 930px){
+  .topbar{min-height:116px;padding-bottom:52px}
+  .topbar .shell.nav{
+    min-height:64px;
+    height:64px;
+    padding:0 14px!important;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    gap:0!important;
+  }
+  .topbar .brand{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    margin:0!important;
+    z-index:3;
+  }
+  .topbar .brand>span:last-child{display:none!important}
+  .topbar .brandmark,.topbar .brandmark img{width:46px;height:46px}
+  .topbar .brandmark{flex-basis:46px}
+  .topbar .megaMenuTrigger{
+    position:absolute;
+    left:14px;
+    top:50%;
+    transform:translateY(-50%);
+    width:42px;
+    height:42px;
+    margin:0!important;
+    padding:0!important;
+    justify-content:center;
+    border:0;
+    background:transparent;
+    font-size:24px;
+    z-index:4;
+  }
+  .topbar .megaMenuTrigger:hover,.topbar .megaMenuTrigger.active{background:#102b43}
+  .topbar .megaMenuTrigger .megaMenuText,.topbar .megaMenuTrigger>b{display:none!important}
+  .topbar>.languageSwitcher{
+    right:14px!important;
+    top:32px!important;
+    transform:translateY(-50%)!important;
+    z-index:5;
+  }
+  .topbar>.languageSwitcher .languageIcon{display:none!important}
+  .topbar>.languageSwitcher select{max-width:112px;font-size:11px;padding:7px 24px 7px 9px}
+  .topbar .globalSearchTrigger{
+    position:absolute;
+    left:14px;
+    right:14px;
+    top:70px;
+    width:auto!important;
+    height:38px!important;
+    margin:0!important;
+    padding:0 14px!important;
+    border-radius:20px;
+    justify-content:flex-end;
+    z-index:4;
+  }
+  .topbar .globalSearchTriggerIcon{font-size:20px}
+  .topbar .globalSearchTriggerLabel,.topbar .globalSearchTrigger kbd{display:none!important}
+  .megaMenuPanel{top:116px!important;max-height:calc(100vh - 116px)}
+}
+
+@media (max-width: 420px){
+  .topbar .shell.nav{padding:0 10px!important}
+  .topbar .megaMenuTrigger{left:10px}
+  .topbar>.languageSwitcher{right:10px!important}
+  .topbar>.languageSwitcher select{max-width:104px}
+  .topbar .globalSearchTrigger{left:10px;right:10px}
+}

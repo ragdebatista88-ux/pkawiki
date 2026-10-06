@@ -1,5 +1,50 @@
 [
   {
+    "fecha": "6 de octubre de 2026",
+    "secciones": [
+      {
+        "titulo": "Alteraciones generales",
+        "cambios": [
+          "Se habilitó el Rework de Lavender, con diversas casas nuevas.",
+          "Se habilitó el evento de Halloween 2026.",
+          "Los jugadores que completen el laberinto semanal recibirán 2 Buffs únicos de Halloween, de cada tipo.",
+          "Halloween Misdreavus se encuentra en las Islas Naranja (558, 3109, 7).",
+          "Para acceder al laberinto semanal, basta con decir “Gengar, Gengar, Gengar!” en las coordenadas (3666, 1820, 9).",
+          "Se añadieron diversos cosméticos nuevos vendidos por Kecleon Shop, disponibles solamente durante las temporadas de Halloween; volverán en otros años.",
+          "Se habilitó el Game Pass de octubre en los servidores Sun, Moon y Eclipse. En Titans estará disponible después del 01/11/2026.",
+          "Se habilitó la compensación para los jugadores de Titan 2."
+        ]
+      },
+      {
+        "titulo": "Correcciones de bugs",
+        "cambios": [
+          "Se corrigió un error que impedía abrir un Depot con diversos ítems."
+        ]
+      },
+      {
+        "titulo": "Balanceamiento",
+        "cambios": [
+          "Shiny Rapidash — Se corrigió el elemento de Flame Circle; su daño había quedado más alto de lo debido. El daño de Fire Ball y Flame Circle fue reducido proporcionalmente.",
+          "Shiny Salamence, Garchomp y Shiny Garchomp — Se corrigió un error en el elemento del daño de Dragon Pulse. Fue necesario reajustar los daños generales, sin alterar su combo total.",
+          "Shiny Blastoise — Hydropump: cooldown reducido de 50s a 40s.",
+          "Shiny Vaporeon — Acid Armor: cooldown reducido de 50s a 40s.",
+          "Shiny Venusaur — Petal Blizzard: cooldown reducido de 50s a 40s.",
+          "Swampert — Earthquake: daño aumentado en 1200%.",
+          "Shiny Claydol — Defensa aumentada en 39%.",
+          "Shiny Delcatty — La versión salvaje ya no utiliza el golpe “Draining Kiss”.",
+          "Shiny Dustox — Toxic: daño aumentado en 30%. Sludge Rain: daño aumentado en 12%. Poison Touch: daño aumentado en 9%.",
+          "Shiny Grumpig — Charm: cooldown reducido de 500s a 40s.",
+          "Shiny Ludicolo — Waterfall: daño aumentado en 55%. Hydropump: daño aumentado en 20%.",
+          "Shiny Masquerain — Whirlwind: daño aumentado en 33%. Sky Attack: daño aumentado en 25%. Aeroblast: daño aumentado en 60%.",
+          "Shiny Rampardos — Ancient Power: cooldown aumentado de 40s a 43s. Falling Rocks: cooldown reducido de 43s a 40s.",
+          "Shiny Aggron — Harden y Heavy Metal añadidos. Flash Cannon eliminado. Metal Sound adaptado: causa daño en área y aplica STUN a todos los enemigos alcanzados.",
+          "Shiny Misdreavus — La versión salvaje tuvo su HP reducido en 25%.",
+          "Pluck — Se corrigió un error en el elemento del movimiento “Pluck”, que estaba como Poison en lugar de Fly."
+        ]
+      }
+    ]
+  },
+  {
     "fecha": "23 de septiembre de 2026",
     "secciones": [
       {

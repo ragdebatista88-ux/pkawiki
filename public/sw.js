@@ -1,5 +1,5 @@
 // performance-v3: lightweight data bundles + inline base i18n
-const CACHE='pka-wiki-v14-halloween-cache-fix';
+const CACHE='pka-wiki-v15-halloween-changelog';
 const CORE=['./','index.html','assets/styles.css','assets/app.js','assets/i18n.js','assets/enhancements.js','data/pokemon-index.js','data/home-stats.js','assets/pka-wiki-logo.png'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));

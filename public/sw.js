@@ -1,5 +1,5 @@
 // performance-v3: lightweight data bundles + inline base i18n
-const CACHE='pka-wiki-v13-performance-max';
+const CACHE='pka-wiki-v14-halloween-cache-fix';
 const CORE=['./','index.html','assets/styles.css','assets/app.js','assets/i18n.js','assets/enhancements.js','data/pokemon-index.js','data/home-stats.js','assets/pka-wiki-logo.png'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
@@ -8,6 +8,12 @@ self.addEventListener('fetch',event=>{
  if(event.request.method!=='GET')return;
  if(staticAsset(event.request)){
   event.respondWith(caches.open(CACHE).then(async c=>{
+   const u=new URL(event.request.url);
+   const codeAsset=/\.(?:css|js|json)$/i.test(u.pathname);
+   if(codeAsset){
+    const net=fetch(event.request,{cache:'reload'}).then(r=>{if(r&&r.ok)c.put(event.request,r.clone());return r}).catch(()=>null);
+    return (await net)||await c.match(event.request)||Response.error();
+   }
    const hit=await c.match(event.request);
    const net=fetch(event.request).then(r=>{if(r&&r.ok)c.put(event.request,r.clone());return r}).catch(()=>null);
    return hit||net||Response.error();

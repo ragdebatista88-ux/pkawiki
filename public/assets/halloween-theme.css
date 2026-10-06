@@ -1,0 +1,139 @@
+/* PKA No Oficial Wiki — seasonal Halloween theme.
+   Loaded only during October by seasonal-theme.js. The normal stylesheet remains untouched. */
+:root.theme-halloween{
+  --bg:#090712;
+  --panel:#151025;
+  --panel2:#201436;
+  --text:#f7f1ff;
+  --muted:#c0afd3;
+  --accent:#b66cff;
+  --accent2:#ff9f32;
+  --line:#4c3268;
+  --danger:#ff6b6b;
+  --shadow:0 18px 55px rgba(0,0,0,.46);
+}
+html.theme-halloween body{
+  position:relative;
+  isolation:isolate;
+  background:#080611;
+  color:var(--text);
+}
+html.theme-halloween body::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  z-index:-2;
+  pointer-events:none;
+  background-image:url('halloween-background.png');
+  background-position:center top;
+  background-repeat:no-repeat;
+  background-size:cover;
+  filter:saturate(.82) brightness(.48);
+  transform:translateZ(0);
+}
+html.theme-halloween body::after{
+  content:"";
+  position:fixed;
+  inset:0;
+  z-index:-1;
+  pointer-events:none;
+  background:
+    radial-gradient(circle at 18% 8%,rgba(117,49,174,.18),transparent 34%),
+    radial-gradient(circle at 82% 12%,rgba(255,126,30,.12),transparent 30%),
+    linear-gradient(180deg,rgba(5,4,13,.48),rgba(7,5,15,.72) 46%,rgba(5,4,12,.82));
+}
+html.theme-halloween .topbar{
+  background:linear-gradient(90deg,rgba(13,8,25,.94),rgba(28,12,42,.92),rgba(13,8,25,.94));
+  border-bottom-color:rgba(188,108,255,.25);
+  box-shadow:0 8px 28px rgba(0,0,0,.25);
+}
+html.theme-halloween .shell{position:relative}
+html.theme-halloween main>.section,
+html.theme-halloween main>.pageHead,
+html.theme-halloween .hero{background:transparent}
+html.theme-halloween .card,
+html.theme-halloween .guideCard,
+html.theme-halloween .infoPanel,
+html.theme-halloween .faqItem,
+html.theme-halloween .toc,
+html.theme-halloween .step,
+html.theme-halloween .dashPanel,
+html.theme-halloween .wikiAiPanel,
+html.theme-halloween .suggestionPanel,
+html.theme-halloween .gymDungeonCard,
+html.theme-halloween .gymAccordion{
+  background:linear-gradient(155deg,rgba(27,17,44,.94),rgba(10,11,27,.94));
+  border-color:rgba(170,102,221,.34);
+  box-shadow:0 12px 34px rgba(0,0,0,.28);
+  backdrop-filter:blur(8px);
+}
+html.theme-halloween .card:hover,
+html.theme-halloween .guideCard:hover{
+  border-color:rgba(255,155,52,.6);
+  box-shadow:0 15px 38px rgba(74,25,103,.35);
+}
+html.theme-halloween .eyebrow{
+  border-color:rgba(255,159,50,.42);
+  background:rgba(113,49,155,.24);
+  color:#ffd4a0;
+}
+html.theme-halloween .gradient{
+  background:linear-gradient(90deg,#fff0d8,#ffad4d,#d08aff);
+  -webkit-background-clip:text;
+  color:transparent;
+}
+html.theme-halloween a{color:#d8a9ff}
+html.theme-halloween a:hover{color:#ffc173}
+html.theme-halloween .navlinks a:hover,
+html.theme-halloween .navlinks a.active,
+html.theme-halloween .quickLinks a:hover{
+  background:rgba(103,49,139,.38);
+}
+html.theme-halloween .brandmark{filter:drop-shadow(0 0 10px rgba(193,112,255,.28))}
+html.theme-halloween .notice,
+html.theme-halloween .callout.warn{
+  background:linear-gradient(100deg,rgba(255,136,31,.13),rgba(115,52,151,.18));
+  border-color:rgba(255,159,50,.38);
+}
+html.theme-halloween .callout.good{background:rgba(115,52,151,.18);border-color:rgba(190,116,244,.38)}
+html.theme-halloween .badge,
+html.theme-halloween .pill,
+html.theme-halloween .quickLinks a,
+html.theme-halloween .toc a,
+html.theme-halloween .linkBtn{
+  background:rgba(46,25,70,.9);
+  border-color:rgba(169,100,218,.35);
+  color:#ead8ff;
+}
+html.theme-halloween .tableWrap{background:rgba(10,10,25,.93);border-color:rgba(161,92,211,.32)}
+html.theme-halloween th{background:#25143a;border-bottom-color:#5a3975;color:#f3e8ff}
+html.theme-halloween td{border-bottom-color:#322044}
+html.theme-halloween tr:hover td{background:rgba(76,37,103,.34)}
+html.theme-halloween .searchbar input,
+html.theme-halloween .tableSearch,
+html.theme-halloween .suggestionForm input,
+html.theme-halloween .suggestionForm select,
+html.theme-halloween .suggestionForm textarea{
+  background:rgba(12,10,27,.94);
+  border-color:rgba(164,95,215,.42);
+}
+html.theme-halloween .searchbar input:focus,
+html.theme-halloween .tableSearch:focus{border-color:#d27aff;box-shadow:0 0 0 3px rgba(185,103,239,.12),var(--shadow)}
+html.theme-halloween .searchResults{background:#100c20;border-color:#56366f}
+html.theme-halloween .searchItem{border-bottom-color:#342047}
+html.theme-halloween .searchItem:hover{background:#29173c}
+html.theme-halloween .stat{background:rgba(22,14,39,.9);border-color:rgba(160,92,209,.35)}
+html.theme-halloween .footer{background:rgba(7,5,16,.78);border-top-color:rgba(160,92,209,.28);backdrop-filter:blur(8px)}
+html.theme-halloween .languageSwitcher select{background-color:rgba(23,13,38,.92);border-color:rgba(173,101,222,.38)}
+html.theme-halloween .menuBtn,
+html.theme-halloween button{accent-color:#b66cff}
+@media(max-width:930px){
+  html.theme-halloween .navlinks{background:rgba(12,8,24,.98);border-bottom-color:#513369}
+}
+@media(max-width:700px){
+  html.theme-halloween body::before{background-position:42% top;filter:saturate(.75) brightness(.40)}
+  html.theme-halloween body::after{background:linear-gradient(180deg,rgba(5,4,13,.58),rgba(7,5,15,.78) 42%,rgba(5,4,12,.88))}
+}
+@media(prefers-reduced-transparency:reduce){
+  html.theme-halloween .card,html.theme-halloween .guideCard,html.theme-halloween .infoPanel,html.theme-halloween .toc{backdrop-filter:none}
+}

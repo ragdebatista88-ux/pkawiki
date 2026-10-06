@@ -23,7 +23,8 @@
       body=`<div class="announcementInfoGrid">${a.bloques.map(b=>`<article class="announcementInfoCard"><div class="announcementInfoHead"><span class="announcementInfoIcon">${esc(b.icono||'•')}</span><div><h3>${esc(val(b,'titulo'))}</h3><span class="announcementStatus">${esc(val(b,'estado')||'')}</span></div></div><p>${esc(val(b,'texto')||'')}</p><strong class="announcementDate">${esc(val(b,'fecha')||'')}</strong></article>`).join('')}</div>`;
     }
     const close=a.cierre?`<p class="announcementClose">${esc(val(a,'cierre'))}</p>`:'';
-    return `<article class="homeAnnouncement announcementSlide" data-slide="${i}" aria-hidden="${i?'true':'false'}">${head}${body}${close}</article>`;
+    const cta=a.link?`<a class="announcementCta" href="${esc(a.link)}">${esc(val(a,'linkTexto')||(lang()==='pt'?'Ver detalhes →':'Ver detalles →'))}</a>`:'';
+    return `<article class="homeAnnouncement announcementSlide" data-slide="${i}" aria-hidden="${i?'true':'false'}">${head}${body}${close}${cta}</article>`;
   };
   const go=n=>{
     if(!slides.length)return;

@@ -1,0 +1,6 @@
+/* Publicidad lateral discreta: no altera el contenido ni usa posiciones sticky. */
+.pka-ad-rail{display:none;position:absolute;top:112px;width:clamp(160px,calc((100vw - 860px)/2 - 45px),300px);z-index:1;box-sizing:border-box;pointer-events:none}
+.pka-ad-rail--left{right:calc(50% + 440px)}.pka-ad-rail--right{left:calc(50% + 440px)}
+.pka-ad-rail.is-active{display:block;pointer-events:auto}.pka-ad-rail__label{font:11px/1.5 system-ui,sans-serif;color:#bcb2c9;text-align:center;margin:0 0 8px}
+.pka-ad-rail__unit{min-height:250px;overflow:hidden;border-radius:10px;background:rgba(14,17,31,.48);border:1px solid rgba(180,170,210,.16)}
+@media(max-width:1499px){.pka-ad-rail{display:none!important}}

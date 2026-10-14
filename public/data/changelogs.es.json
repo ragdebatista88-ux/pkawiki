@@ -1,5 +1,45 @@
 [
   {
+    "fecha": "14 de octubre de 2026",
+    "secciones": [
+      {
+        "titulo": "Alteraciones generales",
+        "cambios": [
+          "Ya están disponibles nuevos artículos de Halloween para comprar en Kecleon Shop.",
+          "Intercambio de Sealed Dens legendarias: costo reducido de 1kk a 500k.",
+          "Ahora es posible intercambiar Sealed Dens míticas por 700k.",
+          "Los intercambios son de la misma categoría: una Den legendaria solo puede cambiarse por otra legendaria y una mítica solo por otra mítica."
+        ]
+      },
+      {
+        "titulo": "Balanceamiento",
+        "cambios": [
+          "Mega Glalie — Daño y tiempos de reutilización (cooldowns) reajustados para adecuarlo a un Pokémon mítico.",
+          "Shiny Dragonite — Daño y tiempos de reutilización (cooldowns) reajustados para adecuarlo a un Pokémon mítico."
+        ]
+      },
+      {
+        "titulo": "Correcciones de bugs",
+        "cambios": [
+          "Se corrigió un error que impedía vender artículos por más de 10kkk.",
+          "Se corrigió un error por el que las habilidades en cooldown consumían el Focus del Pokémon.",
+          "Se corrigió la probabilidad de captura de Pinsir.",
+          "Se corrigió el Pokélog de Machamp.",
+          "Se corrigió un error que impedía que los Giant Bosses utilizaran habilidades en determinadas situaciones."
+        ]
+      },
+      {
+        "titulo": "Cambios en el cliente",
+        "cambios": [
+          "Se realizaron diversas mejoras de funcionamiento y optimización del cliente.",
+          "Menor consumo de CPU y GPU.",
+          "Menor consumo de memoria RAM.",
+          "Menos bloqueos en ciertas interacciones, como al abrir ventanas de televisores."
+        ]
+      }
+    ]
+  },
+  {
     "fecha": "6 de octubre de 2026",
     "secciones": [
       {

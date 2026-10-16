@@ -1,6 +1,6 @@
 {
   "boost.0001.4c099c02": "Sistema de Boost | PKA No Oficial Wiki",
-  "boost.0002.75cdfd91": "El Boost fortalece de forma permanente el daño de las magias del Pokémon. El límite descrito es +50.",
+  "boost.0002.75cdfd91": "El Boost fortalece de forma permanente el daño de las magias del Pokémon. Las Boost Stones crafteadas permiten llegar hasta +50; después se usan piedras evolutivas del tipo del Pokémon.",
   "boost.0003.69af072a": "Cada +1 Boost se trata como",
   "boost.0004.a230a3a6": "3 niveles adicionales",
   "boost.0005.4dc7a49e": "para el cálculo de daño de las magias; +50 equivale a 150 niveles adicionales en ese cálculo. Usa una Boost Stone de la franja correcta y de un elemento compatible con al menos uno de los elementos del Pokémon.",
@@ -11,7 +11,12 @@
   "boost.0010.a4c1bd35": "a la siguiente tentativa dentro de esa franja. Al acertar, el acumulado vuelve a cero.",
   "boost.0011.501697de": "Craft y fragmentos",
   "boost.0012.573bc5f7": "Las recetas pueden usar ítems del elemento, fragmentos, la piedra elemental correspondiente y otros materiales. Como las recetas pueden cambiar, conviene revisar la máquina antes de reunir recursos. Los fragmentos se obtienen principalmente en Dungeons ligadas al mismo elemento.",
-  "boost.0013.9a78aca6": "El sistema antiguo por encima de +50 con regresión y límite +70 no forma parte de la configuración descrita en esta guía.",
+  "boost.0013.9a78aca6": "Después de +50, las Boost Stones crafteadas dejan de utilizarse para aumentar el Boost. A partir de ahí, se usan piedras evolutivas compatibles con el tipo del Pokémon. El resultado depende del azar (RNG).",
   "boost.0014.70377813": "Materiales registrados en la base comunitaria",
-  "boost.0015.c6f294c6": "Debajo se conserva la tabla procedente del Excel para consultar materiales por tipo."
+  "boost.0015.c6f294c6": "Debajo se conserva la tabla procedente del Excel para consultar materiales por tipo.",
+  "boost.extra.title": "¿Cómo aumentar el Boost después de +50?",
+  "boost.extra.explain": "Al llegar a +50, las Boost Stones que se craftean ya no sirven para seguir aumentando el Boost. Para continuar, aplica directamente al Pokémon una piedra evolutiva correspondiente a cualquiera de sus tipos.",
+  "boost.extra.example": "Ejemplo: Charizard es de tipo Fuego/Volador, por lo que puedes utilizar Fire Stone (Fuego) o Feather Stone (Volador).",
+  "boost.extra.rng": "El intento depende completamente del RNG (azar): usar una piedra no garantiza que el Boost aumente.",
+  "boost.extra.nav": "Después de +50"
 }

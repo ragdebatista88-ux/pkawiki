@@ -2,6 +2,66 @@
   {
     "activo": true,
     "tipo": "informativo",
+    "etiqueta": "Próxima actualización · 23/10",
+    "etiquetaPt": "Próxima atualização · 23/10",
+    "titulo": "📢 Novedades anunciadas para el 23 de octubre",
+    "tituloPt": "📢 Novidades anunciadas para 23 de outubro",
+    "texto": "El viernes 23/10 a las 04:00 (Brasil, UTC−3) — 01:00 en Ciudad de México — llegarán mejoras para buffs, stamina, misiones de guild y Market. Se anunciarán más novedades en los próximos días.",
+    "textoPt": "Na sexta-feira, 23/10, às 04:00 (horário de Brasília, UTC−3), chegam melhorias em buffs, stamina, missões de guild e Market. Mais novidades serão anunciadas nos próximos dias.",
+    "fecha": "23 oct · 01:00 CDMX / 04:00 Brasil",
+    "fechaPt": "23 out · 04:00 Brasília",
+    "bloques": [
+      {
+        "icono": "✨",
+        "titulo": "Buffs: tiempo solo en combate",
+        "tituloPt": "Buffs: tempo só em combate",
+        "estado": "Próximamente",
+        "estadoPt": "Em breve",
+        "texto": "La duración de los bonos se descontará únicamente mientras el jugador esté en combate; fuera de combate, el tiempo se conserva.",
+        "textoPt": "A duração dos bônus será descontada somente enquanto o jogador estiver em combate; fora de combate, o tempo será preservado.",
+        "fecha": "23/10",
+        "fechaPt": "23/10"
+      },
+      {
+        "icono": "⚡",
+        "titulo": "Stamina Bonus: 2 horas",
+        "tituloPt": "Stamina Bonus: 2 horas",
+        "estado": "+10% Shiny Charm · +10% EXP",
+        "estadoPt": "+10% Shiny Charm · +10% EXP",
+        "texto": "Cada shutdown otorgará 120 minutos de bonus. En una zona de protección podrás desactivarlo para no consumir tiempo; mientras esté desactivado, tampoco recibirás los bonos.",
+        "textoPt": "A cada shutdown, o jogador receberá 120 minutos de bônus. Em zona de proteção, poderá desativá-lo para não gastar o tempo; enquanto estiver desativado, não receberá os bônus.",
+        "fecha": "23/10",
+        "fechaPt": "23/10"
+      },
+      {
+        "icono": "🏰",
+        "titulo": "Daily Guild: renovación rápida",
+        "tituloPt": "Daily Guild: renovação rápida",
+        "estado": "Con Guild Daily Ticket",
+        "estadoPt": "Com Guild Daily Ticket",
+        "texto": "Al completar una misión, podrás renovarla con un clic desde la notificación si tienes un Guild Daily Ticket. La nueva misión conservará dificultad y elemento.",
+        "textoPt": "Ao concluir uma missão, será possível renová-la com um clique na notificação, se tiver um Guild Daily Ticket. A nova missão manterá a dificuldade e o elemento.",
+        "fecha": "23/10",
+        "fechaPt": "23/10"
+      },
+      {
+        "icono": "🛒",
+        "titulo": "Market más claro",
+        "tituloPt": "Market mais claro",
+        "estado": "Mejora de interfaz",
+        "estadoPt": "Melhoria na interface",
+        "texto": "Será más sencillo identificar qué ventana del Market está seleccionada.",
+        "textoPt": "Ficará mais fácil identificar qual janela do Market está selecionada.",
+        "fecha": "23/10",
+        "fechaPt": "23/10"
+      }
+    ],
+    "cierre": "Más novedades se anunciarán próximamente en el Discord oficial.",
+    "cierrePt": "Mais novidades serão anunciadas em breve no Discord oficial."
+  },
+  {
+    "activo": true,
+    "tipo": "informativo",
     "etiqueta": "Evento de Halloween",
     "etiquetaPt": "Evento de Halloween",
     "titulo": "🎃 Halloween llegó a PokeAlliance",

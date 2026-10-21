@@ -1,0 +1,1 @@
+(()=>{function t(){const l=document.documentElement.lang.startsWith('pt')?'pt':'es';document.querySelectorAll('[data-es][data-pt]').forEach(e=>e.textContent=e.dataset[l])}t();document.addEventListener('pka-language-changed',t);new MutationObserver(t).observe(document.documentElement,{attributes:true,attributeFilter:['lang']})})();

@@ -1395,5 +1395,45 @@
     "imagen": "https://imgur.com/a/0irrv1r",
     "categoria": "Tasks",
     "pagina": "tasks.html"
+  },
+  {
+    "nombre": "Heather",
+    "queHace": "Compra Pokémon que no son Shiny.",
+    "ubicacion": "Planta principal del Trade Center",
+    "imagen": "",
+    "categoria": "Trade Center",
+    "pagina": "tc.html"
+  },
+  {
+    "nombre": "Apolo",
+    "queHace": "Transfiere gratuitamente el Held Lucky al Lucky Amulet.",
+    "ubicacion": "Planta principal del Trade Center",
+    "imagen": "",
+    "categoria": "Trade Center",
+    "pagina": "tc.html"
+  },
+  {
+    "nombre": "Hugh",
+    "queHace": "Compra objetos de Hoenn.",
+    "ubicacion": "Planta principal del Trade Center",
+    "imagen": "",
+    "categoria": "Trade Center",
+    "pagina": "tc.html"
+  },
+  {
+    "nombre": "Rosemary",
+    "queHace": "Retira el último Held del Pokémon equipado o del Lucky Amulet. Habla: hi → remove.",
+    "ubicacion": "Planta principal del Trade Center",
+    "imagen": "",
+    "categoria": "Trade Center",
+    "pagina": "tc.html"
+  },
+  {
+    "nombre": "Kecleon",
+    "queHace": "Kecleon Shop: compra Stones.",
+    "ubicacion": "Planta principal del Trade Center",
+    "imagen": "",
+    "categoria": "Trade Center",
+    "pagina": "tc.html"
   }
 ]

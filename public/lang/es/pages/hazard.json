@@ -39,5 +39,15 @@
   "hazard.0038.95f2b94b": "Una Poké Ball con Stars",
   "hazard.0039.39cd5f08": "no acepta Mega Stone",
   "hazard.0040.3c2c6707": ". Mega y Star Ascension son caminos incompatibles; decide antes de invertir.",
-  "hazard.0041.66c0add1": "Además del sistema anterior, el Excel de la wiki contiene estas tasks de Hazard:"
+  "hazard.0041.66c0add1": "Además del sistema anterior, el Excel de la wiki contiene estas tasks de Hazard:",
+  "hazard.new.nav": "Qué es y cómo cambiarlo",
+  "hazard.new.title": "¿Qué es Hazard?",
+  "hazard.new.what": "Hazard es un sistema de dificultad para las hunts de Primal y Tubos, donde aparecen Pokémon Shiny Ultra Rare, Legendary y Mythic. Estas hunts se desbloquean a partir del nivel 350. Al aumentar Hazard obtienes bonificaciones de experiencia y loot, pero también aumenta la dificultad del combate.",
+  "hazard.new.how": "¿Dónde se cambia el nivel de Hazard?",
+  "hazard.new.step1": "Dirígete al lado izquierdo del Trade Center (TC) y entra en el portal indicado en la imagen.",
+  "hazard.new.step2": "Después de cruzar el portal, sigue el recorrido del mapa hasta encontrar una estatua de Rayquaza.",
+  "hazard.new.step3": "Haz clic derecho sobre la estatua para abrir la ventana «Bendiciones de Arceus». Ahí podrás elegir entre los niveles de Hazard que ya tengas desbloqueados y consultar sus ventajas y desventajas.",
+  "hazard.new.tasks": "Los niveles de Hazard se desbloquean completando las Hazard Tasks que aparecen más abajo en esta misma página. Solo podrás seleccionar los niveles que hayas desbloqueado.",
+  "hazard.new.pic1": "Portal de acceso al área de Hazard, a la izquierda del TC",
+  "hazard.new.pic2": "Ventana de Bendiciones de Arceus para seleccionar el nivel de Hazard"
 }

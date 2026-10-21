@@ -1,0 +1,3 @@
+Actualización: 18 tipos de Tier List y 9 Pokémon anacrónicos, normales y Shiny.
+En discrepancias se priorizó la Tier List: Shiny Conkeldurr = Legendary y Shiny Bastiodon = Ultra Rare; el anuncio original decía Super Rare en ambos casos.
+El resto de archivos del sitio y Worker se conserva sin cambios.

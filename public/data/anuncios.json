@@ -62,6 +62,76 @@
   {
     "activo": true,
     "tipo": "informativo",
+    "etiqueta": "Más novedades · Actualización del viernes 23/10",
+    "etiquetaPt": "Mais novidades · Atualização de sexta-feira 23/10",
+    "titulo": "Celebi Shrine, Bonus Global, Guilds y outfits",
+    "tituloPt": "Celebi Shrine, Bônus Global, Guilds e outfits",
+    "texto": "Nuevos anuncios del equipo de PKA para la actualización del viernes. El Golden Ticket regresará, pero aún no se ha definido cómo obtenerlo.",
+    "textoPt": "Novos anúncios da equipe do PKA para a atualização de sexta-feira. O Golden Ticket voltará, mas ainda não foi definida a forma de obtê-lo.",
+    "fecha": "23 oct · Próxima actualización",
+    "fechaPt": "23 out · Próxima atualização",
+    "bloques": [
+      {
+        "icono": "🌿",
+        "titulo": "Adiós al Celebi Shrine",
+        "tituloPt": "Fim do Celebi Shrine",
+        "estado": "Sistema descontinuado",
+        "estadoPt": "Sistema descontinuado",
+        "texto": "Se descontinuará Celebi Shrine. El equipo estudia cómo volver a ofrecer sus cosméticos y buffs exclusivos; aún no hay método ni fecha confirmados.",
+        "textoPt": "O Celebi Shrine será descontinuado. A equipe estuda como disponibilizar novamente cosméticos e buffs exclusivos; ainda não há método ou data confirmados."
+      },
+      {
+        "icono": "🎟️",
+        "titulo": "Golden Ticket regresará",
+        "tituloPt": "Golden Ticket vai voltar",
+        "estado": "Detalles por anunciar",
+        "estadoPt": "Detalhes a anunciar",
+        "texto": "El Golden Ticket volverá. Están evaluando cómo conseguirlo de nuevo y anticipan novedades relacionadas con las guilds, sin confirmar todavía los requisitos.",
+        "textoPt": "O Golden Ticket voltará. Estão avaliando como obtê-lo novamente e antecipam novidades ligadas às guilds, sem confirmar os requisitos."
+      },
+      {
+        "icono": "🍓",
+        "titulo": "Bonus Global sin límite de duración",
+        "tituloPt": "Bônus Global sem limite de duração",
+        "estado": "+48 horas por cada 100kk",
+        "estadoPt": "+48 horas a cada 100kk",
+        "texto": "Se elimina el límite de donaciones: cada 100kk donados añade 48 horas a la duración del bonus, sin tope. Permitirá planificar su continuidad y acceder a berries.",
+        "textoPt": "O limite de doações será removido: a cada 100kk doados, a duração do bônus aumenta em 48 horas, sem limite. Facilita a continuidade dos bônus e o acesso às berries."
+      },
+      {
+        "icono": "🏰",
+        "titulo": "Guilds: búsqueda e ingreso automático",
+        "tituloPt": "Guilds: busca e entrada automática",
+        "estado": "Nuevo panel de Guilds",
+        "estadoPt": "Nova janela de Guilds",
+        "texto": "Nuevo listado de guilds con filtros de vacantes y nivel requerido. Los líderes podrán abrir el ingreso automático a quienes cumplan el nivel mínimo. Puntos Daily: Normal 1, Wildscape 2 y Primal 4.",
+        "textoPt": "Nova lista de guilds com filtros de vagas e nível mínimo. Líderes poderão liberar a entrada automática para quem cumprir o requisito. Pontos Daily: Normal 1, Wildscape 2 e Primal 4."
+      },
+      {
+        "icono": "📣",
+        "titulo": "Anuncios y mensajes de Guild",
+        "tituloPt": "Anúncios e mensagens de Guild",
+        "estado": "1 anuncio gratis al día",
+        "estadoPt": "1 anúncio grátis por dia",
+        "texto": "El líder podrá enviar 1 anuncio diario gratis a miembros conectados; los adicionales cuestan 1kk de su cartera. Fijar mensajes cuesta 1kk cada uno, máximo 2; se reinician en el shutdown. Los avisos fijados reaparecen al iniciar sesión, salvo que el miembro desactive ese mensaje.",
+        "textoPt": "O líder poderá enviar 1 anúncio diário grátis aos membros online; extras custam 1kk da carteira do líder. Fixar mensagens custa 1kk cada, até 2; resetam no shutdown. Mensagens fixadas reaparecem ao entrar, salvo se o membro desativar a mensagem específica."
+      },
+      {
+        "icono": "👕",
+        "titulo": "Outfits sin restricción Male/Female",
+        "tituloPt": "Outfits sem restrição Male/Female",
+        "estado": "Cambio gratuito",
+        "estadoPt": "Troca gratuita",
+        "texto": "El objetivo anunciado es permitir elegir outfits masculinos o femeninos libremente, sin depender del sexo del personaje y sin costo.",
+        "textoPt": "O objetivo anunciado é permitir escolher outfits masculinas ou femininas livremente, sem depender do sexo do personagem e sem custo."
+      }
+    ],
+    "cierre": "Anuncios oficiales del equipo PKA. El regreso de cosméticos y Golden Ticket sigue en estudio.",
+    "cierrePt": "Anúncios oficiais da equipe PKA. O retorno de cosméticos e Golden Ticket ainda está em estudo."
+  },
+  {
+    "activo": true,
+    "tipo": "informativo",
     "etiqueta": "Evento de Halloween",
     "etiquetaPt": "Evento de Halloween",
     "titulo": "🎃 Halloween llegó a PokeAlliance",

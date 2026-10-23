@@ -1,0 +1,3 @@
+Changelog 23/10/2026 añadido en español y portugués a los tres JSON.
+Secciones temáticas añadidas a 18 páginas existentes.
+Los contenidos sin página temática específica se documentan en el changelog.

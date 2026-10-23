@@ -1,5 +1,56 @@
 [
   {
+    "fecha": "23 de octubre de 2026",
+    "secciones": [
+      {
+        "titulo": "Alteraciones generales",
+        "cambios": [
+          "Los buffs ahora consumen duración únicamente mientras el jugador está en combate.",
+          "Nuevo Stamina Bonus: en cada shutdown se reciben 120 minutos con +10% de Shiny Charm y +10% de experiencia. Puede desactivarse en zona de protección; desactivado, no otorga beneficios ni consume tiempo.",
+          "Community Bonus sin límite de donaciones: cada 100kk donados añade 48 horas de duración acumulable, prolongando los beneficios y el acceso a berries.",
+          "El cooldown de las Hunts Primales comienza al entrar, en lugar de al salir.",
+          "Las Hunts Primales de Vespiquen, Yanmega, Staraptor, Gallade y Mismagius pasan de 3 a 5 instancias.",
+          "Se pueden comprar slots de Poké Expedition hasta un máximo de 20: el primero cuesta 50k y cada siguiente aumenta 50k.",
+          "Shiny Tyranitar y Mega Absol se equilibraron al nivel de fuerza Mythic.",
+          "Nuevo aviso 10 minutos antes del Boss Global Misdreavus.",
+          "El cambio de sexo del personaje es gratuito para alternar entre outfits Male y Female.",
+          "Se estandarizó la velocidad de los pisos en áreas abiertas, con excepciones como quests. Snowboard y Sandboard serán más lentos; varias zonas, más rápidas. Se retiraron las outfits Diving Kit, Sandboard y Snowboard, y se añadió una burbuja visual en zonas sumergidas.",
+          "Nueva ventana de Guilds con listado y filtros por vacantes e ingreso automático.",
+          "Los líderes pueden establecer un nivel mínimo para ingresar automáticamente a su Guild.",
+          "Con Guild Daily Ticket se puede renovar la misión desde la notificación de finalización, manteniendo dificultad y elemento.",
+          "Puntos de Daily Guild: Normal 1, Wildscape 2 y Primal 4.",
+          "Los líderes pueden anunciar mensajes a miembros conectados: uno gratis al día; los adicionales cuestan 1kk cada uno de la cartera del líder.",
+          "Los líderes pueden fijar hasta dos mensajes por 1kk cada uno de su cartera. Se muestran a miembros conectados y al volver a iniciar sesión hasta el siguiente shutdown. «No volver a mostrar» afecta solo al mensaje seleccionado.",
+          "Se anunció la descontinuación del Celebi Shrine. Se estudian nuevas formas de conseguir sus cosméticos y buffs exclusivos.",
+          "El Golden Ticket regresará; su nueva obtención sigue en estudio y se anticipan novedades relacionadas con las guilds.",
+          "Nueva autenticación de dos factores (2FA): código temporal de seis dígitos de una app autenticadora, además de la contraseña.",
+          "Mejorada la identificación de la ventana seleccionada en Market.",
+          "En TV Cam se pueden consultar entrenamiento, boost y star de los Pokémon del anfitrión al pasar el cursor, si la opción está activada.",
+          "Rediseñada la interfaz de Ditto Memory; permite bloquear, minimizar y acoplar.",
+          "Las habilidades pasivas ya no cuentan entre los movimientos de Pokébar y pueden ocultarse en Movebar.",
+          "Smart Screenshot permite capturar una pantalla automáticamente al atrapar un Pokémon.",
+          "Nuevo botón para reclamar todas las recompensas disponibles de Game Pass de una sola vez."
+        ]
+      },
+      {
+        "titulo": "Correcciones de bugs",
+        "cambios": [
+          "Corregido un error que impedía recibir la outfit al completar Mega’s Den.",
+          "Corregida la transformación de Castform normal con estrella.",
+          "Corregido el conteo de Castforms en la misión del NPC Diego.",
+          "Corregida la visualización de talentos bloqueados por el nivel del personaje.",
+          "Corregidos errores visuales en botones y textos de las ventanas del cliente."
+        ]
+      },
+      {
+        "titulo": "Balanceamiento",
+        "cambios": [
+          "Shiny Tyranitar y Mega Absol ajustados a fuerza Mythic."
+        ]
+      }
+    ]
+  },
+  {
     "fecha": "14 de octubre de 2026",
     "secciones": [
       {

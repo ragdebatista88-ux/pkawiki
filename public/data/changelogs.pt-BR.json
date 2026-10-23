@@ -1,5 +1,56 @@
 [
   {
+    "fecha": "23 de outubro de 2026",
+    "secciones": [
+      {
+        "titulo": "Alterações Gerais",
+        "cambios": [
+          "Alterada a contagem de tempo dos buffs: a duração só é consumida enquanto o jogador estiver em combate.",
+          "Adicionado Stamina Bonus: a cada shutdown, 120 minutos de bônus de 10% de Shiny Charm e 10% de experiência. Pode ser desativado em zona de proteção; desativado, não concede bônus nem consome tempo.",
+          "Removido o limite de doações do Community Bonus: cada 100kk doados acrescenta 48 horas à duração dos bônus, sem limite de tempo acumulado, permitindo prolongar os benefícios e o acesso às berries.",
+          "O cooldown das Hunts Primais agora começa a contar na entrada, em vez da saída.",
+          "Aumentadas de 3 para 5 as instâncias das Hunts Primais de Vespiquen, Yanmega, Staraptor, Gallade e Mismagius.",
+          "Adicionada a compra de slots de Poké Expedition, até 20. O primeiro custa 50k e cada slot seguinte custa 50k a mais.",
+          "Rebalanceados Shiny Tyranitar e Mega Absol para força de Mythic.",
+          "Adicionado aviso 10 minutos antes do Boss Global Misdreavus.",
+          "Disponibilizada gratuitamente a troca de sexo do personagem para alternar entre outfits Male e Female.",
+          "Padronizada a velocidade dos pisos em áreas de mapa aberto, com exceções como quests. Snowboard e Sandboard ficam mais lentos; diversas outras áreas ficam mais rápidas. Removidas outfits Diving Kit, Sandboard e Snowboard; adicionada bolha visual em áreas submersas.",
+          "Nova janela de Guilds: lista de guilds, filtros por vagas e entrada automática.",
+          "Líderes podem configurar level mínimo para entrada automática na Guild.",
+          "Com Guild Daily Ticket, a Daily Guild pode ser renovada pela notificação de conclusão, mantendo dificuldade e elemento.",
+          "Pontos por Daily Guild: Normal 1; Wildscape 2; Primal 4.",
+          "Líder pode enviar anúncios aos membros online: um grátis por dia, extras por 1kk cada da carteira do líder.",
+          "Líder pode fixar até duas mensagens por 1kk cada da carteira do líder. Exibidas aos membros online e novamente ao relogar até o próximo shutdown. “Não exibir novamente” desativa apenas a mensagem escolhida.",
+          "Anunciada a descontinuação do Celebi Shrine. A equipe estuda como redisponibilizar cosméticos e buffs exclusivos.",
+          "O Golden Ticket retornará; a nova forma de obtenção está em estudo, com novidades futuras relacionadas às guilds.",
+          "Implementada autenticação de dois fatores (2FA) com código temporário de 6 dígitos de aplicativo autenticador além da senha.",
+          "Melhorada a identificação da janela selecionada no Market.",
+          "TV Cam pode mostrar treino, boost e star dos Pokémon do host ao passar o mouse no ícone, quando a opção estiver ativa.",
+          "Interface do Ditto Memory reformulada, com opções de travar, minimizar e acoplar.",
+          "Passivas não são mais contabilizadas entre os moves da Pokébar e podem ser ocultadas na Movebar.",
+          "Smart Screenshot: opção de captura automática de tela ao capturar um Pokémon.",
+          "Adicionado botão para resgatar todas as recompensas disponíveis do Game Pass de uma vez."
+        ]
+      },
+      {
+        "titulo": "Correções de Bug",
+        "cambios": [
+          "Corrigido erro que impedia alguns jogadores de receber outfit ao concluir Mega’s Den.",
+          "Corrigida a transformação de Castform normal estrelado.",
+          "Corrigida a contagem de Castforms na task do NPC Diego.",
+          "Corrigida a exibição de talentos bloqueados pelo level do personagem.",
+          "Corrigidos problemas visuais em botões e textos de janelas do cliente."
+        ]
+      },
+      {
+        "titulo": "Balanceamento",
+        "cambios": [
+          "Shiny Tyranitar e Mega Absol rebalanceados para força de Mythic."
+        ]
+      }
+    ]
+  },
+  {
     "fecha": "14 de outubro de 2026",
     "secciones": [
       {

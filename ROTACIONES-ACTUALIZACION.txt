@@ -1,0 +1,5 @@
+Se añadieron Shiny Breloom ★★ T1 y Shiny Roselia ★★ T1 en opciones de Planta.
+Shiny Victreebel actualizado a T2 en Rotaciones, Pokédex y Tier List.
+Ordenado por tier dentro de cada bloque (equipo inicial, opciones y mejoras), sin mezclar bloques.
+Los tiers se completaron según la base de datos existente; no se inventaron tiers faltantes.
+Nombres sin tier verificable: ninguno

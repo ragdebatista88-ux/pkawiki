@@ -32,5 +32,21 @@
   "brokes.0031.4037cb57": "x5",
   "brokes.0032.4037cb57": "x5",
   "brokes.0033.06a5ea0f": "Nota:",
-  "brokes.0034.c9afcb80": "el rate de captura de la ball no modifica cómo se contabilizan los brokes para el sistema de mérito; ese sistema considera el total de brokes."
+  "brokes.0034.c9afcb80": "el rate de captura de la ball no modifica cómo se contabilizan los brokes para el sistema de mérito; ese sistema considera el total de brokes.",
+  "balls.guide.title": "Guía de balls y sus usos",
+  "balls.guide.note": "Las balls especializadas favorecen los tipos indicados. Fast y Heavy solo aplican a Pokémon con la insignia correspondiente en la Pokédex. No se han supuesto multiplicadores adicionales.",
+  "balls.guide.tale": "Dragón y Hada",
+  "balls.guide.magu": "Fuego y Tierra",
+  "balls.guide.yume": "Normal y Psíquico",
+  "balls.guide.dusk": "Roca y Lucha",
+  "balls.guide.moon": "Siniestro y Fantasma",
+  "balls.guide.janguru": "Veneno y Planta",
+  "balls.guide.sora": "Hielo y Volador",
+  "balls.guide.tinker": "Eléctrico y Acero",
+  "balls.guide.net": "Bicho y Agua",
+  "balls.guide.fast": "Pokémon con insignia Rápido en la Pokédex",
+  "balls.guide.heavy": "Pokémon con insignia Pesado en la Pokédex",
+  "balls.guide.premier": "Ball con efectos de partículas únicos",
+  "balls.guide.alliance": "Ball exclusiva de Alliance con efectos visuales",
+  "balls.guide.safari": "Uso específico no indicado en la captura"
 }

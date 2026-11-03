@@ -381,7 +381,6 @@ const PKA_MEGA_GROUPS=[
   ["Guías y contenido", ["guias.html","guild-bosses.html","primeros-pasos.html","comandos.html","premier-vs-alliance.html","achievements.html","outfits.html","addons.html","items.html","online-shop.html","porygon.html"]],
   ["Herramientas", ["calculadoras.html","calculadora-dano.html","calculadora-stars.html","comparador.html","hunt-analyzer.html","damage.html","estadisticas-comunidad.html"]],
   ["Comunidad e info", ["index.html","changelogs.html","cupones.html","faq.html","sugerencias.html"]],
-  ["Evento", ["evento-halloween.html","guia-resident-evil.html"]],
   ["Casino", ["casino.html","casino-memory.html","casino-adivina-quien.html","casino-quiz.html","casino-quien-pokemon.html"]],
   ["Más páginas", ["medallas.html"]]
 ];

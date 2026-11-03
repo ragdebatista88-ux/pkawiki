@@ -1,5 +1,53 @@
 [
   {
+    "fecha": "Fecha no indicada",
+    "secciones": [
+      {
+        "titulo": "Alteraciones generales",
+        "cambios": [
+          "Se retiró el evento de Halloween del juego.",
+          "Ahora se pueden vender Pokémon directamente desde el Pokémon Center, sin moverlos a la mochila del personaje.",
+          "Los Pokémon con una Mega Stone equipada ahora no se pueden vender (Unsellable).",
+          "Después de completar la task del NPC Diego, el jugador puede intercambiar un Rosy Molecules por un Shiny Castform."
+        ]
+      },
+      {
+        "titulo": "Correcciones de errores",
+        "cambios": [
+          "Se corrigió un error por el que el Auto Loot entregaba el objeto de la quest del Capitán Willy al líder de la party en lugar de al jugador que derrotaba a los Tentacruel.",
+          "Se corrigió la posibilidad de lanzar ciertas habilidades a través de paredes, tanto dirigidas a objetivos como de área (Fireball, Waterball, Submission, entre otras).",
+          "Se corrigió un error que impedía abrir los Lockers de Resident Evil.",
+          "Se corrigió el contador de objetos en la sección More Info del Analyzer.",
+          "Se corrigieron el Tier y la descripción de todas las Mega Evoluciones en la Pokédex."
+        ]
+      },
+      {
+        "titulo": "Balance",
+        "cambios": [
+          "Mega Heracross y Mega Blastoise fueron reajustados para corresponder al poder de su tier Legendary."
+        ]
+      },
+      {
+        "titulo": "Item Conversion",
+        "cambios": [
+          "Nueva función para intercambiar medallas y orbs que ya no se necesiten.",
+          "Medallas: se intercambia una medalla por otra aleatoria.",
+          "Orbs: se intercambia un orb por otro aleatorio del mismo tier (Simple, Arcane, Mythic o Celestial).",
+          "Para utilizarla, abre Item Conversion desde el Top Menu, selecciona el objeto y confirma. Cada intercambio cuesta KK; el precio aumenta según el tier y se muestra antes de confirmar."
+        ]
+      },
+      {
+        "titulo": "Cliente del juego",
+        "cambios": [
+          "Se realizaron mejoras y cambios visuales en prácticamente todas las ventanas del cliente.",
+          "Ahora se puede desactivar Discord RPC desde las Options del juego.",
+          "En Diamond Shop ahora se pueden visualizar más claramente las Outfits con sus animaciones de caminar (walk) y Taunt.",
+          "Auto Combo y Auto Revive cambiaron de nombre a Smart Combo y Smart Revive."
+        ]
+      }
+    ]
+  },
+  {
     "fecha": "23 de octubre de 2026",
     "secciones": [
       {

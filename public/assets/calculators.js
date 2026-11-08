@@ -99,5 +99,5 @@ function initDamage(){
  }
  render();
 }
-document.addEventListener('DOMContentLoaded',()=>{initStar();initDamage();});
+document.addEventListener('DOMContentLoaded',()=>{initStar();});
 })();

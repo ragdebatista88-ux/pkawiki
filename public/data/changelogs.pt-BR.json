@@ -1,5 +1,49 @@
 [
   {
+    "fecha": "19 de novembro de 2026",
+    "secciones": [
+      {
+        "titulo": "Alterações Gerais",
+        "cambios": [
+          "O Depot agora mostra 30 itens por página, com setas de navegação, e permite guardar até 10.000 itens; antes, os itens além de 30 ficavam invisíveis.",
+          "Nas hunts primais, cada espécie passa a dropar a versão primal do seu item, com a mesma chance e quantidade anteriores. Fora das zonas primais e nos Mega Dens, os itens continuam comuns. O NPC Hugh compra itens primais; craft, tasks e talentos atuais continuam usando os itens comuns. Os novos talentos exigirão os novos itens.",
+          "A meta do Community Bonus acompanha a média de jogadores online do mundo nos últimos 30 dias: 100k por jogador médio, com mínimo de 20kk e máximo de 500kk.",
+          "Saíram da loja de Diamonds: Energy Foil, Special Bubble Gum, Sweet Scent, Truffled Eggs, Bless, Bless Plus, Moving Ticket e as Toy Boxes de Kanto e Johto.",
+          "A Kecleon Shop (Trade Center) passa a vender por dinheiro: Energy Foil (250k), Special Bubble Gum (500k), Sweet Scent (100k), Moving Ticket (500k), Punching Bag Charger (600k) e Punching Bag Package (10kk). As decorações de Halloween foram removidas.",
+          "Jully não vende mais Punching Bag Charger nem Punching Bag Package: ambos passaram para a Kecleon Shop; o pacote caiu de 15kk para 10kk.",
+          "Entrar no Guild Boss segue as regras do teleporte: não funciona durante uma luta, em zonas sem teleporte ou de dentro de instâncias.",
+          "As descrições dos talentos aparecem no idioma do jogador.",
+          "Novos sprites de Exeggcute, Exeggutor, Cubone, Marowak e Conkeldurr, incluindo as versões Shiny.",
+          "Os sprites dos outfits Dark Buizel e Halloween 2026 Premium (feminino) foram atualizados.",
+          "Nome e barra de vida foram reposicionados em cerca de 2.000 Pokémon e outfits.",
+          "Telas e textos ficam nítidos com a escala da interface acima de 100%.",
+          "O NPC Alliance Rewarder foi retirado."
+        ]
+      },
+      {
+        "titulo": "Correções de Bug",
+        "cambios": [
+          "Corrigida a perda de containers abertos, ícones, marcas do minimapa, HP da ball, guild, dailies, trackers e aviso de aceite do ranked após uma reconexão rápida.",
+          "Corrigida a perda do aviso do leilão de casas para jogadores que caíam do jogo.",
+          "Corrigido o desaparecimento temporário das Poké Balls oferecidas na Pokébar após uma troca falhar, até relogar.",
+          "Corrigido o Pokémon que já estava fora no início de um duelo não passar ao moveset PvP nem voltar ao PvE no fim.",
+          "Corrigida a animação do passo mais lenta que o movimento em certos tipos de chão, que fazia o personagem parecer dar trancos.",
+          "O comando !buffs agora mostra corretamente o bônus Shiny da TV Cam: 105%, em vez de 5%.",
+          "Corrigido o mapa tremendo ao andar com o filtro de suavização desligado.",
+          "Corrigidos o layout da janela da bênção de Arceus em telas menores e a proporção do banner."
+        ]
+      },
+      {
+        "titulo": "Balanceamento",
+        "cambios": [
+          "As maestrias de elemento liberam no nível 400 (antes 500).",
+          "O drop em dobro dos Guild Bosses continua até o fim de 23/11; a partir de 24/11 a recompensa volta ao valor mostrado na janela.",
+          "As hunts das áreas iniciais (Rattata, Voltorb, Magnemite etc.) agora têm 3 instâncias cada."
+        ]
+      }
+    ]
+  },
+  {
     "fecha": "Data não informada",
     "secciones": [
       {

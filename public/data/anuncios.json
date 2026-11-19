@@ -2,131 +2,105 @@
   {
     "activo": true,
     "tipo": "informativo",
-    "etiqueta": "Próxima actualización · 23/10",
-    "etiquetaPt": "Próxima atualização · 23/10",
-    "titulo": "📢 Novedades anunciadas para el 23 de octubre",
-    "tituloPt": "📢 Novidades anunciadas para 23 de outubro",
-    "texto": "El viernes 23/10 a las 04:00 (Brasil, UTC−3) — 01:00 en Ciudad de México — llegarán mejoras para buffs, stamina, misiones de guild y Market. Se anunciarán más novedades en los próximos días.",
-    "textoPt": "Na sexta-feira, 23/10, às 04:00 (horário de Brasília, UTC−3), chegam melhorias em buffs, stamina, missões de guild e Market. Mais novidades serão anunciadas nos próximos dias.",
-    "fecha": "23 oct · 01:00 CDMX / 04:00 Brasil",
-    "fechaPt": "23 out · 04:00 Brasília",
+    "etiqueta": "Próximamente · Nuevos talentos",
+    "etiquetaPt": "Em breve · Novos talentos",
+    "fecha": "Anuncio oficial",
+    "fechaPt": "Anúncio oficial",
+    "titulo": "✨ Nuevos talentos: progresión elemental por tiers",
+    "tituloPt": "✨ Novos talentos: progressão elemental por tiers",
+    "texto": "Cada elemento tendrá su propia progresión. Para avanzar deberás completar los talentos anteriores de esa categoría, alcanzar el nivel y pagar el desbloqueo; los materiales siguen siendo necesarios.",
+    "textoPt": "Cada elemento terá sua própria progressão. Para avançar, será necessário concluir os talentos anteriores da categoria, atingir o nível e pagar o desbloqueio; os materiais continuam necessários.",
     "bloques": [
       {
-        "icono": "✨",
-        "titulo": "Buffs: tiempo solo en combate",
-        "tituloPt": "Buffs: tempo só em combate",
-        "estado": "Próximamente",
-        "estadoPt": "Em breve",
-        "texto": "La duración de los bonos se descontará únicamente mientras el jugador esté en combate; fuera de combate, el tiempo se conserva.",
-        "textoPt": "A duração dos bônus será descontada somente enquanto o jogador estiver em combate; fora de combate, o tempo será preservado.",
-        "fecha": "23/10",
-        "fechaPt": "23/10"
+        "icono": "🌱",
+        "titulo": "Tier 1: base para Hoenn",
+        "tituloPt": "Tier 1: base para Hoenn",
+        "estado": "Nivel 350",
+        "estadoPt": "Nível 350",
+        "texto": "Todos los requisitos de nivel del árbol inicial se alcanzan a nivel 350. Una categoría completa suma +29% de daño elemental y +13% de defensa.",
+        "textoPt": "Todos os requisitos de nível da árvore inicial podem ser cumpridos no nível 350. Uma categoria completa soma +29% de dano elemental e +13% de defesa."
       },
       {
-        "icono": "⚡",
-        "titulo": "Stamina Bonus: 2 horas",
-        "tituloPt": "Stamina Bonus: 2 horas",
-        "estado": "+10% Shiny Charm · +10% EXP",
-        "estadoPt": "+10% Shiny Charm · +10% EXP",
-        "texto": "Cada shutdown otorgará 120 minutos de bonus. En una zona de protección podrás desactivarlo para no consumir tiempo; mientras esté desactivado, tampoco recibirás los bonos.",
-        "textoPt": "A cada shutdown, o jogador receberá 120 minutos de bônus. Em zona de proteção, poderá desativá-lo para não gastar o tempo; enquanto estiver desativado, não receberá os bônus.",
-        "fecha": "23/10",
-        "fechaPt": "23/10"
+        "icono": "🎯",
+        "titulo": "Tier 2: captura y Shiny",
+        "tituloPt": "Tier 2: captura e Shiny",
+        "estado": "Nivel 450 · 50kk",
+        "estadoPt": "Nível 450 · 50kk",
+        "texto": "12 talentos por elemento: mejoras de captura, Critical Catch y +10% de bonus Shiny Charm en respawns del elemento. Materiales de hunts Primal T1 Shiny.",
+        "textoPt": "12 talentos por elemento: melhorias de captura, Critical Catch e +10% de bônus Shiny Charm em respawns do elemento. Materiais de hunts Primal T1 Shiny."
       },
       {
-        "icono": "🏰",
-        "titulo": "Daily Guild: renovación rápida",
-        "tituloPt": "Daily Guild: renovação rápida",
-        "estado": "Con Guild Daily Ticket",
-        "estadoPt": "Com Guild Daily Ticket",
-        "texto": "Al completar una misión, podrás renovarla con un clic desde la notificación si tienes un Guild Daily Ticket. La nueva misión conservará dificultad y elemento.",
-        "textoPt": "Ao concluir uma missão, será possível renová-la com um clique na notificação, se tiver um Guild Daily Ticket. A nova missão manterá a dificuldade e o elemento.",
-        "fecha": "23/10",
-        "fechaPt": "23/10"
+        "icono": "⚔️",
+        "titulo": "Tier 3: especialización de combate",
+        "tituloPt": "Tier 3: especialização de combate",
+        "estado": "Nivel 500 · 200kk",
+        "estadoPt": "Nível 500 · 200kk",
+        "texto": "17 talentos: críticos, precisión, evasión y resistencia crítica. Los bonos ofensivos se aplican contra el tipo del enemigo; los defensivos, según el tipo del ataque recibido. Materiales Ultra Rare Shiny.",
+        "textoPt": "17 talentos: críticos, precisão, evasão e resistência crítica. Bônus ofensivos dependem do tipo do inimigo; defensivos, do tipo do golpe recebido. Materiais Ultra Rare Shiny."
       },
       {
-        "icono": "🛒",
-        "titulo": "Market más claro",
-        "tituloPt": "Market mais claro",
-        "estado": "Mejora de interfaz",
-        "estadoPt": "Melhoria na interface",
-        "texto": "Será más sencillo identificar qué ventana del Market está seleccionada.",
-        "textoPt": "Ficará mais fácil identificar qual janela do Market está selecionada.",
-        "fecha": "23/10",
-        "fechaPt": "23/10"
+        "icono": "🏆",
+        "titulo": "Tier 4: Merit y Boost +80",
+        "tituloPt": "Tier 4: Merit e Boost +80",
+        "estado": "Nivel 550 · 400kk",
+        "estadoPt": "Nível 550 · 400kk",
+        "texto": "8 talentos: progreso del Merit final, captura con Premier/Alliance Ball y límite de boost +75/+80. Materiales Legend Shiny.",
+        "textoPt": "8 talentos: progresso do Merit final, captura com Premier/Alliance Ball e limite de boost +75/+80. Materiais Legend Shiny."
       }
     ],
-    "cierre": "Más novedades se anunciarán próximamente en el Discord oficial.",
-    "cierrePt": "Mais novidades serão anunciadas em breve no Discord oficial."
+    "cierre": "Cada tier desbloqueado otorga +1% de daño elemental y +1% de defensa acumulables. Del Tier 2 al 4 cuesta 650kk por categoría, sin contar materiales.",
+    "cierrePt": "Cada tier desbloqueado concede +1% de dano elemental e +1% de defesa acumuláveis. Do Tier 2 ao 4 custa 650kk por categoria, sem contar materiais."
   },
   {
     "activo": true,
     "tipo": "informativo",
-    "etiqueta": "Más novedades · Actualización del viernes 23/10",
-    "etiquetaPt": "Mais novidades · Atualização de sexta-feira 23/10",
-    "titulo": "Celebi Shrine, Bonus Global, Guilds y outfits",
-    "tituloPt": "Celebi Shrine, Bônus Global, Guilds e outfits",
-    "texto": "Nuevos anuncios del equipo de PKA para la actualización del viernes. El Golden Ticket regresará, pero aún no se ha definido cómo obtenerlo.",
-    "textoPt": "Novos anúncios da equipe do PKA para a atualização de sexta-feira. O Golden Ticket voltará, mas ainda não foi definida a forma de obtê-lo.",
-    "fecha": "23 oct · Próxima actualización",
-    "fechaPt": "23 out · Próxima atualização",
+    "etiqueta": "Aclaraciones oficiales · Talentos",
+    "etiquetaPt": "Esclarecimentos oficiais · Talentos",
+    "fecha": "Próximos cambios",
+    "fechaPt": "Próximas mudanças",
+    "titulo": "📣 Cómo funcionarán los bonos y Shiny Charm",
+    "tituloPt": "📣 Como funcionarão os bônus e Shiny Charm",
+    "texto": "El equipo aclaró la aplicación de los talentos de Tier 3 y el futuro ajuste del bonus de TV Cam.",
+    "textoPt": "A equipe esclareceu a aplicação dos talentos do Tier 3 e o futuro ajuste do bônus da TV Cam.",
     "bloques": [
       {
-        "icono": "🌿",
-        "titulo": "Adiós al Celebi Shrine",
-        "tituloPt": "Fim do Celebi Shrine",
-        "estado": "Sistema descontinuado",
-        "estadoPt": "Sistema descontinuado",
-        "texto": "Se descontinuará Celebi Shrine. El equipo estudia cómo volver a ofrecer sus cosméticos y buffs exclusivos; aún no hay método ni fecha confirmados.",
-        "textoPt": "O Celebi Shrine será descontinuado. A equipe estuda como disponibilizar novamente cosméticos e buffs exclusivos; ainda não há método ou data confirmados."
+        "icono": "🎯",
+        "titulo": "Ofensiva del Tier 3",
+        "tituloPt": "Ofensiva do Tier 3",
+        "estado": "Tipo del objetivo",
+        "estadoPt": "Tipo do alvo",
+        "texto": "Hasta +5 puntos de crítico y +10% de daño crítico contra Pokémon del elemento elegido, sin importar el elemento del golpe.",
+        "textoPt": "Até +5 pontos de crítico e +10% de dano crítico contra Pokémon do elemento escolhido, independentemente do elemento do golpe."
       },
       {
-        "icono": "🎟️",
-        "titulo": "Golden Ticket regresará",
-        "tituloPt": "Golden Ticket vai voltar",
-        "estado": "Detalles por anunciar",
-        "estadoPt": "Detalhes a anunciar",
-        "texto": "El Golden Ticket volverá. Están evaluando cómo conseguirlo de nuevo y anticipan novedades relacionadas con las guilds, sin confirmar todavía los requisitos.",
-        "textoPt": "O Golden Ticket voltará. Estão avaliando como obtê-lo novamente e antecipam novidades ligadas às guilds, sem confirmar os requisitos."
+        "icono": "🛡️",
+        "titulo": "Defensa del Tier 3",
+        "tituloPt": "Defesa do Tier 3",
+        "estado": "Tipo del ataque recibido",
+        "estadoPt": "Tipo do golpe recebido",
+        "texto": "Hasta +5% de evasión y 30 puntos de resistencia crítica contra ataques del elemento elegido; no depende del tipo de tu Pokémon.",
+        "textoPt": "Até +5% de evasão e 30 pontos de resistência crítica contra golpes do elemento escolhido; não depende do tipo do seu Pokémon."
       },
       {
-        "icono": "🍓",
-        "titulo": "Bonus Global sin límite de duración",
-        "tituloPt": "Bônus Global sem limite de duração",
-        "estado": "+48 horas por cada 100kk",
-        "estadoPt": "+48 horas a cada 100kk",
-        "texto": "Se elimina el límite de donaciones: cada 100kk donados añade 48 horas a la duración del bonus, sin tope. Permitirá planificar su continuidad y acceder a berries.",
-        "textoPt": "O limite de doações será removido: a cada 100kk doados, a duração do bônus aumenta em 48 horas, sem limite. Facilita a continuidade dos bônus e o acesso às berries."
+        "icono": "📺",
+        "titulo": "TV Cam: reducción gradual",
+        "tituloPt": "TV Cam: redução gradual",
+        "estado": "No baja a 5% de golpe",
+        "estadoPt": "Não cai para 5% de uma vez",
+        "texto": "El bonus Shiny Charm de TV Cam se reducirá por etapas hasta su valor previsto, no directamente a 5% en este parche.",
+        "textoPt": "O bônus Shiny Charm da TV Cam será reduzido por etapas até o valor previsto, não diretamente para 5% neste patch."
       },
       {
-        "icono": "🏰",
-        "titulo": "Guilds: búsqueda e ingreso automático",
-        "tituloPt": "Guilds: busca e entrada automática",
-        "estado": "Nuevo panel de Guilds",
-        "estadoPt": "Nova janela de Guilds",
-        "texto": "Nuevo listado de guilds con filtros de vacantes y nivel requerido. Los líderes podrán abrir el ingreso automático a quienes cumplan el nivel mínimo. Puntos Daily: Normal 1, Wildscape 2 y Primal 4.",
-        "textoPt": "Nova lista de guilds com filtros de vagas e nível mínimo. Líderes poderão liberar a entrada automática para quem cumprir o requisito. Pontos Daily: Normal 1, Wildscape 2 e Primal 4."
-      },
-      {
-        "icono": "📣",
-        "titulo": "Anuncios y mensajes de Guild",
-        "tituloPt": "Anúncios e mensagens de Guild",
-        "estado": "1 anuncio gratis al día",
-        "estadoPt": "1 anúncio grátis por dia",
-        "texto": "El líder podrá enviar 1 anuncio diario gratis a miembros conectados; los adicionales cuestan 1kk de su cartera. Fijar mensajes cuesta 1kk cada uno, máximo 2; se reinician en el shutdown. Los avisos fijados reaparecen al iniciar sesión, salvo que el miembro desactive ese mensaje.",
-        "textoPt": "O líder poderá enviar 1 anúncio diário grátis aos membros online; extras custam 1kk da carteira do líder. Fixar mensagens custa 1kk cada, até 2; resetam no shutdown. Mensagens fixadas reaparecem ao entrar, salvo se o membro desativar a mensagem específica."
-      },
-      {
-        "icono": "👕",
-        "titulo": "Outfits sin restricción Male/Female",
-        "tituloPt": "Outfits sem restrição Male/Female",
-        "estado": "Cambio gratuito",
-        "estadoPt": "Troca gratuita",
-        "texto": "El objetivo anunciado es permitir elegir outfits masculinos o femeninos libremente, sin depender del sexo del personaje y sin costo.",
-        "textoPt": "O objetivo anunciado é permitir escolher outfits masculinas ou femininas livremente, sem depender do sexo do personagem e sem custo."
+        "icono": "✨",
+        "titulo": "Más fuentes de Shiny Charm",
+        "tituloPt": "Mais fontes de Shiny Charm",
+        "estado": "Novedades pendientes",
+        "estadoPt": "Novidades por vir",
+        "texto": "Se anunciarán otras formas de obtener Shiny Charm, además de los nuevos talentos.",
+        "textoPt": "Serão anunciadas outras formas de obter Shiny Charm, além dos novos talentos."
       }
     ],
-    "cierre": "Anuncios oficiales del equipo PKA. El regreso de cosméticos y Golden Ticket sigue en estudio.",
-    "cierrePt": "Anúncios oficiais da equipe PKA. O retorno de cosméticos e Golden Ticket ainda está em estudo."
+    "cierre": "Los valores, costos y niveles anunciados para Tier 3 no cambian; solo se aclaró a qué objetivo se aplican los bonos.",
+    "cierrePt": "Valores, custos e níveis anunciados para o Tier 3 não mudam; apenas foi esclarecido a quais alvos os bônus se aplicam."
   }
 ]

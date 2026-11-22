@@ -1,5 +1,54 @@
 [
   {
+    "fecha": "22 de noviembre de 2026",
+    "secciones": [
+      {
+        "titulo": "Talentos: nuevos tiers y personaje",
+        "cambios": [
+          "Ya están disponibles los Tiers 2, 3 y 4 de talentos, con recetas definitivas. Las recetas de más de dos líneas muestran todos sus ingredientes.",
+          "Global Boost Limit I y II: cada uno eleva en +5 el límite global de boost: +70 base, +75 con uno y +80 con ambos. Requieren medallas de bronce de Mewtwo y Mew (I), y de Articuno, Zapdos y Moltres (II).",
+          "Global Shiny Charm I, II y III aportan +4%, +3% y +3% a la aparición de Shiny; requieren medallas relacionadas con Shiny y Special Bubble Gum.",
+          "Captura de Shiny: dos talentos de +5% a la probabilidad final por rareza. Tier 2: Shiny Tier 1; Tier 3: Super Rare y Ultra Rare; Tier 4: Legendary y Mythic.",
+          "Vida máxima: dos talentos nuevos por tier, +500 HP cada uno; seis talentos suman +3,000 HP.",
+          "Recetas elementales Tier 2: 2,000 esencias + 5,000 objetos T2 + 3 Mythic Orbs; Tier 3: 3,000 esencias + 3,500 objetos T3 + 3,500 T2 + 6 Mythic Orbs; Tier 4: 5,000 esencias + 5,000 objetos T4 + 5,000 T2 + 3 Celestial Orbs.",
+          "Tier 4: cada nivel de Sealed Legendary Drop aumenta 10% la probabilidad de la piedra legendaria desde Hazard 5; Sealed Mythic Drop aumenta 25% la probabilidad de la piedra mítica desde Hazard 10. En Pokémon de dos tipos se aplica solo el mayor bono."
+        ]
+      },
+      {
+        "titulo": "Market",
+        "cambios": [
+          "Las 36 Mega Stones selladas tienen su propia categoría «Sealeds» en el Market y las solicitudes de compra.",
+          "Se añadieron Orbs y más Creature Items a las solicitudes; Reaper Cloth pasa a Creature Items. Foods y objetos sin sprite no están disponibles para solicitudes.",
+          "Se corrigieron la categoría atascada en Diamonds y el aviso de saldo insuficiente que no se cerraba al pulsar OK.",
+          "Vuelve a funcionar arrastrar objetos del inventario para venderlos. MAX rellena la cantidad máxima en la confirmación de compra y mantener +/− deja de repetir al sacar el cursor."
+        ]
+      },
+      {
+        "titulo": "Craft de Boost Stones",
+        "cambios": [
+          "El fragmento y la piedra elemental siguen siendo fijos. Ahora el jugador elige los otros tres ingredientes entre objetos distintos del mismo elemento, en lugar de una combinación aleatoria.",
+          "El selector indica existencias en bag y Depot Stash, guarda elecciones por elemento, aumenta tamaño de iconos y cantidades y corrige el contorno de selección al retirar el cursor."
+        ]
+      },
+      {
+        "titulo": "Hazard, Orbs y loot",
+        "cambios": [
+          "La ventana Bendiciones de Arceus vuelve a mostrar +2% de Shiny Charm por nivel de Hazard, hasta +50% en Hazard 25. Es un aumento de aparición, no una probabilidad final del 50%.",
+          "Todos los Shiny con loot Primal incorporan Mythic Orb de su elemento; la probabilidad de Celestial Orb se duplicó para quienes ya podían obtenerla. En Pokémon de dos elementos la probabilidad se reparte entre las Orbs.",
+          "Mismagius obtiene Witch Hat (la compra Mark) y Primal Witch Hat (la compra Hugh).",
+          "Se corrigieron avisos de Rare Drop ausentes (por ejemplo, pata de Shiny Rhyperior), el aviso incorrecto de Sun Stone de Bellossom normal y el registro de Mega Stones como Scolipite, Dragalgite y Clefablite."
+        ]
+      },
+      {
+        "titulo": "Interfaz y correcciones",
+        "cambios": [
+          "Chat más compacto, textos pequeños más nítidos (especialmente al 125%), números de cooldown más legibles y temporizadores de buffs debajo de los iconos.",
+          "Se corrigieron los temblores de cámara y nombres al caminar en diagonal sin antialiasing, y la alineación del nombre y escudo de guild en outfits afectados."
+        ]
+      }
+    ]
+  },
+  {
     "fecha": "19 de noviembre de 2026",
     "secciones": [
       {

@@ -1,5 +1,54 @@
 [
   {
+    "fecha": "22 de noviembre de 2026",
+    "secciones": [
+      {
+        "titulo": "Talentos: nuevos tiers y personaje",
+        "cambios": [
+          "Ya están disponibles los Tiers 2, 3 y 4 de talentos, con recetas definitivas. Las recetas de más de dos líneas muestran todos sus ingredientes.",
+          "Global Boost Limit I y II: cada uno eleva en +5 el límite global de boost: +70 base, +75 con uno y +80 con ambos. Requieren medallas de bronce de Mewtwo y Mew (I), y de Articuno, Zapdos y Moltres (II).",
+          "Global Shiny Charm I, II y III aportan +4%, +3% y +3% a la aparición de Shiny; requieren medallas relacionadas con Shiny y Special Bubble Gum.",
+          "Captura de Shiny: dos talentos de +5% a la probabilidad final por rareza. Tier 2: Shiny Tier 1; Tier 3: Super Rare y Ultra Rare; Tier 4: Legendary y Mythic.",
+          "Vida máxima: dos talentos nuevos por tier, +500 HP cada uno; seis talentos suman +3,000 HP.",
+          "Recetas elementales Tier 2: 2,000 esencias + 5,000 objetos T2 + 3 Mythic Orbs; Tier 3: 3,000 esencias + 3,500 objetos T3 + 3,500 T2 + 6 Mythic Orbs; Tier 4: 5,000 esencias + 5,000 objetos T4 + 5,000 T2 + 3 Celestial Orbs.",
+          "Tier 4: cada nivel de Sealed Legendary Drop aumenta 10% la probabilidad de la piedra legendaria desde Hazard 5; Sealed Mythic Drop aumenta 25% la probabilidad de la piedra mítica desde Hazard 10. En Pokémon de dos tipos se aplica solo el mayor bono."
+        ]
+      },
+      {
+        "titulo": "Market",
+        "cambios": [
+          "Las 36 Mega Stones selladas tienen su propia categoría «Sealeds» en el Market y las solicitudes de compra.",
+          "Se añadieron Orbs y más Creature Items a las solicitudes; Reaper Cloth pasa a Creature Items. Foods y objetos sin sprite no están disponibles para solicitudes.",
+          "Se corrigieron la categoría atascada en Diamonds y el aviso de saldo insuficiente que no se cerraba al pulsar OK.",
+          "Vuelve a funcionar arrastrar objetos del inventario para venderlos. MAX rellena la cantidad máxima en la confirmación de compra y mantener +/− deja de repetir al sacar el cursor."
+        ]
+      },
+      {
+        "titulo": "Craft de Boost Stones",
+        "cambios": [
+          "El fragmento y la piedra elemental siguen siendo fijos. Ahora el jugador elige los otros tres ingredientes entre objetos distintos del mismo elemento, en lugar de una combinación aleatoria.",
+          "El selector indica existencias en bag y Depot Stash, guarda elecciones por elemento, aumenta tamaño de iconos y cantidades y corrige el contorno de selección al retirar el cursor."
+        ]
+      },
+      {
+        "titulo": "Hazard, Orbs y loot",
+        "cambios": [
+          "La ventana Bendiciones de Arceus vuelve a mostrar +2% de Shiny Charm por nivel de Hazard, hasta +50% en Hazard 25. Es un aumento de aparición, no una probabilidad final del 50%.",
+          "Todos los Shiny con loot Primal incorporan Mythic Orb de su elemento; la probabilidad de Celestial Orb se duplicó para quienes ya podían obtenerla. En Pokémon de dos elementos la probabilidad se reparte entre las Orbs.",
+          "Mismagius obtiene Witch Hat (la compra Mark) y Primal Witch Hat (la compra Hugh).",
+          "Se corrigieron avisos de Rare Drop ausentes (por ejemplo, pata de Shiny Rhyperior), el aviso incorrecto de Sun Stone de Bellossom normal y el registro de Mega Stones como Scolipite, Dragalgite y Clefablite."
+        ]
+      },
+      {
+        "titulo": "Interfaz y correcciones",
+        "cambios": [
+          "Chat más compacto, textos pequeños más nítidos (especialmente al 125%), números de cooldown más legibles y temporizadores de buffs debajo de los iconos.",
+          "Se corrigieron los temblores de cámara y nombres al caminar en diagonal sin antialiasing, y la alineación del nombre y escudo de guild en outfits afectados."
+        ]
+      }
+    ]
+  },
+  {
     "fecha": "19 de noviembre de 2026",
     "secciones": [
       {
@@ -228,6 +277,60 @@
     ]
   },
   {
+    "fecha": "23 de septiembre de 2026",
+    "secciones": [
+      {
+        "titulo": "Cambios generales · Pokémon Center",
+        "cambios": [
+          "El Pokémon Center fue completamente reformulado para ser más agradable y contar con una identidad visual propia de PokeAlliance."
+        ]
+      },
+      {
+        "titulo": "Dungeon de celebración de los 10k",
+        "cambios": [
+          "Todos los jugadores de nivel 150 o superior que sean VIP reciben 2 llaves para realizar la Dungeon temática de Probopass. En esta Dungeon existe la posibilidad de recibir buffs de Shiny Charm y Experience.",
+          "Al completar la Dungeon 10 veces se puede completar un Achievement con recompensas únicas: Outfit Pharaoh Probopass, Backpack Pharaoh Probopass, Locker Pharaoh Probopass, 10× Log Pose y 10× Experience Boost."
+        ]
+      },
+      {
+        "titulo": "Promoción en Diamond Shop",
+        "cambios": [
+          "Durante los 15 días de celebración, la pestaña de Poké Balls tendrá un 20% de descuento."
+        ]
+      },
+      {
+        "titulo": "Canales para las hunts Primal",
+        "cambios": [
+          "Se habilitó el sistema de canales para las hunts Primal Ultra Rare y Legendary de Hoenn."
+        ]
+      },
+      {
+        "titulo": "Correcciones de bugs",
+        "cambios": [
+          "Se corrigió el loot base de las hunts Primal de Dragonair, Dragonite, Electabuzz, Magmar, Snorlax y Sylveon, que estaban entregando menos objetos de los que correspondían."
+        ]
+      }
+    ]
+  },
+  {
+    "fecha": "20 de septiembre de 2026",
+    "secciones": [
+      {
+        "titulo": "Cambios generales",
+        "cambios": [
+          "Íconos de hunts en el minimapa: tras el feedback de la comunidad, se revirtió su eliminación. Los íconos de las hunts que poseen canal vuelven a aparecer en el minimapa y continúan siendo opcionales; pueden desactivarse desde las configuraciones.",
+          "Instancias de las hunts Wildscape de Hoenn: diversas hunts Wildscape de Hoenn reciben instancias con esta actualización. También se anunció que durante esta semana se liberarán los canales de las hunts Primal de Hoenn."
+        ]
+      },
+      {
+        "titulo": "Correcciones de bugs",
+        "cambios": [
+          "Se corrigió el error que impedía que el logro “Hoenn Marathonist” contabilizara los pasos. Ahora cuenta los pasos realizados en todo Hoenn, incluidas las áreas Primal. La contabilización comienza a partir de esta actualización; los pasos anteriores no se recuperan."
+        ]
+      }
+    ]
+  },
+  {
     "fecha": "18 de septiembre de 2026",
     "secciones": [
       {
@@ -302,6 +405,21 @@
           "Se corrigió un error en la ropa del NPC Terra que hacía que fuera invisible en determinadas direcciones.",
           "Se corrigió un error en la animación al caminar del outfit femenino de Metagross.",
           "Se corrigió un error al cerrar ventanas del chat cuando este se encontraba en un tamaño pequeño."
+        ]
+      }
+    ]
+  },
+  {
+    "fecha": "10 de septiembre de 2026",
+    "secciones": [
+      {
+        "titulo": "Cambios generales",
+        "cambios": [
+          "Ahora es posible ver el nombre de los personajes que se encuentran dentro de las instancias.",
+          "Las zonas de Kingdra y Tentacruel fueron movidas temporalmente a otros respawns fuera del agua mientras se realiza un rebalanceo del contenido submarino.",
+          "Shiny Slowking salvaje ya no utiliza Instant Teleportation.",
+          "Se mejoraron los mensajes mostrados en el World Migration Ticket.",
+          "Se corrigió un problema que, en algunas computadoras, impedía al juego escribir el archivo del minimapa por falta de permisos."
         ]
       }
     ]
